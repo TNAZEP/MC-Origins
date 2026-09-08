@@ -1,0 +1,36 @@
+package net.minecraft.network.play.server;
+
+import java.io.IOException;
+import net.minecraft.network.Packet;
+import net.minecraft.network.PacketBuffer;
+import net.minecraft.network.play.INetHandlerPlayClient;
+
+public class SPacketChangeGameState implements Packet<INetHandlerPlayClient> {
+   public static final String[] field_149142_a = new String[]{"block.minecraft.bed.not_valid"};
+   private int field_149140_b;
+   private float field_149141_c;
+
+   public SPacketChangeGameState() {
+   }
+
+   public SPacketChangeGameState(int var1, float var2) {
+      this.field_149140_b = ☃;
+      this.field_149141_c = ☃;
+   }
+
+   @Override
+   public void func_148837_a(PacketBuffer var1) throws IOException {
+      this.field_149140_b = ☃.readUnsignedByte();
+      this.field_149141_c = ☃.readFloat();
+   }
+
+   @Override
+   public void func_148840_b(PacketBuffer var1) throws IOException {
+      ☃.writeByte(this.field_149140_b);
+      ☃.writeFloat(this.field_149141_c);
+   }
+
+   public void func_148833_a(INetHandlerPlayClient var1) {
+      ☃.func_147252_a(this);
+   }
+}

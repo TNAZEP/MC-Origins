@@ -1,0 +1,72 @@
+package net.minecraft.commands.arguments.coordinates;
+
+import com.mojang.brigadier.StringReader;
+import com.mojang.brigadier.arguments.ArgumentType;
+import com.mojang.brigadier.context.CommandContext;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
+import com.mojang.brigadier.suggestion.Suggestions;
+import com.mojang.brigadier.suggestion.SuggestionsBuilder;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.concurrent.CompletableFuture;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
+import net.minecraft.commands.SharedSuggestionProvider;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.server.level.ColumnPos;
+
+public class ColumnPosArgument implements ArgumentType<Coordinates> {
+   private static final Collection<String> EXAMPLES = Arrays.asList("0 0", "~ ~", "~1 ~-2", "^ ^", "^-1 ^0");
+   public static final SimpleCommandExceptionType ERROR_NOT_COMPLETE = new SimpleCommandExceptionType(new TranslatableComponent("argument.pos2d.incomplete"));
+
+   public static ColumnPosArgument columnPos() {
+      return new ColumnPosArgument();
+   }
+
+   public static ColumnPos getColumnPos(CommandContext<CommandSourceStack> var0, String var1) {
+      BlockPos â˜ƒ = â˜ƒ.<Coordinates>getArgument(â˜ƒ, Coordinates.class).getBlockPos(â˜ƒ.getSource());
+      return new ColumnPos(â˜ƒ.getX(), â˜ƒ.getZ());
+   }
+
+   public Coordinates parse(StringReader var1) throws CommandSyntaxException {
+      int â˜ƒ = â˜ƒ.getCursor();
+      if (!â˜ƒ.canRead()) {
+         throw ERROR_NOT_COMPLETE.createWithContext(â˜ƒ);
+      } else {
+         WorldCoordinate â˜ƒ = WorldCoordinate.parseInt(â˜ƒ);
+         if (â˜ƒ.canRead() && â˜ƒ.peek() == ' ') {
+            â˜ƒ.skip();
+            WorldCoordinate â˜ƒx = WorldCoordinate.parseInt(â˜ƒ);
+            return new WorldCoordinates(â˜ƒ, new WorldCoordinate(true, 0.0), â˜ƒx);
+         } else {
+            â˜ƒ.setCursor(â˜ƒ);
+            throw ERROR_NOT_COMPLETE.createWithContext(â˜ƒ);
+         }
+      }
+   }
+
+   @Override
+   public <S> CompletableFuture<Suggestions> listSuggestions(CommandContext<S> var1, SuggestionsBuilder var2) {
+      if (!(â˜ƒ.getSource() instanceof SharedSuggestionProvider)) {
+         return Suggestions.empty();
+      } else {
+         String â˜ƒx = â˜ƒ.getRemaining();
+         Collection<SharedSuggestionProvider.TextCoordinates> â˜ƒ;
+         if (!â˜ƒx.isEmpty() && â˜ƒx.charAt(0) == '^') {
+            â˜ƒ = Collections.singleton(SharedSuggestionProvider.TextCoordinates.DEFAULT_LOCAL);
+         } else {
+            â˜ƒ = ((SharedSuggestionProvider)â˜ƒ.getSource()).getRelevantCoordinates();
+         }
+
+         return SharedSuggestionProvider.suggest2DCoordinates(â˜ƒx, â˜ƒ, â˜ƒ, Commands.createValidator(this::parse));
+      }
+   }
+
+   @Override
+   public Collection<String> getExamples() {
+      return EXAMPLES;
+   }
+}

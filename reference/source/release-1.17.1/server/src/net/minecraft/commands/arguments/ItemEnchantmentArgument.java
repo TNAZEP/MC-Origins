@@ -1,0 +1,48 @@
+package net.minecraft.commands.arguments;
+
+import com.mojang.brigadier.StringReader;
+import com.mojang.brigadier.arguments.ArgumentType;
+import com.mojang.brigadier.context.CommandContext;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import com.mojang.brigadier.exceptions.DynamicCommandExceptionType;
+import com.mojang.brigadier.suggestion.Suggestions;
+import com.mojang.brigadier.suggestion.SuggestionsBuilder;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.concurrent.CompletableFuture;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.SharedSuggestionProvider;
+import net.minecraft.core.Registry;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.enchantment.Enchantment;
+
+public class ItemEnchantmentArgument implements ArgumentType<Enchantment> {
+   private static final Collection<String> EXAMPLES = Arrays.asList("unbreaking", "silk_touch");
+   public static final DynamicCommandExceptionType ERROR_UNKNOWN_ENCHANTMENT = new DynamicCommandExceptionType(
+      var0 -> new TranslatableComponent("enchantment.unknown", var0)
+   );
+
+   public static ItemEnchantmentArgument enchantment() {
+      return new ItemEnchantmentArgument();
+   }
+
+   public static Enchantment getEnchantment(CommandContext<CommandSourceStack> var0, String var1) {
+      return â˜ƒ.getArgument(â˜ƒ, Enchantment.class);
+   }
+
+   public Enchantment parse(StringReader var1) throws CommandSyntaxException {
+      ResourceLocation â˜ƒ = ResourceLocation.read(â˜ƒ);
+      return (Enchantment)Registry.ENCHANTMENT.getOptional(â˜ƒ).orElseThrow(() -> ERROR_UNKNOWN_ENCHANTMENT.create(â˜ƒ));
+   }
+
+   @Override
+   public <S> CompletableFuture<Suggestions> listSuggestions(CommandContext<S> var1, SuggestionsBuilder var2) {
+      return SharedSuggestionProvider.suggestResource(Registry.ENCHANTMENT.keySet(), â˜ƒ);
+   }
+
+   @Override
+   public Collection<String> getExamples() {
+      return EXAMPLES;
+   }
+}

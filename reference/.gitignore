@@ -1,0 +1,10 @@
+# Local upstream reference artifacts and generated captures.
+source/*/*/original/**
+source/*/*/decompiled/**
+source/*/*/resources/**
+source/*/*/mappings/**
+fixtures/beta-1.7.3/worlds/**
+fixtures/beta-1.7.3/screenshots/**
+fixtures/migration/**
+tools/bin/**
+# Authored notes and the top-level manifest remain trackable.

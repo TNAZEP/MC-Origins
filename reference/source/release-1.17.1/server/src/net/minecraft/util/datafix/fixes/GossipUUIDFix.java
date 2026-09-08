@@ -1,0 +1,31 @@
+package net.minecraft.util.datafix.fixes;
+
+import com.mojang.datafixers.DSL;
+import com.mojang.datafixers.DataFixUtils;
+import com.mojang.datafixers.Typed;
+import com.mojang.datafixers.schemas.Schema;
+import com.mojang.serialization.Dynamic;
+import java.util.stream.Stream;
+
+public class GossipUUIDFix extends NamedEntityFix {
+   public GossipUUIDFix(Schema var1, String var2) {
+      super(â˜ƒ, false, "Gossip for for " + â˜ƒ, References.ENTITY, â˜ƒ);
+   }
+
+   @Override
+   protected Typed<?> fix(Typed<?> var1) {
+      return â˜ƒ.update(
+         DSL.remainderFinder(),
+         var0 -> var0.update(
+               "Gossips",
+               var0x -> DataFixUtils.orElse(
+                     var0x.asStreamOpt()
+                        .result()
+                        .map(var0xx -> var0xx.map(var0xxx -> (Dynamic)AbstractUUIDFix.replaceUUIDLeastMost(var0xxx, "Target", "Target").orElse(var0xxx)))
+                        .map(var0x::createList),
+                     var0x
+                  )
+            )
+      );
+   }
+}

@@ -1,0 +1,44 @@
+package net.minecraft.sounds;
+
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import com.mojang.serialization.codecs.RecordCodecBuilder.Instance;
+
+public class Music {
+   public static final Codec<Music> CODEC = RecordCodecBuilder.create(
+      var0 -> var0.group(
+               SoundEvent.CODEC.fieldOf("sound").forGetter(var0x -> var0x.event),
+               Codec.INT.fieldOf("min_delay").forGetter(var0x -> var0x.minDelay),
+               Codec.INT.fieldOf("max_delay").forGetter(var0x -> var0x.maxDelay),
+               Codec.BOOL.fieldOf("replace_current_music").forGetter(var0x -> var0x.replaceCurrentMusic)
+            )
+            .apply(var0, Music::new)
+   );
+   private final SoundEvent event;
+   private final int minDelay;
+   private final int maxDelay;
+   private final boolean replaceCurrentMusic;
+
+   public Music(SoundEvent var1, int var2, int var3, boolean var4) {
+      this.event = â˜ƒ;
+      this.minDelay = â˜ƒ;
+      this.maxDelay = â˜ƒ;
+      this.replaceCurrentMusic = â˜ƒ;
+   }
+
+   public SoundEvent getEvent() {
+      return this.event;
+   }
+
+   public int getMinDelay() {
+      return this.minDelay;
+   }
+
+   public int getMaxDelay() {
+      return this.maxDelay;
+   }
+
+   public boolean replaceCurrentMusic() {
+      return this.replaceCurrentMusic;
+   }
+}

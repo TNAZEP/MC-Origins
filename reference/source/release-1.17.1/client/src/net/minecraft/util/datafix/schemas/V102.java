@@ -1,0 +1,45 @@
+package net.minecraft.util.datafix.schemas;
+
+import com.mojang.datafixers.DSL;
+import com.mojang.datafixers.schemas.Schema;
+import com.mojang.datafixers.types.templates.TypeTemplate;
+import com.mojang.datafixers.types.templates.Hook.HookFunction;
+import java.util.Map;
+import java.util.function.Supplier;
+import net.minecraft.util.datafix.fixes.References;
+
+public class V102 extends Schema {
+   public V102(int var1, Schema var2) {
+      super(â˜ƒ, â˜ƒ);
+   }
+
+   @Override
+   public void registerTypes(Schema var1, Map<String, Supplier<TypeTemplate>> var2, Map<String, Supplier<TypeTemplate>> var3) {
+      super.registerTypes(â˜ƒ, â˜ƒ, â˜ƒ);
+      â˜ƒ.registerType(
+         true,
+         References.ITEM_STACK,
+         () -> DSL.hook(
+               DSL.optionalFields(
+                  "id",
+                  References.ITEM_NAME.in(â˜ƒ),
+                  "tag",
+                  DSL.optionalFields(
+                     "EntityTag",
+                     References.ENTITY_TREE.in(â˜ƒ),
+                     "BlockEntityTag",
+                     References.BLOCK_ENTITY.in(â˜ƒ),
+                     "CanDestroy",
+                     DSL.list(References.BLOCK_NAME.in(â˜ƒ)),
+                     "CanPlaceOn",
+                     DSL.list(References.BLOCK_NAME.in(â˜ƒ)),
+                     "Items",
+                     DSL.list(References.ITEM_STACK.in(â˜ƒ))
+                  )
+               ),
+               V99.ADD_NAMES,
+               HookFunction.IDENTITY
+            )
+      );
+   }
+}

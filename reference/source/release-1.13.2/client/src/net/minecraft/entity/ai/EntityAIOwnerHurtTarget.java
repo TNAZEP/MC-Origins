@@ -1,0 +1,43 @@
+package net.minecraft.entity.ai;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.passive.EntityTameable;
+
+public class EntityAIOwnerHurtTarget extends EntityAITarget {
+   private final EntityTameable field_75314_a;
+   private EntityLivingBase field_75313_b;
+   private int field_142050_e;
+
+   public EntityAIOwnerHurtTarget(EntityTameable var1) {
+      super(☃, false);
+      this.field_75314_a = ☃;
+      this.func_75248_a(1);
+   }
+
+   @Override
+   public boolean func_75250_a() {
+      if (!this.field_75314_a.func_70909_n()) {
+         return false;
+      } else {
+         EntityLivingBase ☃ = this.field_75314_a.func_70902_q();
+         if (☃ == null) {
+            return false;
+         } else {
+            this.field_75313_b = ☃.func_110144_aD();
+            int ☃ = ☃.func_142013_aG();
+            return ☃ != this.field_142050_e && this.func_75296_a(this.field_75313_b, false) && this.field_75314_a.func_142018_a(this.field_75313_b, ☃);
+         }
+      }
+   }
+
+   @Override
+   public void func_75249_e() {
+      this.field_75299_d.func_70624_b(this.field_75313_b);
+      EntityLivingBase ☃ = this.field_75314_a.func_70902_q();
+      if (☃ != null) {
+         this.field_142050_e = ☃.func_142013_aG();
+      }
+
+      super.func_75249_e();
+   }
+}

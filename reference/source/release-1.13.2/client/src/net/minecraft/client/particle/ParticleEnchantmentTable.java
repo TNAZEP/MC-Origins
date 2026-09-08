@@ -1,0 +1,88 @@
+package net.minecraft.client.particle;
+
+import net.minecraft.particles.BasicParticleType;
+import net.minecraft.world.World;
+
+public class ParticleEnchantmentTable extends Particle {
+   private final double field_70568_aq;
+   private final double field_70567_ar;
+   private final double field_70566_as;
+
+   protected ParticleEnchantmentTable(World var1, double var2, double var4, double var6, double var8, double var10, double var12) {
+      super(☃, ☃, ☃, ☃, ☃, ☃, ☃);
+      this.field_187129_i = ☃;
+      this.field_187130_j = ☃;
+      this.field_187131_k = ☃;
+      this.field_70568_aq = ☃;
+      this.field_70567_ar = ☃;
+      this.field_70566_as = ☃;
+      this.field_187123_c = ☃ + ☃;
+      this.field_187124_d = ☃ + ☃;
+      this.field_187125_e = ☃ + ☃;
+      this.field_187126_f = this.field_187123_c;
+      this.field_187127_g = this.field_187124_d;
+      this.field_187128_h = this.field_187125_e;
+      float ☃ = this.field_187136_p.nextFloat() * 0.6F + 0.4F;
+      this.field_70544_f = this.field_187136_p.nextFloat() * 0.5F + 0.2F;
+      this.field_70552_h = 0.9F * ☃;
+      this.field_70553_i = 0.9F * ☃;
+      this.field_70551_j = ☃;
+      this.field_190017_n = false;
+      this.field_70547_e = (int)(Math.random() * 10.0) + 30;
+      this.func_70536_a((int)(Math.random() * 26.0 + 1.0 + 224.0));
+   }
+
+   @Override
+   public void func_187110_a(double var1, double var3, double var5) {
+      this.func_187108_a(this.func_187116_l().func_72317_d(☃, ☃, ☃));
+      this.func_187118_j();
+   }
+
+   @Override
+   public int func_189214_a(float var1) {
+      int ☃ = super.func_189214_a(☃);
+      float ☃x = (float)this.field_70546_d / (float)this.field_70547_e;
+      ☃x *= ☃x;
+      ☃x *= ☃x;
+      int ☃xx = ☃ & 0xFF;
+      int ☃xxx = ☃ >> 16 & 0xFF;
+      ☃xxx += (int)(☃x * 15.0F * 16.0F);
+      if (☃xxx > 240) {
+         ☃xxx = 240;
+      }
+
+      return ☃xx | ☃xxx << 16;
+   }
+
+   @Override
+   public void func_189213_a() {
+      this.field_187123_c = this.field_187126_f;
+      this.field_187124_d = this.field_187127_g;
+      this.field_187125_e = this.field_187128_h;
+      float ☃ = (float)this.field_70546_d / (float)this.field_70547_e;
+      ☃ = 1.0F - ☃;
+      float ☃x = 1.0F - ☃;
+      ☃x *= ☃x;
+      ☃x *= ☃x;
+      this.field_187126_f = this.field_70568_aq + this.field_187129_i * (double)☃;
+      this.field_187127_g = this.field_70567_ar + this.field_187130_j * (double)☃ - (double)(☃x * 1.2F);
+      this.field_187128_h = this.field_70566_as + this.field_187131_k * (double)☃;
+      if (this.field_70546_d++ >= this.field_70547_e) {
+         this.func_187112_i();
+      }
+   }
+
+   public static class EnchantmentTable implements IParticleFactory<BasicParticleType> {
+      public Particle func_199234_a(BasicParticleType var1, World var2, double var3, double var5, double var7, double var9, double var11, double var13) {
+         return new ParticleEnchantmentTable(☃, ☃, ☃, ☃, ☃, ☃, ☃);
+      }
+   }
+
+   public static class NautilusFactory implements IParticleFactory<BasicParticleType> {
+      public Particle func_199234_a(BasicParticleType var1, World var2, double var3, double var5, double var7, double var9, double var11, double var13) {
+         ParticleEnchantmentTable ☃ = new ParticleEnchantmentTable(☃, ☃, ☃, ☃, ☃, ☃, ☃);
+         ☃.func_70536_a(208);
+         return ☃;
+      }
+   }
+}

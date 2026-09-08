@@ -1,0 +1,39 @@
+package net.minecraft.client.renderer;
+
+import net.minecraft.util.math.BlockPos;
+
+public class DestroyBlockProgress {
+   private final int field_73115_a;
+   private final BlockPos field_180247_b;
+   private int field_73112_e;
+   private int field_82745_f;
+
+   public DestroyBlockProgress(int var1, BlockPos var2) {
+      this.field_73115_a = ☃;
+      this.field_180247_b = ☃;
+   }
+
+   public BlockPos func_180246_b() {
+      return this.field_180247_b;
+   }
+
+   public void func_73107_a(int var1) {
+      if (☃ > 10) {
+         ☃ = 10;
+      }
+
+      this.field_73112_e = ☃;
+   }
+
+   public int func_73106_e() {
+      return this.field_73112_e;
+   }
+
+   public void func_82744_b(int var1) {
+      this.field_82745_f = ☃;
+   }
+
+   public int func_82743_f() {
+      return this.field_82745_f;
+   }
+}

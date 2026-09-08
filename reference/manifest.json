@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "description": "Populate with actual observations; null means unknown. No game artifacts bundled.",
+  "artifacts": [
+    {
+      "version": "b1.7.3",
+      "side": "client",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/beta-1.7.3/client",
+      "purpose": "Behavioral baseline"
+    },
+    {
+      "version": "b1.7.3",
+      "side": "server",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/beta-1.7.3/server",
+      "purpose": "Behavioral baseline"
+    },
+    {
+      "version": "1.3.2",
+      "side": "client",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.3.2/client",
+      "purpose": "Unified source organization"
+    },
+    {
+      "version": "1.3.2",
+      "side": "server",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.3.2/server",
+      "purpose": "Unified source organization"
+    },
+    {
+      "version": "1.13.2",
+      "side": "client",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.13.2/client",
+      "purpose": "Technical transition"
+    },
+    {
+      "version": "1.13.2",
+      "side": "server",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.13.2/server",
+      "purpose": "Technical transition"
+    },
+    {
+      "version": "1.17.1",
+      "side": "client",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.17.1/client",
+      "purpose": "Persistence and output target"
+    },
+    {
+      "version": "1.17.1",
+      "side": "server",
+      "priority": "initial_set",
+      "status": "not_acquired",
+      "exact_build_label": null,
+      "acquisition_source": null,
+      "acquired_at": null,
+      "original_file": null,
+      "sha256": null,
+      "published_hash": null,
+      "mapping": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "decompiler": {
+        "name": null,
+        "version": null,
+        "sha256": null
+      },
+      "runtime": null,
+      "command_or_config": null,
+      "output_tree_sha256": null,
+      "fix_patch_paths": [],
+      "baseline_launch": {
+        "result": "NOT RUN",
+        "evidence": null
+      },
+      "source_directory": "source/release-1.17.1/server",
+      "purpose": "Persistence and output target"
+    }
+  ],
+  "fixtures": []
+}
