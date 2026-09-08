@@ -17,6 +17,8 @@ reference/           immutable study material, never an implicit compile source 
 
 Both artifacts use the same compiled shared classes. The dedicated server must load without client classes, a display, OpenGL, GLFW or OpenAL initialization. Shared simulation must not reach into a client singleton. Pass small interfaces for sound/particle notifications and environment services; a headless host may discard presentation events without discarding gameplay events.
 
+The initial a1 working import temporarily keeps all supplied client/server classes in their respective Java roots, including overlapping class names. `main/java/` is reserved until baseline evidence and dependency review support moving implementations into it. This is an intermediate source layout, not an exception to unified-source acceptance or permission to modernize duplicated simulation separately. See [working source guide](../src/README.md) and its per-file import provenance. Compile each side separately until the corresponding duplicates are reconciled; never compile all roots as one flat tree.
+
 Classify each client/server difference before merging: naming/decompiler artifact, equivalent logic, intentional side behavior, or lifecycle-only code. Record the decision in a merge ledger with original class/method names. Never flatten genuine SP/MP differences simply because modern Minecraft unifies them.
 
 ## 1.0 runtime model

@@ -1,11 +1,7 @@
 # Next tasks
 
-Keep this queue short and ordered. Every session updates it, including sessions with no implementation progress.
+1. **Make the working source layout buildable.** src/client/java (678 files) and src/server/java (444 files) now exist, with copied jar resources. Choose/pin Gradle wrapper and an explicit bootstrap toolchain, declare separate source sets/dependencies, and isolated client/server run directories. main/java is reserved but empty; overlapping class names must never be compiled together. Do not claim unified shared classes yet. Java 25 remains the final target.
+2. **Capture the original Beta launch baseline.** Both original jars match published metadata. Resolve libraries/natives/assets, qualify a suitable runtime and record local SP, dedicated headless, then two-player, fixed-camera and seed/order fixtures. Do not use reference directories for runtime writes. Missing historical decompiler provenance need not block original-jar launches.
+3. **Reconcile a bounded shared unit after baseline.** Review Packet/NetHandler dependencies and original-name mapping against both Beta sides; move approved code into main/java and remove replaced side copies together. Keep intentional side policies and local SP semantics. 1.3.2 references support organization study only. Do not modernize duplicate simulation trees independently.
 
-1. **Inventory a1 inputs.** Read the actual repository, source sets and reference manifest; identify matching Beta sides, tool versions and missing artifacts. Done when provenance and availability are recorded.
-2. **Capture pristine behavior.** Launch both Beta sides on a suitable recorded runtime, then record SP/MP smoke and initial worldgen/visual fixtures. Depends on matching runnable artifacts.
-3. **Establish the build boundary.** Set up a pinned CLI build and source correspondence ledger before merging. Depends on inventory and a reproducible baseline.
-
-Independent work if references are missing: build scaffolding, schema-inventory structure and precise acquisition/provenance instructions. Do not claim behavioral merge verification without the reference oracle.
-
-Post-1.0 candidates belong in ROADMAP, not this active 1.0 queue.
+Completed: [editable working-source import](evidence/2026-09-08-a1-working-sources/README.md), [reference acquisition](evidence/2026-09-08-a1-references/README.md). The source guide and per-file provenance live in src/. Original runtime/build acceptance and behavioral source unification remain pending.

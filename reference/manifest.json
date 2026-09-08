@@ -1,25 +1,29 @@
 {
   "schema_version": 1,
-  "description": "Populate with actual observations; null means unknown. No game artifacts bundled.",
+  "description": "Local observations are recorded separately from verified provenance; null means unknown.",
   "artifacts": [
     {
       "version": "b1.7.3",
       "side": "client",
       "priority": "initial_set",
-      "status": "not_acquired",
-      "exact_build_label": null,
-      "acquisition_source": null,
+      "status": "original_hash_verified_sources_present",
+      "exact_build_label": "b1.7.3",
+      "acquisition_source": "User supplied; original download URL/date not provided",
       "acquired_at": null,
-      "original_file": null,
-      "sha256": null,
-      "published_hash": null,
+      "original_file": "source/beta-1.7.3/client/original/minecraft.jar",
+      "sha256": "af1fa04b8006d3ef78c7e24f8de4aa56f439a74d7f314827529062d5bab6db4c",
+      "published_hash": {
+        "algorithm": "sha1",
+        "value": "43db9b498cb67058d2e12d394e6507722e71bb45",
+        "source": "https://piston-meta.mojang.com/v1/packages/44f6969326bd45aa00dcd3c4ca3a7c05ebb24c04/b1.7.3.json"
+      },
       "mapping": {
         "name": null,
         "version": null,
         "sha256": null
       },
       "decompiler": {
-        "name": null,
+        "name": "RetroMCP-Java (owner-reported workflow)",
         "version": null,
         "sha256": null
       },
@@ -32,26 +36,45 @@
         "evidence": null
       },
       "source_directory": "source/beta-1.7.3/client",
-      "purpose": "Behavioral baseline"
+      "purpose": "Behavioral baseline",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 1356,
+        "jar_count": 3,
+        "original_file_count": 1
+      },
+      "owner_provenance": {
+        "reported_at": "2026-09-08",
+        "statement": "Most recent GitHub release, with no changes made",
+        "release_inference": "v1.2 is GitHub latest when checked; exact originally used binary not supplied",
+        "manual_changes_reported": false,
+        "automatic_tool_patches": "Not determined; no manual changes does not establish absence of automatic patches"
+      },
+      "provenance_notes": "Existing sources not regenerated. Current b1.7 mapping resources fetched as a candidate only; not attributed retroactively to the supplied source trees. Runtime baseline NOT RUN."
     },
     {
       "version": "b1.7.3",
       "side": "server",
       "priority": "initial_set",
-      "status": "not_acquired",
-      "exact_build_label": null,
-      "acquisition_source": null,
+      "status": "original_hash_verified_sources_present",
+      "exact_build_label": "b1.7.3",
+      "acquisition_source": "User supplied; original download URL/date not provided",
       "acquired_at": null,
-      "original_file": null,
-      "sha256": null,
-      "published_hash": null,
+      "original_file": "source/beta-1.7.3/server/original/minecraft_server.jar",
+      "sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d",
+      "published_hash": {
+        "algorithm": "sha1",
+        "value": "2f90dc1cb5ca7e9d71786801b307390a67fcf954",
+        "source": "https://mcphackers.org/BetterJSONs/jsons/b1.7.3.json"
+      },
       "mapping": {
         "name": null,
         "version": null,
         "sha256": null
       },
       "decompiler": {
-        "name": null,
+        "name": "RetroMCP-Java (owner-reported workflow)",
         "version": null,
         "sha256": null
       },
@@ -64,77 +87,138 @@
         "evidence": null
       },
       "source_directory": "source/beta-1.7.3/server",
-      "purpose": "Behavioral baseline"
+      "purpose": "Behavioral baseline",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 888,
+        "jar_count": 3,
+        "original_file_count": 1
+      },
+      "owner_provenance": {
+        "reported_at": "2026-09-08",
+        "statement": "Most recent GitHub release, with no changes made",
+        "release_inference": "v1.2 is GitHub latest when checked; exact originally used binary not supplied",
+        "manual_changes_reported": false,
+        "automatic_tool_patches": "Not determined; no manual changes does not establish absence of automatic patches"
+      },
+      "provenance_notes": "Existing sources not regenerated. Current b1.7 mapping resources fetched as a candidate only; not attributed retroactively to the supplied source trees. Runtime baseline NOT RUN."
     },
     {
       "version": "1.3.2",
       "side": "client",
       "priority": "initial_set",
-      "status": "not_acquired",
-      "exact_build_label": null,
-      "acquisition_source": null,
-      "acquired_at": null,
-      "original_file": null,
-      "sha256": null,
-      "published_hash": null,
+      "status": "study_sources_prepared_with_decompiler_caveats",
+      "exact_build_label": "1.3.2",
+      "acquisition_source": "https://launcher.mojang.com/v1/objects/c2efd57c7001ddf505ca534e54abf3d006e48309/client.jar",
+      "acquired_at": "2026-09-08",
+      "original_file": "source/release-1.3.2/client/original/client.jar",
+      "sha256": "24ec25082cf2bafad90518b5e24d23fdfec55f1bff7f2ead391ab40501eb8354",
+      "published_hash": {
+        "algorithm": "sha1",
+        "value": "c2efd57c7001ddf505ca534e54abf3d006e48309",
+        "source": "https://piston-meta.mojang.com/v1/packages/598eedd6f67db4aefbae6ed119029e3d7373ecf5/1.3.2.json"
+      },
       "mapping": {
-        "name": null,
-        "version": null,
-        "sha256": null
+        "name": "Legacy Fabric Yarn merged Tiny v2 (official -> named)",
+        "version": "1.3.2+build.604",
+        "sha256": "e0b5575c9df3d0171f3785a4ab80f1300f4ecf3c402e607aad384097f539a479",
+        "archive_sha256": "ac09406e65f2c79e96ae5273c0e15a3c1bf271bca90f74bffc30a246631c6f79",
+        "source": "https://maven.legacyfabric.net/net/legacyfabric/yarn/1.3.2+build.604/yarn-1.3.2+build.604-mergedv2.jar"
       },
       "decompiler": {
-        "name": null,
-        "version": null,
-        "sha256": null
+        "name": "CFR",
+        "version": "0.152",
+        "sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2"
       },
-      "runtime": null,
-      "command_or_config": null,
-      "output_tree_sha256": null,
+      "runtime": "OpenJDK 21.0.12+8 (decompilation only; game runtime untested)",
+      "command_or_config": "python3 tools/prepare_132_references.py --output /tmp/origins-132-repro",
+      "output_tree_sha256": "fdb9867ba5e268cfe7974770b1cd49148de72d66193cc0dbf634a893916314a9",
       "fix_patch_paths": [],
       "baseline_launch": {
         "result": "NOT RUN",
         "evidence": null
       },
       "source_directory": "source/release-1.3.2/client",
-      "purpose": "Unified source organization"
+      "purpose": "Unified source organization",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 1335,
+        "jar_count": 2,
+        "original_file_count": 2
+      },
+      "remapper": {
+        "name": "Fabric Tiny Remapper",
+        "version": "0.14.0",
+        "sha256": "9dbaf8030981338373abe029cd9c07732bff437887a56de1735ba2c3c76b0acf"
+      },
+      "output_tree_hash_scope": "decompiled/src/**/*.java; inventory tree algorithm (relative path + NUL + SHA-256 hex + LF)",
+      "source_output_directory": "source/release-1.3.2/client/decompiled/src",
+      "decompiler_caveats": [
+        "Client bundled JOrbis Drft.dradfg/dradbg not fully structured; no compilation or behavioral fidelity claim."
+      ]
     },
     {
       "version": "1.3.2",
       "side": "server",
       "priority": "initial_set",
-      "status": "not_acquired",
-      "exact_build_label": null,
-      "acquisition_source": null,
-      "acquired_at": null,
-      "original_file": null,
-      "sha256": null,
-      "published_hash": null,
+      "status": "study_sources_prepared_with_decompiler_caveats",
+      "exact_build_label": "1.3.2",
+      "acquisition_source": "https://launcher.mojang.com/v1/objects/3de2ae6c488135596e073a9589842800c9f53bfe/server.jar",
+      "acquired_at": "2026-09-08",
+      "original_file": "source/release-1.3.2/server/original/server.jar",
+      "sha256": "0795e098d970b459832750d4c6c2c4f58ef55a333a67281418318275e6026eba",
+      "published_hash": {
+        "algorithm": "sha1",
+        "value": "3de2ae6c488135596e073a9589842800c9f53bfe",
+        "source": "https://piston-meta.mojang.com/v1/packages/598eedd6f67db4aefbae6ed119029e3d7373ecf5/1.3.2.json"
+      },
       "mapping": {
-        "name": null,
-        "version": null,
-        "sha256": null
+        "name": "Legacy Fabric Yarn merged Tiny v2 (official -> named)",
+        "version": "1.3.2+build.604",
+        "sha256": "e0b5575c9df3d0171f3785a4ab80f1300f4ecf3c402e607aad384097f539a479",
+        "archive_sha256": "ac09406e65f2c79e96ae5273c0e15a3c1bf271bca90f74bffc30a246631c6f79",
+        "source": "https://maven.legacyfabric.net/net/legacyfabric/yarn/1.3.2+build.604/yarn-1.3.2+build.604-mergedv2.jar"
       },
       "decompiler": {
-        "name": null,
-        "version": null,
-        "sha256": null
+        "name": "CFR",
+        "version": "0.152",
+        "sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2"
       },
-      "runtime": null,
-      "command_or_config": null,
-      "output_tree_sha256": null,
+      "runtime": "OpenJDK 21.0.12+8 (decompilation only; game runtime untested)",
+      "command_or_config": "python3 tools/prepare_132_references.py --output /tmp/origins-132-repro",
+      "output_tree_sha256": "0b215534564d836e1a0a8aca4d11d710595704ba13c9fdbf0759e8fd163e61de",
       "fix_patch_paths": [],
       "baseline_launch": {
         "result": "NOT RUN",
         "evidence": null
       },
       "source_directory": "source/release-1.3.2/server",
-      "purpose": "Unified source organization"
+      "purpose": "Unified source organization",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 902,
+        "jar_count": 2,
+        "original_file_count": 2
+      },
+      "remapper": {
+        "name": "Fabric Tiny Remapper",
+        "version": "0.14.0",
+        "sha256": "9dbaf8030981338373abe029cd9c07732bff437887a56de1735ba2c3c76b0acf"
+      },
+      "output_tree_hash_scope": "decompiled/src/**/*.java; inventory tree algorithm (relative path + NUL + SHA-256 hex + LF)",
+      "source_output_directory": "source/release-1.3.2/server/decompiled/src",
+      "decompiler_caveats": [
+        "No CFR summary warnings; no compilation or behavioral fidelity claim."
+      ]
     },
     {
       "version": "1.13.2",
       "side": "client",
       "priority": "initial_set",
-      "status": "not_acquired",
+      "status": "present_unverified",
       "exact_build_label": null,
       "acquisition_source": null,
       "acquired_at": null,
@@ -160,13 +244,20 @@
         "evidence": null
       },
       "source_directory": "source/release-1.13.2/client",
-      "purpose": "Technical transition"
+      "purpose": "Technical transition",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 2714,
+        "jar_count": 1,
+        "original_file_count": 0
+      }
     },
     {
       "version": "1.13.2",
       "side": "server",
       "priority": "initial_set",
-      "status": "not_acquired",
+      "status": "present_unverified",
       "exact_build_label": null,
       "acquisition_source": null,
       "acquired_at": null,
@@ -192,13 +283,20 @@
         "evidence": null
       },
       "source_directory": "source/release-1.13.2/server",
-      "purpose": "Technical transition"
+      "purpose": "Technical transition",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 2014,
+        "jar_count": 1,
+        "original_file_count": 0
+      }
     },
     {
       "version": "1.17.1",
       "side": "client",
       "priority": "initial_set",
-      "status": "not_acquired",
+      "status": "present_unverified",
       "exact_build_label": null,
       "acquisition_source": null,
       "acquired_at": null,
@@ -224,13 +322,20 @@
         "evidence": null
       },
       "source_directory": "source/release-1.17.1/client",
-      "purpose": "Persistence and output target"
+      "purpose": "Persistence and output target",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 4142,
+        "jar_count": 1,
+        "original_file_count": 0
+      }
     },
     {
       "version": "1.17.1",
       "side": "server",
       "priority": "initial_set",
-      "status": "not_acquired",
+      "status": "present_unverified",
       "exact_build_label": null,
       "acquisition_source": null,
       "acquired_at": null,
@@ -256,7 +361,14 @@
         "evidence": null
       },
       "source_directory": "source/release-1.17.1/server",
-      "purpose": "Persistence and output target"
+      "purpose": "Persistence and output target",
+      "local_observation": {
+        "observed_at": "2026-09-08",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-references/inventory.json",
+        "java_file_count": 3100,
+        "jar_count": 1,
+        "original_file_count": 0
+      }
     }
   ],
   "fixtures": []

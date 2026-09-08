@@ -1,0 +1,8 @@
+test_correspondence_does_not_infer_equivalence (test_inventory_references.InventoryTests.test_correspondence_does_not_infer_equivalence) ... ok
+test_missing_tree_has_no_files (test_inventory_references.InventoryTests.test_missing_tree_has_no_files) ... ok
+test_tree_tracks_content_and_paths (test_inventory_references.InventoryTests.test_tree_tracks_content_and_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

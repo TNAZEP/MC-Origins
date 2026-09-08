@@ -16,3 +16,17 @@ These are discovery tasks, not reasons to re-ask settled product decisions. Reso
 | Q-10 | What are measured visual/performance tolerances and release platform list? | Establish before optimization; no invented pass budgets | a2 baseline / b2 gate |
 
 Resolved answers should link an ADR or evidence record and remain in history. None of these questions reopens the no-worldgen-change, native 1.17.1, Java 25, or integrated-server deferral decisions.
+
+## 2026-09-08 discovery update
+
+- Q-01 remains open for provenance: local Beta src/src_original (678 client, 444 server, identical per side), remapped jars/classes and client assets exist. No original jars, mapping files or tool manifests in expected locations. All 1.3.2 material missing; modern sources exist outside scaffold decompiled directories. [Evidence](evidence/2026-09-08-a1/README.md).
+- Q-02 remains open: source banner says Beta 1.7.3 and both sides use protocol 14; this does not authenticate original artifacts. Obtain originals with acquisition metadata/hashes and runtime handshake evidence.
+- Q-03 remains open: default Java 21.0.12, no installed Gradle/wrapper; JDK 8/17/26 directories also exist but are unqualified. No bootstrap selection made.
+- Q-05 remains open: no mapping/reobfuscation provenance; a same-path candidate ledger cannot recover original obfuscated symbols.
+
+## 2026-09-08 acquisition update (supersedes missing-original/1.3.2 observations above)
+
+- Q-01 partly resolved: owner supplied Beta original jars and reports latest RetroMCP release/no manual changes. GitHub latest v1.2 checked; exact originally used binary, mappings, runtime and automatic patches remain unverified. Current upstream b1.7 resource archive is pinned as a candidate only. Existing source bytes preserved.
+- Q-02 artifact hash correspondence established: client matches Mojang, server matches MCPHackers BetterJSONs b1.7.3 metadata. Original runtime handshake/behavior still NOT RUN. User's historical download date/source is unknown; hash verification does not invent it.
+- 1.3.2 missing-input gap resolved for source study: Mojang originals and independently generated named client/server sources installed. Two client JOrbis methods have CFR warnings; no recompilation or behavior certification.
+- Q-03/Q-05 remain open for Origins bootstrap build and Beta original-name mapping. Source-generation Java 21 is not a game runtime selection. See [acquisition evidence](evidence/2026-09-08-a1-references/README.md).

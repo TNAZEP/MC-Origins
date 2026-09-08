@@ -1,0 +1,38 @@
+{
+  "result": "PASS",
+  "checks": {
+    "client": {
+      "java_tree": {
+        "file_count": 1335,
+        "sha256": "fdb9867ba5e268cfe7974770b1cd49148de72d66193cc0dbf634a893916314a9"
+      },
+      "all_remapped_classes_have_source": true,
+      "repeat_java_bytes_match": true,
+      "summary": "Summary for /tmp/origins-132-repro/client/named.jar\nDecompiled with CFR 0.152\n\n\ncom.jcraft.jorbis.Drft\n----------------------------\n\ndradfg(int int int int float[] float[] float[] float[] float[] float[] int )\n  Unable to fully structure code\ndradbg(int int int int float[] float[] float[] float[] float[] float[] int )\n  Unable to fully structure code\n"
+    },
+    "server": {
+      "java_tree": {
+        "file_count": 902,
+        "sha256": "0b215534564d836e1a0a8aca4d11d710595704ba13c9fdbf0759e8fd163e61de"
+      },
+      "all_remapped_classes_have_source": true,
+      "repeat_java_bytes_match": true,
+      "summary": "Summary for /tmp/origins-132-repro/server/named.jar\nDecompiled with CFR 0.152\n"
+    },
+    "beta_existing_source_bytes_unchanged": true,
+    "beta_client": {
+      "sha256": "af1fa04b8006d3ef78c7e24f8de4aa56f439a74d7f314827529062d5bab6db4c",
+      "sha1": "43db9b498cb67058d2e12d394e6507722e71bb45",
+      "published_hash_match": true,
+      "zip_crc_pass": true,
+      "hash_source": "Mojang"
+    },
+    "beta_server": {
+      "sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d",
+      "sha1": "2f90dc1cb5ca7e9d71786801b307390a67fcf954",
+      "published_hash_match": true,
+      "zip_crc_pass": true,
+      "hash_source": "MCPHackers BetterJSONs"
+    }
+  }
+}

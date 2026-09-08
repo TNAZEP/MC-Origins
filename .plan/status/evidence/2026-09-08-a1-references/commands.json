@@ -1,0 +1,60 @@
+[
+  {
+    "side": "client",
+    "step": "remap",
+    "argv": [
+      "java",
+      "-jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/tools/bin/tiny-remapper-0.14.0-fat.jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/release-1.3.2/client/original/client.jar",
+      "/tmp/origins-132-repro/client/named.jar",
+      "/tmp/origins-132-repro/mappings.tiny",
+      "official",
+      "named"
+    ]
+  },
+  {
+    "side": "client",
+    "step": "decompile",
+    "argv": [
+      "java",
+      "-Xmx2G",
+      "-jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/tools/bin/cfr-0.152.jar",
+      "/tmp/origins-132-repro/client/named.jar",
+      "--outputdir",
+      "/tmp/origins-132-repro/client/src",
+      "--silent",
+      "true"
+    ]
+  },
+  {
+    "side": "server",
+    "step": "remap",
+    "argv": [
+      "java",
+      "-jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/tools/bin/tiny-remapper-0.14.0-fat.jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/release-1.3.2/server/original/server.jar",
+      "/tmp/origins-132-repro/server/named.jar",
+      "/tmp/origins-132-repro/mappings.tiny",
+      "official",
+      "named"
+    ]
+  },
+  {
+    "side": "server",
+    "step": "decompile",
+    "argv": [
+      "java",
+      "-Xmx2G",
+      "-jar",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/tools/bin/cfr-0.152.jar",
+      "/tmp/origins-132-repro/server/named.jar",
+      "--outputdir",
+      "/tmp/origins-132-repro/server/src",
+      "--silent",
+      "true"
+    ]
+  }
+]

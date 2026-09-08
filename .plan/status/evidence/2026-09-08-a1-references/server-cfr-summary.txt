@@ -1,0 +1,2 @@
+Summary for /tmp/origins-132-repro/server/named.jar
+Decompiled with CFR 0.152

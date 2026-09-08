@@ -1,0 +1,24 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/prepare_132_references.py",
+      "--output",
+      "/tmp/origins-132-repro"
+    ],
+    "result": "PASS (expected refusal)",
+    "exit_code": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/home/tnazep/My Stuff/Dev/MC-Origins/tools/prepare_132_references.py\", line 66, in <module>\n    main()\n    ~~~~^^\n  File \"/home/tnazep/My Stuff/Dev/MC-Origins/tools/prepare_132_references.py\", line 37, in main\n    output.mkdir(parents=True, exist_ok=False)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 1011, in mkdir\n    os.mkdir(self, mode)\n    ~~~~~~~~^^^^^^^^^^^^\nFileExistsError: [Errno 17] File exists: '/tmp/origins-132-repro'\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/prepare_132_references.py",
+      "--output",
+      "reference/source/release-1.3.2/client/decompiled"
+    ],
+    "result": "PASS (expected refusal)",
+    "exit_code": 2,
+    "stderr": "usage: prepare_132_references.py [-h] --output OUTPUT [--java JAVA]\nprepare_132_references.py: error: Use a fresh scratch directory outside reference/.\n"
+  }
+]

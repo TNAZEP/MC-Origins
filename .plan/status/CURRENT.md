@@ -1,52 +1,50 @@
 # Current project status
 
-**Target release:** 1.0  
-**Current milestone:** 1.0a1 — Baseline, build and unified client/server source  
-**Milestone state:** Not started  
-**Last updated:** 2026-09-07 — planning kit initialization  
-**Repository revision / branch:** Not inspected in target project  
-**Active session:** None
+**Target release:** 1.0
+**Current milestone:** 1.0a1 — Baseline, build and unified client/server source
+**Milestone state:** In progress — editable Beta source import complete; shared-code merge and runtime/build acceptance pending
+**Last updated:** 2026-09-08
+**Repository revision / branch:** `83155adbcddba2f77f7269f68ee949502e054efe` / `main` + prior and current uncommitted changes
+**Active session:** 2026-09-08-a1-working-sources — bounded task finished
 
 ## Completed
 
-- Planning documents, architecture decisions, milestone definitions, reference scaffold and session templates prepared.
-- Final conversation decisions reconciled; worldgen expansion explicitly excluded from 1.0.
+- Latest: editable working tree created under src/client and src/server (678/444 Java, 84/5 resources), preserving input bytes. Reserved shared/test roots; full import provenance and source guide. No behavioral merge yet.
 
-## In progress
-
-No game implementation work has started in this kit.
-
-## Not started
-
-All alpha, beta and release implementation/qualification. Target source inventory, baseline artifact hashing, reference decompilation, toolchain selection and build setup.
+- Prior session: deterministic reference inventory and initial Beta packet correspondence; inventory integrity tests pass.
+- User-supplied original Beta client/server jars verified against published SHA-1/size metadata (Mojang client, MCPHackers BetterJSONs server), SHA-256 recorded, ZIP CRC checks pass.
+- Owner's latest-release/no-changes RetroMCP statement recorded without claiming the historical tool binary is verified. GitHub latest currently v1.2; current resource archive pinned as a candidate.
+- Obtained original 1.3.2 client/server jars from Mojang and prepared separate named study sources with pinned Legacy Yarn/Tiny Remapper/CFR inputs. Installed 1,335 client and 902 server Java files under reference/source/release-1.3.2/{client,server}/decompiled/src/.
+- Offline reproduction recipe produces identical Java bytes to the initial run; complete class-to-source path coverage. Existing Beta sources unchanged. No game implementation changes.
 
 ## Verification
 
+[Latest working-source evidence](evidence/2026-09-08-a1-working-sources/README.md) and [acquisition evidence](evidence/2026-09-08-a1-references/README.md) contains commands, metadata, hashes, summaries and limitations. [Prior inventory](evidence/2026-09-08-a1/README.md) remains historical evidence.
+
 | Check | Result | Evidence / reason |
 |---|---|---|
-| Target source inventory | NOT RUN | Game sources not supplied to planning workspace |
-| Game build | NOT RUN | Build system not yet implemented |
-| Client launch | NOT RUN | No game artifact |
-| Dedicated server / multiplayer | NOT RUN | No game artifact |
-| Behavior / worldgen / persistence | NOT RUN | No runtime fixtures |
-| Platform / package qualification | NOT RUN | No release artifacts |
+| Beta original hashes / ZIP integrity | PASS | verification.json; runtime correspondence still untested |
+| 1.3.2 original hashes and source generation | PASS with caveats | Mojang SHA-1/size; CFR warns about two client JOrbis methods |
+| Java source reproducibility / coverage | PASS | Both runs byte-identical; every mapped class has a source path |
+| Existing Beta source preservation | PASS | Four source-tree maps match prior inventory |
+| Inventory tests / recipe output guards | PASS | 3 tests and 2 expected refusals |
+| Working-source import / snapshot / overwrite guard | PASS | 1,211 independent files, exact copied hashes, references unchanged |
+| Origins CLI build | NOT RUN | Editable source exists; no wrapper/dependency configuration; prior installed Gradle probe failed |
+| Game launches / SP/MP / two-player / behavior / worldgen / persistence | NOT RUN | Original Beta jars now available; runtime and asset/native qualification next |
+| a1 exit gates | NOT RUN | Milestone incomplete |
 
-## Important decisions
+## Environment and remaining gaps
 
-Beta behavior is the 1.0 spec. Unified sources precede modernization. Java 25/LWJGL 3/shader OpenGL, states and native 1.17.1 persistence are required. Storage supports 256 blocks but normal Beta gameplay/worldgen bounds stay unchanged. Integrated server and Vulkan are deferred.
-
-## Missing inputs and risks
-
-Expected inputs are the working RetroMCP Beta sources plus pristine matching client/server references. Their actual availability must be checked in the destination repository. This is an input requirement, not a claim that the user's project lacks them. See QUESTIONS and RISKS.
+Linux x86_64; Java 21.0.12+8 used only for decompilation, Python 3.14.7. No game bootstrap runtime chosen; Java 25 final target unchanged. Historical Beta mapping/tool binary/runtime/automatic-patch provenance is still unverified; no manual changes reported. Client 1.3.2 bundled JOrbis Drft has two unstructured CFR methods; references are for study, not a proven recompilable build. Some mapping names remain incomplete. No original-jar launch has been attempted.
 
 ## Next bounded action
 
-Inspect the target repository and reference manifest, identify the actual Beta client/server source correspondence, record tool/runtime availability, then establish the pristine launch baseline before editing shared logic. Update [NEXT](NEXT.md) and append the session to [HISTORY](HISTORY.md).
+Establish a pinned Gradle build for the working source roots and isolated run directories; qualify original Beta launches and capture baseline evidence before behavioral merging. See src/README.md and NEXT. Keep client/server duplicate classes separate until reviewed; main/java remains empty.
 
 ## Working tree and recovery
 
-No target-project edits or save conversions performed by this kit. Preserve existing user work when installing it. Do not overwrite an existing AGENTS.md or status history without merging.
+Preserved prior uncommitted inventory work. Added reference preparation script, pinned input manifest, local ignored reference artifacts, authored notes and evidence/status updates. Existing source/binary/save bytes unchanged. No migration or gameplay rollback needed. Keep installed references immutable and reproduce into a fresh scratch directory. No commit or publication performed.
 
-## Planning correction
+Concurrent user change: START-HERE.md became modified during this session and was left untouched by Codex. Final whitespace/inventory review passed; prior jar hashes unchanged.
 
-The final conversation reply has now been incorporated: initial references are b1.7.3, 1.3.2, 1.13.2 and 1.17.1, both sides for each. The guide, source/fixture scaffold, manifest and affected milestones are corrected. No runtime implementation status changed.
+Working-source session changes: src/, tools/import_beta_sources.py, root README, architecture clarification and persistent evidence/status. START-HERE.md remains untouched. No compile or game launch attempted. Reference inventory unchanged after import; copies are independent, not symlinks. Prior work remains uncommitted.

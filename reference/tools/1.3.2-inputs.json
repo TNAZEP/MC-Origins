@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-09-08",
+  "files": [
+    {
+      "path": "reference/tools/bin/RetroMCP-Java-CLI-1.2.jar",
+      "url": "https://github.com/MCPHackers/RetroMCP-Java/releases/download/v1.2/RetroMCP-Java-CLI.jar",
+      "sha256": "707ffc3f84d7f4a0840a2cabbdc09c51d872dc360b9586e65dadc923fd935e7e"
+    },
+    {
+      "path": "reference/tools/bin/tiny-remapper-0.14.0-fat.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/tiny-remapper/0.14.0/tiny-remapper-0.14.0-fat.jar",
+      "sha256": "9dbaf8030981338373abe029cd9c07732bff437887a56de1735ba2c3c76b0acf"
+    },
+    {
+      "path": "reference/tools/bin/cfr-0.152.jar",
+      "url": "https://www.benf.org/other/cfr/cfr-0.152.jar",
+      "sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2"
+    },
+    {
+      "path": "reference/tools/bin/yarn-1.3.2+build.604-mergedv2.jar",
+      "url": "https://maven.legacyfabric.net/net/legacyfabric/yarn/1.3.2+build.604/yarn-1.3.2+build.604-mergedv2.jar",
+      "sha256": "ac09406e65f2c79e96ae5273c0e15a3c1bf271bca90f74bffc30a246631c6f79"
+    },
+    {
+      "path": "reference/tools/bin/retromcp-b1.7-resources-2026-09-08.zip",
+      "url": "https://mcphackers.org/versionsV2/b1.7.zip",
+      "sha256": "b1903f261dca46e25feb50151102afd11807d446ac49c59dac7a995b497c92a9"
+    },
+    {
+      "path": "reference/source/release-1.3.2/client/original/client.jar",
+      "url": "https://launcher.mojang.com/v1/objects/c2efd57c7001ddf505ca534e54abf3d006e48309/client.jar",
+      "sha256": "24ec25082cf2bafad90518b5e24d23fdfec55f1bff7f2ead391ab40501eb8354"
+    },
+    {
+      "path": "reference/source/release-1.3.2/server/original/server.jar",
+      "url": "https://launcher.mojang.com/v1/objects/3de2ae6c488135596e073a9589842800c9f53bfe/server.jar",
+      "sha256": "0795e098d970b459832750d4c6c2c4f58ef55a333a67281418318275e6026eba"
+    }
+  ]
+}

@@ -17,9 +17,9 @@ This kit is a development plan, not an implemented game. All implementation mile
 
 ## Reference preparation at a glance
 
-- **Initial set: b1.7.3, 1.3.2, 1.13.2 and 1.17.1 — both client and dedicated server for all four.**
-- Store them under `reference/source/beta-1.7.3/`, `release-1.3.2/`, `release-1.13.2/` and `release-1.17.1/`. Each directory includes a purpose/authority README.
-- **Do not initially include 1.2.5** or other intermediate sources. Add one only for a concrete investigation. 1.3.2 informs the early source merge; integrated server implementation remains post-1.0.
+- **Initial set: b1.7.3, 1.13.2 and 1.17.1 — both client and dedicated server for all four.**
+- Store them under `reference/source/beta-1.7.3/`, `release-1.13.2/` and `release-1.17.1/`. Each directory includes a purpose/authority README.
+- **Do not initially include 1.2.5** or other intermediate sources. Add one only for a concrete investigation. integrated server implementation remains post-1.0.
 - Intermediate vanilla runtime installations used to build upgrade-control fixtures are separate from the minimum decompilation set.
 
 The full navigation index is [.plan/README.md](.plan/README.md). The roadmap is [.plan/ROADMAP.md](.plan/ROADMAP.md). The proposed sequence contains nine alphas and three betas; add or split milestones when evidence warrants it without expanding 1.0 scope.

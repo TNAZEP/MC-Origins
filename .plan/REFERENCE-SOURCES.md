@@ -75,7 +75,7 @@ Original binaries, decompiled material, mappings, extracted resources and genera
 ## Readiness checklist
 
 - [ ] Beta 1.7.3 client and matching dedicated-server provenance, hashes and baseline launches recorded.
-- [ ] 1.3.2 client/server sources prepared for source-organization and boundary study in a1.
+- [x] 1.3.2 client/server sources prepared for source-organization and boundary study in a1; see [2026-09-08 evidence](status/evidence/2026-09-08-a1-references/README.md) for decompiler caveats.
 - [ ] 1.13.2 client/server sources prepared for platform/model/conversion study in a2/a4.
 - [ ] 1.17.1 client/server sources and generated SP/server saves prepared for exact schema inspection.
 - [ ] Each version README states purpose, authority and prohibited behavioral imports.
