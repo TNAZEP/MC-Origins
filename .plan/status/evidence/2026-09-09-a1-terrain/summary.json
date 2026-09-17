@@ -1,0 +1,28 @@
+{
+  "comparison": {
+    "result": "FAIL",
+    "difference_count": 1042,
+    "original_chunks": 1248,
+    "candidate_chunks": 1243,
+    "same_seed": true,
+    "same_spawn": false
+  },
+  "controlled": {
+    "result": "FAIL",
+    "difference_count": 32,
+    "original_chunks": 1248,
+    "candidate_chunks": 1248,
+    "same_seed": true,
+    "same_spawn": true,
+    "matched_nether_chunks": 623
+  },
+  "oracle-repeat": {
+    "result": "FAIL",
+    "difference_count": 32,
+    "original_chunks": 1248,
+    "candidate_chunks": 1248,
+    "same_seed": true,
+    "same_spawn": true,
+    "matched_nether_chunks": 623
+  }
+}

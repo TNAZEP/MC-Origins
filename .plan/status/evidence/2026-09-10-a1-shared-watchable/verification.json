@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "revision": "e1eaaac7d06a41452762eb92fe4bf3fec5670968",
+  "platform": "Linux-7.2.0-1-cachyos-x86_64-with-glibc2.44",
+  "python": "3.14.7",
+  "reference_inventory_unchanged": true,
+  "before_after_equal": true,
+  "prior_1338_rows_preserved": true,
+  "artifacts": {
+    "build/libs/Minecraft.jar": {
+      "sha256": "c7021fdf8537a3a6566fff4261b7073d6fef9933eb9dffc587dfb9321f86fba1",
+      "shared_classes": {
+        "net/minecraft/src/BetaStringCodec.class": "a826c18b2b95836a52c866d64de2731608669fdc1faac0b48adef1ad32d07e4b",
+        "net/minecraft/src/PacketCounter.class": "90409a8ad399b22724faf60ce374c5ebe5eeaf795a12b759d886726dcf83e400",
+        "net/minecraft/src/Empty1.class": "2a73f562d6047392938ad29466ac53bb7d932d97ba352ed5ef7fc4dc4269d8c7",
+        "net/minecraft/src/BetaPacketRegistry.class": "1e1500dd172b572a73688b3e7219fe5809bab47b1a5e8d67c2c0f74bdcec9e34",
+        "net/minecraft/src/WatchableObject.class": "0014a59b5b084c68c2e71d77fb6f150bd624df290d1497f52ec049c36e9e1a62"
+      }
+    },
+    "build/libs/Minecraft-server.jar": {
+      "sha256": "275a2e2005e15bbaf930496c823fd734ceb3c042c9ab8825b2eec69f689af7ab",
+      "shared_classes": {
+        "net/minecraft/src/BetaStringCodec.class": "a826c18b2b95836a52c866d64de2731608669fdc1faac0b48adef1ad32d07e4b",
+        "net/minecraft/src/PacketCounter.class": "90409a8ad399b22724faf60ce374c5ebe5eeaf795a12b759d886726dcf83e400",
+        "net/minecraft/src/Empty1.class": "2a73f562d6047392938ad29466ac53bb7d932d97ba352ed5ef7fc4dc4269d8c7",
+        "net/minecraft/src/BetaPacketRegistry.class": "1e1500dd172b572a73688b3e7219fe5809bab47b1a5e8d67c2c0f74bdcec9e34",
+        "net/minecraft/src/WatchableObject.class": "0014a59b5b084c68c2e71d77fb6f150bd624df290d1497f52ec049c36e9e1a62"
+      }
+    }
+  },
+  "source_counts": {
+    "main": 5,
+    "client": 675,
+    "server": 441
+  }
+}

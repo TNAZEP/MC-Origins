@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "jar_sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d",
+  "template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+  "harness_sha256": "c2c544be9e2b0121856a9d22c94b48f7fce4480c6b5ad406602a65863fb3c006",
+  "driver_sha256": "e8ac25a0b8650121ed55eb46d2b432d32741cc04e8b20b05b0ea9c8f39275f56",
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "commands": [
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/javac",
+      "-d",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/terrain-control/original-2/classes",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/tools/BetaTerrainHarness.java"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-Xmx512M",
+      "-Djava.awt.headless=true",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/terrain-control/original-2/classes",
+      "BetaTerrainHarness",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+      "original",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/terrain-control/original-2",
+      "8675309",
+      "32",
+      "-16",
+      "8675309"
+    ]
+  ],
+  "seed": 8675309,
+  "spawn": [
+    32,
+    64,
+    -16
+  ],
+  "world_rng_seed": 8675309,
+  "ticks": 0,
+  "order": "overworld then nether; x outer/z inner; offsets -196..196 step 16; drain lighting per request",
+  "chunks": 1248,
+  "requests_sha256": "4860fb96f99c600196eaeccefae4f3dc682eb5d907ed2375012b54ac6c390868"
+}

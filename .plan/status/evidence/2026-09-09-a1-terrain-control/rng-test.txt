@@ -1,0 +1,1 @@
+PASS: traced Random matches java.util.Random for six seeds, 60000 mixed iterations

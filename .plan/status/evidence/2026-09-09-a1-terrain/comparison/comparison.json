@@ -1,0 +1,5049 @@
+{
+  "candidate_chunks": 1243,
+  "differences": [
+    {
+      "candidate": [
+        88,
+        64,
+        106
+      ],
+      "context": "spawn",
+      "original": [
+        32,
+        64,
+        -16
+      ]
+    },
+    {
+      "chunk": "nether/-1,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-1,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-1,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-1,0",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-1,1",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-1,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-1,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-1,2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-10,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-10,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-11,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-2,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-2,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-2,0",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-2,1",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-2,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-2,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-2,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-3,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-3,0",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-3,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-3,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-3,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-3,9",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-4,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-4,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-4,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-4,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-4,9",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-5,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-5,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-5,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-5,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-5,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-6,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-6,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-6,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-6,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-6,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-6,4",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-6,6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-6,7",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-3",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-4",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-5",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-7,0",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,1",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-7,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/-7,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/-7,2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,3",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,4",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,6",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-7,7",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/-7,8",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-7,9",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/-8,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-8,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/-9,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/0,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/0,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/0,0",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/0,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/0,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/0,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/0,2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/0,9",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,-1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-2",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/1,0",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/1,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/1,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/1,3",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/10,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/10,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/10,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/10,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/10,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/11,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/11,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/11,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/11,8",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/11,9",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,-1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/12,0",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/12,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/12,2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,4",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,7",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,8",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/12,9",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/13,-1",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-2",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-3",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-4",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-5",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/13,0",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,1",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/13,2",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,3",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,4",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,5",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,6",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,7",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,8",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/13,9",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/14,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/14,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/15,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/16,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/17,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,-1",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/2,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-2",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/2,-3",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/2,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/2,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/2,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/2,0",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/2,1",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/2,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/2,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/2,2",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/2,3",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,-1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,-5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "nether/3,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/3,0",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,1",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/3,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/3,2",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/3,3",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/4,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-6",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/4,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/4,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/4,4",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/4,5",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/4,6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/4,7",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/5,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/5,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/5,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/5,4",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/5,5",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/5,6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/5,7",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/6,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/6,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/6,10",
+      "fields": [
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/6,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/6,4",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/6,5",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/6,6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/7,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/7,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/7,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/7,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/7,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/8,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/8,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/8,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/8,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-13",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-14",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "nether/9,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "nether/9,10",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "nether/9,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,14",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,15",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,16",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,17",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "nether/9,18",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-1,-10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-1,-2",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,-3",
+      "fields": [
+        "SkyLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,-4",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,-9",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,0",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-1,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-10,-1",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-10",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-10,-2",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-3",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-4",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-5",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-6",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-7",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-8",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-9",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,0",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,1",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,10",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,11",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,12",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-10,2",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,3",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,4",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,5",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,6",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,7",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,8",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,9",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-11,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,-9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-11,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,-9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-12,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,-9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-13,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,-9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,0",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,1",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,10",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,11",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,12",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,2",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,3",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,4",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,5",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,6",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,7",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,8",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-14,9",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-2,-11",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-2,-2",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,-6",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,1",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,11",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-3,-11",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-3,-2",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,-4",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,-6",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,0",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-4,-11",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-4,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-4,12",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-4,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-5,-1",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-5,-11",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-5,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-5,-5",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-5,12",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-5,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-5,2",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-6,-11",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-6,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-6,12",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-6,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-6,2",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-7,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-7,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-7,12",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-7,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-7,4",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,-10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,-11",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-8,0",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,12",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-8,2",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,7",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/-9,-2",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,0",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,1",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,12",
+      "fields": [
+        "Blocks",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/-9,7",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/0,-2",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-3",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-4",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-5",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-6",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/0,0",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/0,10",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/0,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/0,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/1,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/1,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/1,-3",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/1,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/1,11",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/1,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/1,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/10,-1",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-11",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/10,-2",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-3",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-4",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-5",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-6",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-7",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-8",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-9",
+      "fields": [
+        "Blocks",
+        "Data",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,0",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,1",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,10",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight"
+      ]
+    },
+    {
+      "chunk": "overworld/10,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/10,2",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,3",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,4",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,5",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,6",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,7",
+      "fields": [
+        "Blocks",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,8",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/10,9",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/11,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/11,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/12,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/13,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,-9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,0",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,1",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,10",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,11",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,2",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,3",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,4",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,5",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,6",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,7",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,8",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/14,9",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/2,-11",
+      "fields": [
+        "Blocks",
+        "SkyLight",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/2,-7",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-8",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/2,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/2,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/3,-11",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/3,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/3,-5",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/3,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/3,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/4,-11",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/4,-3",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,-5",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,0",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/4,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "BlockLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/4,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/5,-11",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/5,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/5,0",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/5,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/5,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/5,4",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/6,-1",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/6,-11",
+      "fields": [
+        "Blocks"
+      ]
+    },
+    {
+      "chunk": "overworld/6,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/6,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/6,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/7,-11",
+      "fields": [
+        "Blocks",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/7,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/7,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/7,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/8,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap"
+      ]
+    },
+    {
+      "chunk": "overworld/8,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/8,-3",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/8,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/8,13",
+      "missing_from": "original"
+    },
+    {
+      "chunk": "overworld/9,-11",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/9,-12",
+      "missing_from": "candidate"
+    },
+    {
+      "chunk": "overworld/9,10",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/9,12",
+      "fields": [
+        "Blocks",
+        "Data",
+        "SkyLight",
+        "HeightMap",
+        "TerrainPopulated"
+      ]
+    },
+    {
+      "chunk": "overworld/9,13",
+      "missing_from": "original"
+    }
+  ],
+  "format": "origins-beta-saved-terrain-v1",
+  "original_chunks": 1248,
+  "result": "FAIL"
+}

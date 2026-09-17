@@ -1,0 +1,397 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileClientJava
+Note: /home/tnazep/My Stuff/Dev/MC-Origins/src/client/java/net/minecraft/src/NetworkMasterThread.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processClientResources UP-TO-DATE
+> Task :clientClasses
+> Task :buildMinecraftJar
+
+> Task :compileServerJava FAILED
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/server/MinecraftServer.java:177: error: cannot find symbol
+						var10.chunkProviderServer.loadChunk(var11.posX + var12 >> 4, var11.posZ + var13 >> 4);
+						                                         ^
+  symbol:   variable posX
+  location: variable var11 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/server/MinecraftServer.java:177: error: cannot find symbol
+						var10.chunkProviderServer.loadChunk(var11.posX + var12 >> 4, var11.posZ + var13 >> 4);
+						                                                                  ^
+  symbol:   variable posZ
+  location: variable var11 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/ServerConfigurationManager.java:147: error: cannot find symbol
+				var4.setLocationAndAngles((double)((float)var6.posX + 0.5F), (double)((float)var6.posY + 0.1F), (double)((float)var6.posZ + 0.5F), 0.0F, 0.0F);
+				                                              ^
+  symbol:   variable posX
+  location: variable var6 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/ServerConfigurationManager.java:147: error: cannot find symbol
+				var4.setLocationAndAngles((double)((float)var6.posX + 0.5F), (double)((float)var6.posY + 0.1F), (double)((float)var6.posZ + 0.5F), 0.0F, 0.0F);
+				                                                                                 ^
+  symbol:   variable posY
+  location: variable var6 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/ServerConfigurationManager.java:147: error: cannot find symbol
+				var4.setLocationAndAngles((double)((float)var6.posX + 0.5F), (double)((float)var6.posY + 0.1F), (double)((float)var6.posZ + 0.5F), 0.0F, 0.0F);
+				                                                                                                                    ^
+  symbol:   variable posZ
+  location: variable var6 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetServerHandler.java:256: error: cannot find symbol
+			int var9 = (int)MathHelper.abs((float)(var5 - var19.posX));
+			                                                   ^
+  symbol:   variable posX
+  location: variable var19 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetServerHandler.java:257: error: cannot find symbol
+			int var20 = (int)MathHelper.abs((float)(var7 - var19.posZ));
+			                                                    ^
+  symbol:   variable posZ
+  location: variable var19 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetServerHandler.java:303: error: cannot find symbol
+			int var10 = (int)MathHelper.abs((float)(var5 - var9.posX));
+			                                                   ^
+  symbol:   variable posX
+  location: variable var9 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetServerHandler.java:304: error: cannot find symbol
+			int var11 = (int)MathHelper.abs((float)(var7 - var9.posZ));
+			                                                   ^
+  symbol:   variable posZ
+  location: variable var9 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetLoginHandler.java:91: error: cannot find symbol
+			var5.sendPacket(new Packet6SpawnPosition(var4.posX, var4.posY, var4.posZ));
+			                                             ^
+  symbol:   variable posX
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetLoginHandler.java:91: error: cannot find symbol
+			var5.sendPacket(new Packet6SpawnPosition(var4.posX, var4.posY, var4.posZ));
+			                                                        ^
+  symbol:   variable posY
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetLoginHandler.java:91: error: cannot find symbol
+			var5.sendPacket(new Packet6SpawnPosition(var4.posX, var4.posY, var4.posZ));
+			                                                                   ^
+  symbol:   variable posZ
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/ChunkProviderServer.java:34: error: cannot find symbol
+		int var4 = var1 * 16 + 8 - var3.posX;
+		                               ^
+  symbol:   variable posX
+  location: variable var3 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/ChunkProviderServer.java:35: error: cannot find symbol
+		int var5 = var2 * 16 + 8 - var3.posZ;
+		                               ^
+  symbol:   variable posZ
+  location: variable var3 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:43: error: cannot find symbol
+		this.setLocationAndAngles((double)var2.posX + 0.5D, (double)(var2.posY + 1), (double)var2.posZ + 0.5D, 0.0F, 0.0F);
+		                                      ^
+  symbol:   variable posX
+  location: variable var2 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:43: error: cannot find symbol
+		this.setLocationAndAngles((double)var2.posX + 0.5D, (double)(var2.posY + 1), (double)var2.posZ + 0.5D, 0.0F, 0.0F);
+		                                                                 ^
+  symbol:   variable posY
+  location: variable var2 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:43: error: cannot find symbol
+		this.setLocationAndAngles((double)var2.posX + 0.5D, (double)(var2.posY + 1), (double)var2.posZ + 0.5D, 0.0F, 0.0F);
+		                                                                                         ^
+  symbol:   variable posZ
+  location: variable var2 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:313: error: cannot find symbol
+			var1.setInteger("SpawnX", this.spawnChunk.posX);
+			                                         ^
+  symbol:   variable posX
+  location: variable spawnChunk of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:314: error: cannot find symbol
+			var1.setInteger("SpawnY", this.spawnChunk.posY);
+			                                         ^
+  symbol:   variable posY
+  location: variable spawnChunk of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:315: error: cannot find symbol
+			var1.setInteger("SpawnZ", this.spawnChunk.posZ);
+			                                         ^
+  symbol:   variable posZ
+  location: variable spawnChunk of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:593: error: cannot find symbol
+		if(var4 != null && this.worldObj.getBlockId(var4.posX, var4.posY, var4.posZ) == Block.bed.blockID) {
+		                                                ^
+  symbol:   variable posX
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:593: error: cannot find symbol
+		if(var4 != null && this.worldObj.getBlockId(var4.posX, var4.posY, var4.posZ) == Block.bed.blockID) {
+		                                                           ^
+  symbol:   variable posY
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:593: error: cannot find symbol
+		if(var4 != null && this.worldObj.getBlockId(var4.posX, var4.posY, var4.posZ) == Block.bed.blockID) {
+		                                                                      ^
+  symbol:   variable posZ
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:594: error: cannot find symbol
+			BlockBed.func_22022_a(this.worldObj, var4.posX, var4.posY, var4.posZ, false);
+			                                         ^
+  symbol:   variable posX
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:594: error: cannot find symbol
+			BlockBed.func_22022_a(this.worldObj, var4.posX, var4.posY, var4.posZ, false);
+			                                                    ^
+  symbol:   variable posY
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:594: error: cannot find symbol
+			BlockBed.func_22022_a(this.worldObj, var4.posX, var4.posY, var4.posZ, false);
+			                                                               ^
+  symbol:   variable posZ
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:595: error: cannot find symbol
+			var5 = BlockBed.func_22021_g(this.worldObj, var4.posX, var4.posY, var4.posZ, 0);
+			                                                ^
+  symbol:   variable posX
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:595: error: cannot find symbol
+			var5 = BlockBed.func_22021_g(this.worldObj, var4.posX, var4.posY, var4.posZ, 0);
+			                                                           ^
+  symbol:   variable posY
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:595: error: cannot find symbol
+			var5 = BlockBed.func_22021_g(this.worldObj, var4.posX, var4.posY, var4.posZ, 0);
+			                                                                      ^
+  symbol:   variable posZ
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:597: error: cannot find symbol
+				var5 = new ChunkCoordinates(var4.posX, var4.posY + 1, var4.posZ);
+				                                ^
+  symbol:   variable posX
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:597: error: cannot find symbol
+				var5 = new ChunkCoordinates(var4.posX, var4.posY + 1, var4.posZ);
+				                                           ^
+  symbol:   variable posY
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:597: error: cannot find symbol
+				var5 = new ChunkCoordinates(var4.posX, var4.posY + 1, var4.posZ);
+				                                                          ^
+  symbol:   variable posZ
+  location: variable var4 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:600: error: cannot find symbol
+			this.setPosition((double)((float)var5.posX + 0.5F), (double)((float)var5.posY + this.yOffset + 0.1F), (double)((float)var5.posZ + 0.5F));
+			                                     ^
+  symbol:   variable posX
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:600: error: cannot find symbol
+			this.setPosition((double)((float)var5.posX + 0.5F), (double)((float)var5.posY + this.yOffset + 0.1F), (double)((float)var5.posZ + 0.5F));
+			                                                                        ^
+  symbol:   variable posY
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:600: error: cannot find symbol
+			this.setPosition((double)((float)var5.posX + 0.5F), (double)((float)var5.posY + this.yOffset + 0.1F), (double)((float)var5.posZ + 0.5F));
+			                                                                                                                          ^
+  symbol:   variable posZ
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:621: error: cannot find symbol
+		return this.worldObj.getBlockId(this.playerLocation.posX, this.playerLocation.posY, this.playerLocation.posZ) == Block.bed.blockID;
+		                                                   ^
+  symbol:   variable posX
+  location: variable playerLocation of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:621: error: cannot find symbol
+		return this.worldObj.getBlockId(this.playerLocation.posX, this.playerLocation.posY, this.playerLocation.posZ) == Block.bed.blockID;
+		                                                                             ^
+  symbol:   variable posY
+  location: variable playerLocation of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:621: error: cannot find symbol
+		return this.worldObj.getBlockId(this.playerLocation.posX, this.playerLocation.posY, this.playerLocation.posZ) == Block.bed.blockID;
+		                                                                                                       ^
+  symbol:   variable posZ
+  location: variable playerLocation of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:626: error: cannot find symbol
+		var2.loadChunk(var1.posX - 3 >> 4, var1.posZ - 3 >> 4);
+		                   ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:626: error: cannot find symbol
+		var2.loadChunk(var1.posX - 3 >> 4, var1.posZ - 3 >> 4);
+		                                       ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:627: error: cannot find symbol
+		var2.loadChunk(var1.posX + 3 >> 4, var1.posZ - 3 >> 4);
+		                   ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:627: error: cannot find symbol
+		var2.loadChunk(var1.posX + 3 >> 4, var1.posZ - 3 >> 4);
+		                                       ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:628: error: cannot find symbol
+		var2.loadChunk(var1.posX - 3 >> 4, var1.posZ + 3 >> 4);
+		                   ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:628: error: cannot find symbol
+		var2.loadChunk(var1.posX - 3 >> 4, var1.posZ + 3 >> 4);
+		                                       ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:629: error: cannot find symbol
+		var2.loadChunk(var1.posX + 3 >> 4, var1.posZ + 3 >> 4);
+		                   ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:629: error: cannot find symbol
+		var2.loadChunk(var1.posX + 3 >> 4, var1.posZ + 3 >> 4);
+		                                       ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:630: error: cannot find symbol
+		if(var0.getBlockId(var1.posX, var1.posY, var1.posZ) != Block.bed.blockID) {
+		                       ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:630: error: cannot find symbol
+		if(var0.getBlockId(var1.posX, var1.posY, var1.posZ) != Block.bed.blockID) {
+		                                  ^
+  symbol:   variable posY
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:630: error: cannot find symbol
+		if(var0.getBlockId(var1.posX, var1.posY, var1.posZ) != Block.bed.blockID) {
+		                                             ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:633: error: cannot find symbol
+			ChunkCoordinates var3 = BlockBed.func_22021_g(var0, var1.posX, var1.posY, var1.posZ, 0);
+			                                                        ^
+  symbol:   variable posX
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:633: error: cannot find symbol
+			ChunkCoordinates var3 = BlockBed.func_22021_g(var0, var1.posX, var1.posY, var1.posZ, 0);
+			                                                                   ^
+  symbol:   variable posY
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayer.java:633: error: cannot find symbol
+			ChunkCoordinates var3 = BlockBed.func_22021_g(var0, var1.posX, var1.posY, var1.posZ, 0);
+			                                                                              ^
+  symbol:   variable posZ
+  location: variable var1 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayerMP.java:28: error: cannot find symbol
+		int var6 = var5.posX;
+		               ^
+  symbol:   variable posX
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayerMP.java:29: error: cannot find symbol
+		int var7 = var5.posZ;
+		               ^
+  symbol:   variable posZ
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/EntityPlayerMP.java:30: error: cannot find symbol
+		int var8 = var5.posY;
+		               ^
+  symbol:   variable posY
+  location: variable var5 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/DataWatcher.java:130: error: cannot find symbol
+			var0.writeInt(var3.posX);
+			                  ^
+  symbol:   variable posX
+  location: variable var3 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/DataWatcher.java:131: error: cannot find symbol
+			var0.writeInt(var3.posY);
+			                  ^
+  symbol:   variable posY
+  location: variable var3 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/DataWatcher.java:132: error: cannot find symbol
+			var0.writeInt(var3.posZ);
+			                  ^
+  symbol:   variable posZ
+  location: variable var3 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/BlockBed.java:56: error: cannot find symbol
+							if(var10.posX == var2 && var10.posY == var3 && var10.posZ == var4) {
+							        ^
+  symbol:   variable posX
+  location: variable var10 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/BlockBed.java:56: error: cannot find symbol
+							if(var10.posX == var2 && var10.posY == var3 && var10.posZ == var4) {
+							                              ^
+  symbol:   variable posY
+  location: variable var10 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/BlockBed.java:56: error: cannot find symbol
+							if(var10.posX == var2 && var10.posY == var3 && var10.posZ == var4) {
+							                                                    ^
+  symbol:   variable posZ
+  location: variable var10 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:116: error: cannot find symbol
+										float var30 = var27 - (float)var35.posX;
+										                                  ^
+  symbol:   variable posX
+  location: variable var35 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:117: error: cannot find symbol
+										float var31 = var28 - (float)var35.posY;
+										                                  ^
+  symbol:   variable posY
+  location: variable var35 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:118: error: cannot find symbol
+										float var32 = var29 - (float)var35.posZ;
+										                                  ^
+  symbol:   variable posZ
+  location: variable var35 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:234: error: cannot find symbol
+								var17.setLocationAndAngles((double)((float)var20.posX + 0.5F), (double)var20.posY, (double)((float)var20.posZ + 0.5F), 0.0F, 0.0F);
+								                                                ^
+  symbol:   variable posX
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:234: error: cannot find symbol
+								var17.setLocationAndAngles((double)((float)var20.posX + 0.5F), (double)var20.posY, (double)((float)var20.posZ + 0.5F), 0.0F, 0.0F);
+								                                                                            ^
+  symbol:   variable posY
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:234: error: cannot find symbol
+								var17.setLocationAndAngles((double)((float)var20.posX + 0.5F), (double)var20.posY, (double)((float)var20.posZ + 0.5F), 0.0F, 0.0F);
+								                                                                                                        ^
+  symbol:   variable posZ
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:236: error: cannot find symbol
+								func_21166_a(var17, var0, (float)var20.posX + 0.5F, (float)var20.posY, (float)var20.posZ + 0.5F);
+								                                      ^
+  symbol:   variable posX
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:236: error: cannot find symbol
+								func_21166_a(var17, var0, (float)var20.posX + 0.5F, (float)var20.posY, (float)var20.posZ + 0.5F);
+								                                                                ^
+  symbol:   variable posY
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+/home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/SpawnerAnimals.java:236: error: cannot find symbol
+								func_21166_a(var17, var0, (float)var20.posX + 0.5F, (float)var20.posY, (float)var20.posZ + 0.5F);
+								                                                                                   ^
+  symbol:   variable posZ
+  location: variable var20 of type net.minecraft.src.ChunkCoordinates
+Note: /home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/src/NetworkMasterThread.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+70 errors
+
+[Incubating] Problems report is available at: file:///home/tnazep/My%20Stuff/Dev/MC-Origins/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileServerJava'.
+> Compilation failed; see the compiler output below.
+  /home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/server/MinecraftServer.java:177: error: cannot find symbol
+  						var10.chunkProviderServer.loadChunk(var11.posX + var12 >> 4, var11.posZ + var13 >> 4);
+  						                                         ^
+    symbol:   variable posX
+    location: variable var11 of type net.minecraft.src.ChunkCoordinates
+  70 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 6s
+5 actionable tasks: 4 executed, 1 up-to-date

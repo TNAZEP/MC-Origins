@@ -55,7 +55,7 @@ public class NetworkListenThread {
 				this.pendingConnections.remove(var1--);
 			}
 
-			var2.netManager.func_28138_a();
+			var2.netManager.wakeThreads();
 		}
 
 		for(var1 = 0; var1 < this.playerList.size(); ++var1) {
@@ -72,7 +72,7 @@ public class NetworkListenThread {
 				this.playerList.remove(var1--);
 			}
 
-			var6.netManager.func_28138_a();
+			var6.netManager.wakeThreads();
 		}
 
 	}

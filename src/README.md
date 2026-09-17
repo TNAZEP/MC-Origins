@@ -1,38 +1,19 @@
 # Working game sources
 
-Develop Origins here. `reference/` holds immutable evidence; files in this directory are independent, editable copies.
+Develop Origins here; `reference/` is immutable evidence, never a build input.
 
-| Directory | Purpose and current state |
+| Root | Ownership |
 |---|---|
-| `main/java/` | Future shared implementation; empty until classes and their dependencies are reconciled |
-| `main/resources/` | Future shared non-client resources; currently empty |
-| `client/java/` | 678 verbatim Beta client Java files, including local singleplayer |
-| `client/resources/` | 84 resources copied from the original Beta client jar |
-| `server/java/` | 444 verbatim Beta dedicated-server Java files |
-| `server/resources/` | 5 resources copied from the original Beta server jar |
-| `test/java/` | Future deterministic tests |
-| `integrationTest/java/` | Future runtime/scenario tests |
+| main/java | 420 shared classes: simulation, entities, blocks/items, chunks, generation, inventory, saves, packets and transport |
+| client/java | 270 classes: client entry point, local SP host, remote world, presentation/input/audio |
+| server/java | 39 classes: dedicated entry point, lifecycle, connections and server authority |
+| client/resources | 84 original client resources |
+| server/resources | 5 original server resources |
 
-Start exploring at [client Minecraft](client/java/net/minecraft/client/Minecraft.java), [client World](client/java/net/minecraft/src/World.java), [dedicated MinecraftServer](server/java/net/minecraft/server/MinecraftServer.java), and [server World](server/java/net/minecraft/src/World.java).
+Start at [World](main/java/net/minecraft/src/World.java), [client Minecraft](client/java/net/minecraft/client/Minecraft.java), and [MinecraftServer](server/java/net/minecraft/server/MinecraftServer.java). Main compiles independently, once, into both artifacts. No duplicate client/server class names remain. Shared implementation preserves separate Beta singleplayer and multiplayer semantics; it does not introduce an integrated server.
 
-## Temporary a1 import boundary
+[IMPORT.json](IMPORT.json) is the immutable original source/resource snapshot. [EVOLUTION.json](EVOLUTION.json) records moves, aliases, changes and source origins. Verify current files with `python3 tools/verify_working_sources.py`. The original importer verification intentionally reports differences after development; never reimport over working code.
 
-Client and server are separate compilation roots. Do not recursively compile all of `src/` or mark it as a single IDE Java source root: 402 class paths overlap. This initial layout preserves the supplied sides until the baseline and merge review are ready. Their Java bytes have not been changed, packages renamed, or shared implementations selected.
+[Full-model ledger](../.plan/status/evidence/2026-09-16-a1-full-model/merge-ledger.json), scoped mapping files beside it, and [final merge evidence](../.plan/status/evidence/2026-09-17-a1-unified/README.md) explain the union. Common algorithms are shared; unique client APIs and server producers/persistence helpers are retained. Shared code has no graphics/audio or client singleton dependency. ClientSleepThread and ServerSleepThread retain their distinct host lifetimes.
 
-The final build will compile `main/java/` once and include those shared classes in both artifacts. During a1, review each class and its dependencies against both Beta sides, record the correspondence decision, then move the approved implementation into `main/java/` and remove the replaced side copies together. Byte-identical files alone do not establish shared dependency or behavior equivalence. Retain genuine side differences in host/policy boundaries. This temporary import is not completed source unification, and modernization must not proceed independently on duplicate simulation implementations.
-
-No Gradle wrapper, dependency configuration or launch command is implemented yet. This is an editable source import, not a verified runnable build. The next build step must declare source sets explicitly and use working files only; reference trees must never become build inputs. External audio assets, dependencies and native libraries are not included here.
-
-## Provenance and initial verification
-
-[IMPORT.json](IMPORT.json) records each working destination, input path or jar entry, and initial SHA-256. Java came from the recorded Beta `decompiled/src` snapshots. Resources came from the hash-verified original jars. Original manifests/signatures (`META-INF/`) and compiled `.class` entries were deliberately excluded from resources; other entries, including the file named `null`, were preserved verbatim.
-
-Run from the repository root:
-
-```sh
-python3 tools/import_beta_sources.py --verify
-```
-
-This checks the initial working snapshot using only the import manifest and working files. After deliberate development edits, differences are expected; it is not a permanent gameplay test or a command to reset your work. Preserve IMPORT.json as provenance. The import command without `--verify` refuses an existing `src/` and must not be used to overwrite development changes.
-
-Baseline runtime/gameplay checks and a1 acceptance remain pending. See [current status](../.plan/status/CURRENT.md).
+Use the Gradle source sets for IDE import and [BUILDING.md](../BUILDING.md) for launches. Java 8/LWJGL 2 are the a1 bootstrap; a2 owns platform modernization. a1 source merge and bounded practical acceptance are complete; see [CURRENT](../.plan/status/CURRENT.md). Owner confirmation is sufficient for a1 playability; the optional graphical harness is not a routine prerequisite.

@@ -21,3 +21,7 @@ The proposed a1 bootstrap may use an explicitly recorded legacy game runtime unt
 Alphas may be split or extended while preserving dependencies. Keep historical milestone IDs stable once released; add new IDs and update the roadmap. Beta starts only once all 1.0 foundation features are complete. All betas fix defects, improve compatibility/performance or documentation; none introduce continuation content. Add b4 and beyond if the release gates are unmet. Do not force a release to fit the count in this kit.
 
 Patch releases preserve 1.0 scope and published save contracts. A schema change needs an explicit migration and rollback plan, even in an alpha. Releasing or tagging follows the repository's actual release process; a session's completion alone does not publish anything.
+
+## In-game version identity — owner direction, 2026-09-10
+
+At the start of work on every new alpha, beta or release (including patch releases), update `src/main/java/net/minecraft/src/OriginsVersion.java` so the in-game label is exactly `Minecraft: Origins VERSION`. Use the active milestone version immediately, not only at completion. Menu, debug overlay, window titles and diagnostics use the shared DISPLAY_NAME; protocol/save version numbers stay separate. Development status/revision may be recorded separately in build metadata; do not append it to the requested display label. Current label: `Minecraft: Origins 1.0a1`.

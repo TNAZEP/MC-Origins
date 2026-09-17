@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "previous_175_observations_preserved": true,
+  "new_movement_observations": 378,
+  "reference_inventory_unchanged": true,
+  "reviewed_source_sha256": {
+    "src/client/java/net/minecraft/src/EntityClientPlayerMP.java": "2c953b4f724f4344b24b7ac449fb58ba050fe34cd5504a1e3d6299f991e5d535",
+    "src/client/java/net/minecraft/src/NetClientHandler.java": "c28d4edb633a35870ed407001b04f62af7bc28eca9ab1d7fcef1e26c6eea7148",
+    "src/server/java/net/minecraft/src/NetServerHandler.java": "fbbe40a188e38f926464dd14105524fcd50a43aaee2b92dcecc9e960d758b5c9",
+    "src/client/java/net/minecraft/src/Packet10Flying.java": "fa1608ec0fc9293bc70476e308c6ba988f48ecd47373739064437372a7fd5848",
+    "src/client/java/net/minecraft/src/Packet11PlayerPosition.java": "21590dd0b98abc0cb88ad4dc7a6c8cee01a53af3ad13dd400556b5c27212abaa",
+    "src/client/java/net/minecraft/src/Packet12PlayerLook.java": "93918ec08726e395017a791cce25d5fa514c181a0dd4576098af410f017c4dd5",
+    "src/client/java/net/minecraft/src/Packet13PlayerLookMove.java": "a1a8a8e9ea2bae45ab6867d113a0eff97a8259acf0c1a9bd442a016f2f6405a0",
+    "src/client/java/net/minecraft/src/PacketCounter.java": "2617ec5f1e1d750a10978967aa40600d5d68b0173635872ceb15e4f08314eb95",
+    "src/client/java/net/minecraft/src/Empty1.java": "5d6768c6001b88a9ee33deded8a83dc37aa2db29ce80dc53b33b6dab98c37c8a",
+    "src/server/java/net/minecraft/src/Packet10Flying.java": "b92b253e0c59ae5f58171e5d58dfb7d8afbb4461fa5a24466a34ed0c36a4cf38",
+    "src/server/java/net/minecraft/src/Packet11PlayerPosition.java": "9b52742a615810e3850e42ab6d162da6ae593b530f8c102749894f9c95522dbe",
+    "src/server/java/net/minecraft/src/Packet12PlayerLook.java": "4bfb0ab4e27ae9cc56aab313b8937193e0d75628c820adf3df4634e0d7ad7f5f",
+    "src/server/java/net/minecraft/src/Packet13PlayerLookMove.java": "a1a8a8e9ea2bae45ab6867d113a0eff97a8259acf0c1a9bd442a016f2f6405a0",
+    "src/server/java/net/minecraft/src/PacketCounter.java": "2617ec5f1e1d750a10978967aa40600d5d68b0173635872ceb15e4f08314eb95",
+    "src/server/java/net/minecraft/src/Empty1.java": "5d6768c6001b88a9ee33deded8a83dc37aa2db29ce80dc53b33b6dab98c37c8a"
+  },
+  "handler_runtime": "NOT RUN; constructor vectors are source-informed, not live handler execution"
+}

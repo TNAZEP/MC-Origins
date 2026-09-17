@@ -31,7 +31,7 @@ public class WorldManager implements IWorldAccess {
 	public void updateAllRenderers() {
 	}
 
-	public void markBlockNeedsUpdate(int var1, int var2, int var3) {
+	public void markBlockAndNeighborsNeedsUpdate(int var1, int var2, int var3) {
 		this.mcServer.configManager.markBlockNeedsUpdate(var1, var2, var3, this.field_28134_b.worldProvider.worldType);
 	}
 
@@ -42,7 +42,7 @@ public class WorldManager implements IWorldAccess {
 		this.mcServer.configManager.sentTileEntityToPlayer(var1, var2, var3, var4);
 	}
 
-	public void func_28133_a(EntityPlayer var1, int var2, int var3, int var4, int var5, int var6) {
+	public void func_28136_a(EntityPlayer var1, int var2, int var3, int var4, int var5, int var6) {
 		this.mcServer.configManager.func_28171_a(var1, (double)var3, (double)var4, (double)var5, 64.0D, this.field_28134_b.worldProvider.worldType, new Packet61DoorChange(var2, var3, var4, var5, var6));
 	}
 }

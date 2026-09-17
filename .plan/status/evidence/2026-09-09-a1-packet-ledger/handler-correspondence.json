@@ -1,0 +1,320 @@
+[
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet54PlayNoteBlock;)V",
+    "client": "handleNotePlay",
+    "server": "func_21004_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet71Weather;)V",
+    "client": "handleWeather",
+    "server": "func_27002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet53BlockChange;)V",
+    "client": "handleBlockChange",
+    "server": "handleBlockChange",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet18Animation;)V",
+    "client": "handleArmAnimation",
+    "server": "handleArmAnimation",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet24MobSpawn;)V",
+    "client": "handleMobSpawn",
+    "server": "handleMobSpawn",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet34EntityTeleport;)V",
+    "client": "handleEntityTeleport",
+    "server": "handleEntityTeleport",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet60Explosion;)V",
+    "client": "func_12245_a",
+    "server": "func_12001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet6SpawnPosition;)V",
+    "client": "handleSpawnPosition",
+    "server": "handleSpawnPosition",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet105UpdateProgressbar;)V",
+    "client": "func_20090_a",
+    "server": "func_20002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet104WindowItems;)V",
+    "client": "func_20094_a",
+    "server": "func_20001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet102WindowClick;)V",
+    "client": "func_20091_a",
+    "server": "func_20007_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Ljava/lang/String;[Ljava/lang/Object;)V",
+    "client": "handleErrorMessage",
+    "server": "handleErrorMessage",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet28EntityVelocity;)V",
+    "client": "func_6498_a",
+    "server": "func_6002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet200Statistic;)V",
+    "client": "func_27245_a",
+    "server": "func_27001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet130UpdateSign;)V",
+    "client": "handleSignUpdate",
+    "server": "handleUpdateSign",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet10Flying;)V",
+    "client": "handleFlying",
+    "server": "handleFlying",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet106Transaction;)V",
+    "client": "func_20089_a",
+    "server": "func_20008_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet;)V",
+    "client": "registerPacket",
+    "server": "registerPacket",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet39AttachEntity;)V",
+    "client": "func_6497_a",
+    "server": "func_6003_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet25EntityPainting;)V",
+    "client": "func_21146_a",
+    "server": "func_21003_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet19EntityAction;)V",
+    "client": "func_21147_a",
+    "server": "func_21001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet21PickupSpawn;)V",
+    "client": "handlePickupSpawn",
+    "server": "handlePickupSpawn",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet3Chat;)V",
+    "client": "handleChat",
+    "server": "handleChat",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet4UpdateTime;)V",
+    "client": "handleUpdateTime",
+    "server": "handleUpdateTime",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet38EntityStatus;)V",
+    "client": "func_9447_a",
+    "server": "func_9001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet131MapData;)V",
+    "client": "func_28116_a",
+    "server": "func_28001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet8UpdateHealth;)V",
+    "client": "handleHealth",
+    "server": "handleHealth",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet15Place;)V",
+    "client": "handlePlace",
+    "server": "handlePlace",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet100OpenWindow;)V",
+    "client": "func_20087_a",
+    "server": "func_20004_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet9Respawn;)V",
+    "client": "func_9448_a",
+    "server": "handleRespawnPacket",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet23VehicleSpawn;)V",
+    "client": "handleVehicleSpawn",
+    "server": "handleVehicleSpawn",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet40EntityMetadata;)V",
+    "client": "func_21148_a",
+    "server": "func_21002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet101CloseWindow;)V",
+    "client": "func_20092_a",
+    "server": "handleCraftingGuiClosedPacked",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet52MultiBlockChange;)V",
+    "client": "handleMultiBlockChange",
+    "server": "handleMultiBlockChange",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet2Handshake;)V",
+    "client": "handleHandshake",
+    "server": "handleHandshake",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet51MapChunk;)V",
+    "client": "handleMapChunk",
+    "server": "handleMapChunk",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet255KickDisconnect;)V",
+    "client": "handleKickDisconnect",
+    "server": "handleKickDisconnect",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet5PlayerInventory;)V",
+    "client": "handlePlayerInventory",
+    "server": "handlePlayerInventory",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet20NamedEntitySpawn;)V",
+    "client": "handleNamedEntitySpawn",
+    "server": "handleNamedEntitySpawn",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet27Position;)V",
+    "client": "func_22185_a",
+    "server": "handleMovementTypePacket",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet70Bed;)V",
+    "client": "func_25118_a",
+    "server": "func_25001_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet1Login;)V",
+    "client": "handleLogin",
+    "server": "handleLogin",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet61DoorChange;)V",
+    "client": "func_28115_a",
+    "server": "func_28002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet30Entity;)V",
+    "client": "handleEntity",
+    "server": "handleEntity",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet103SetSlot;)V",
+    "client": "func_20088_a",
+    "server": "func_20003_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet50PreChunk;)V",
+    "client": "handlePreChunk",
+    "server": "handlePreChunk",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet22Collect;)V",
+    "client": "handleCollect",
+    "server": "handleCollect",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet16BlockItemSwitch;)V",
+    "client": "handleBlockItemSwitch",
+    "server": "handleBlockItemSwitch",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet29DestroyEntity;)V",
+    "client": "handleDestroyEntity",
+    "server": "handleDestroyEntity",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet17Sleep;)V",
+    "client": "func_22186_a",
+    "server": "func_22002_a",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "()Z",
+    "client": "isServerHandler",
+    "server": "isServerHandler",
+    "status": "abstract side policy"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet14BlockDig;)V",
+    "client": "handleBlockDig",
+    "server": "handleBlockDig",
+    "status": "body text equal"
+  },
+  {
+    "descriptor_named": "(Lnet/minecraft/src/Packet7UseEntity;)V",
+    "client": "handleUseEntity",
+    "server": "func_6006_a",
+    "status": "body text equal"
+  }
+]

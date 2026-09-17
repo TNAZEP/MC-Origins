@@ -5,9 +5,12 @@
 1. Read repository AGENTS instructions, `.plan/README.md`, CURRENT, NEXT, the active milestone and relevant accepted ADRs.
 2. Inspect repository status, pending changes, available references/toolchains and the last evidence. Do not assume a prior PASS still applies after source changes.
 3. Reconcile the handoff with actual files. Identify one bounded task tied to an acceptance criterion; record the session start and intended verification in CURRENT.
-4. If a required input is absent, name it precisely and continue any independent useful work. Avoid inventing source layouts or test results.
+4. When beginning a new alpha, beta or release, update OriginsVersion.VERSION to that version immediately and verify the shared display label follows `Minecraft: Origins VERSION` (see VERSIONING.md).
+5. If a required input is absent, name it precisely and continue any independent useful work. Avoid inventing source layouts or test results.
 
 ## Work
+
+Follow [ADR-0012](../decisions/0012-practical-verification.md): prioritize coherent implementation over expanding parity fixtures. Routine merges need relevant source review, both builds and affected runtime checks. Add focused tests for concrete risk; do not require original-jar byte comparisons for every class. Keep session evidence concise.
 
 Keep behavioral intent explicit. Read both Beta sides for shared logic changes; inspect only the needed modern subsystem for format/platform ideas. Use reproducible edits with narrow scope. Do not rewrite unrelated code to modern style. Add a regression scenario when fixing a substantive defect. Keep normal implementation decisions moving; record consequential architecture decisions in an ADR.
 

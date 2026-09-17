@@ -9,6 +9,10 @@ import java.util.Map;
 import java.util.Set;
 
 public class ChunkProviderServer implements IChunkProvider {
+	public String makeString() {
+		return "ServerChunkCache: " + this.id2ChunkMap.size() + " Drop: " + this.field_725_a.size();
+	}
+
 	private Set field_725_a = new HashSet();
 	private Chunk dummyChunk;
 	private IChunkProvider serverChunkGenerator;
@@ -31,8 +35,8 @@ public class ChunkProviderServer implements IChunkProvider {
 
 	public void func_374_c(int var1, int var2) {
 		ChunkCoordinates var3 = this.world.getSpawnPoint();
-		int var4 = var1 * 16 + 8 - var3.posX;
-		int var5 = var2 * 16 + 8 - var3.posZ;
+		int var4 = var1 * 16 + 8 - var3.x;
+		int var5 = var2 * 16 + 8 - var3.z;
 		short var6 = 128;
 		if(var4 < -var6 || var4 > var6 || var5 < -var6 || var5 > var6) {
 			this.field_725_a.add(Integer.valueOf(ChunkCoordIntPair.chunkXZ2Int(var1, var2)));
@@ -40,7 +44,7 @@ public class ChunkProviderServer implements IChunkProvider {
 
 	}
 
-	public Chunk loadChunk(int var1, int var2) {
+	public Chunk prepareChunk(int var1, int var2) {
 		int var3 = ChunkCoordIntPair.chunkXZ2Int(var1, var2);
 		this.field_725_a.remove(Integer.valueOf(var3));
 		Chunk var4 = (Chunk)this.id2ChunkMap.get(Integer.valueOf(var3));
@@ -57,7 +61,7 @@ public class ChunkProviderServer implements IChunkProvider {
 			this.id2ChunkMap.put(Integer.valueOf(var3), var4);
 			this.field_727_f.add(var4);
 			if(var4 != null) {
-				var4.func_4053_c();
+				var4.func_4143_d();
 				var4.onChunkLoad();
 			}
 
@@ -83,7 +87,7 @@ public class ChunkProviderServer implements IChunkProvider {
 
 	public Chunk provideChunk(int var1, int var2) {
 		Chunk var3 = (Chunk)this.id2ChunkMap.get(Integer.valueOf(ChunkCoordIntPair.chunkXZ2Int(var1, var2)));
-		return var3 == null ? (!this.world.worldChunkLoadOverride && !this.chunkLoadOverride ? this.dummyChunk : this.loadChunk(var1, var2)) : var3;
+		return var3 == null ? (!this.world.findingSpawnPoint && !this.chunkLoadOverride ? this.dummyChunk : this.prepareChunk(var1, var2)) : var3;
 	}
 
 	private Chunk func_4063_e(int var1, int var2) {
@@ -169,7 +173,7 @@ public class ChunkProviderServer implements IChunkProvider {
 		return true;
 	}
 
-	public boolean func_361_a() {
+	public boolean unload100OldestChunks() {
 		if(!this.world.levelSaving) {
 			for(int var1 = 0; var1 < 100; ++var1) {
 				if(!this.field_725_a.isEmpty()) {
@@ -185,14 +189,14 @@ public class ChunkProviderServer implements IChunkProvider {
 			}
 
 			if(this.field_729_d != null) {
-				this.field_729_d.func_661_a();
+				this.field_729_d.func_814_a();
 			}
 		}
 
-		return this.serverChunkGenerator.func_361_a();
+		return this.serverChunkGenerator.unload100OldestChunks();
 	}
 
-	public boolean func_364_b() {
+	public boolean canSave() {
 		return !this.world.levelSaving;
 	}
 }

@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "jar_sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d",
+  "template_sha256": "b80759d01581295e9250afe6eb8a40c3d64b9f271e5076a17baee7d7ba334ef5",
+  "input_template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+  "schedule_sha256": "e16ddd97159014ddc1eb48c6c8109345cdbd4397a38cc0fcf0d52e4ab588cb7c",
+  "harness_sha256": "12a63b08c341ac8afe12baa3d9fdfb08ca976ddb1aaa733d574d53eb989fbeae",
+  "driver_sha256": "ce5429da33c158b8da2c6a7ec877437766c389283eb4349b803130e87166edbf",
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "commands": [
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/javac",
+      "-d",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/123456789-reverse/repeat/classes",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/tools/BetaTerrainHarness.java"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-Xmx512M",
+      "-Djava.awt.headless=true",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/123456789-reverse/repeat/classes",
+      "BetaTerrainHarness",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+      "original",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/123456789-reverse/repeat",
+      "123456789",
+      "8675309",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/123456789-reverse/repeat/schedule.tsv",
+      "raw"
+    ]
+  ],
+  "seed": 123456789,
+  "spawn": [
+    32,
+    64,
+    -16
+  ],
+  "world_rng_seed": 8675309,
+  "ticks": 0,
+  "mode": "raw",
+  "order": "overworld then nether; explicit schedule.tsv",
+  "raw_reader_sha256": "6beeecf8301918addc6d6b87bd6c24605e474f3e110a2937c9b44887620ee575",
+  "requested_chunks_per_dimension": 75,
+  "chunks": 150,
+  "requests_sha256": "e4d18f05f0d972089107a5f222ff8a379dff57361c754dc01e94c6f3295e2a25"
+}

@@ -1,0 +1,133 @@
+Scenario directory: /home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/graphical-8735883597335566709
+16 achievements
+151 recipes
+Sep 17, 2026 3:10:28 PM net.java.games.input.DefaultControllerEnvironment getControllers
+INFO: Loading: net.java.games.input.LinuxEnvironmentPlugin
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event0): Failed to open device /dev/input/event0 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event1): Failed to open device /dev/input/event1 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event10): Failed to open device /dev/input/event10 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event11): Failed to open device /dev/input/event11 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event12): Failed to open device /dev/input/event12 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event13): Failed to open device /dev/input/event13 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event14): Failed to open device /dev/input/event14 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event15): Failed to open device /dev/input/event15 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event16): Failed to open device /dev/input/event16 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event17): Failed to open device /dev/input/event17 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event18): Failed to open device /dev/input/event18 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event19): Failed to open device /dev/input/event19 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event2): Failed to open device /dev/input/event2 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event20): Failed to open device /dev/input/event20 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event21): Failed to open device /dev/input/event21 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event22): Failed to open device /dev/input/event22 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event23): Failed to open device /dev/input/event23 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event24): Failed to open device /dev/input/event24 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event25): Failed to open device /dev/input/event25 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event3): Failed to open device /dev/input/event3 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event5): Failed to open device /dev/input/event5 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event6): Failed to open device /dev/input/event6 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event7): Failed to open device /dev/input/event7 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event8): Failed to open device /dev/input/event8 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Failed to open device (/dev/input/event9): Failed to open device /dev/input/event9 (13)
+
+
+Sep 17, 2026 3:10:28 PM net.java.games.input.ControllerEnvironment log
+INFO: Linux plugin claims to have found 1 controllers
+
+
+Starting up SoundSystem...
+Initializing LWJGL OpenAL
+    (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+OpenAL initialized.
+
+java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1925)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.net.URL.openStream(URL.java:1093)
+	at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:37)
+menu: Saved screenshot as 2026-09-17_15.10.29.png
+Movement: 23.5,70.5 -> 23.5,66.30496085192738; screen=null; paused=false
+local-play: Saved screenshot as 2026-09-17_15.10.39.png
+local-reloaded: Saved screenshot as 2026-09-17_15.10.41.png
+Connecting to 127.0.0.1, 41741
+multiplayer: Saved screenshot as 2026-09-17_15.10.46.png
+Connecting to 127.0.0.1, 41741
+multiplayer-reconnected: Saved screenshot as 2026-09-17_15.10.53.png
+PASS: graphical menu, local movement/controller block interaction, save/reload, dedicated connection and reconnect
+Stopping!
+
+SoundSystem shutting down...
+    Author: Paul Lamb, www.paulscode.com
+

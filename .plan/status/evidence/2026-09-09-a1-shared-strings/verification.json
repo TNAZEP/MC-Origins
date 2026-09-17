@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "artifact_sha256": {
+    "Minecraft.jar": "d65db859eb2e3d5ec1bdb4930a4f500eaf4c55fe77876e74b665a1b562052c4a",
+    "Minecraft-server.jar": "9d5d25ec3f3ceadb582e95f139cb54963544133a9101ebdbcd0d506820d59f1b"
+  },
+  "shared_class_sha256": "a826c18b2b95836a52c866d64de2731608669fdc1faac0b48adef1ad32d07e4b",
+  "shared_class_identical_in_both_jars": true,
+  "before_after_codec_reports_identical": true,
+  "reference_inventory_unchanged": true,
+  "working_files": 1212,
+  "reviewed_source_changes": 3,
+  "initial_import_verifier": "EXPECTED_DIFFERENCE: two delegates and new helper"
+}

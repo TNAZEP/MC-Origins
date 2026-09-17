@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "files": 220,
+  "index": "reference/source/beta-1.7.3/client/decompiled/game/assets/indexes/b1.7.json",
+  "index_sha256": "ece5e9881334b807ed2aafb03c57d744224733926d5818e5dd1809f4d4d07021",
+  "objects": "reference/source/beta-1.7.3/client/decompiled/game/assets/objects",
+  "destination": "/home/tnazep/My Stuff/Dev/MC-Origins/run/client/.minecraft/resources"
+}

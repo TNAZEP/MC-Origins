@@ -1,0 +1,78 @@
+Compiled from "SourceFile"
+public final class iq extends java.lang.Enum {
+  public static final iq a;
+    descriptor: Liq;
+  public static final iq b;
+    descriptor: Liq;
+  public static final iq c;
+    descriptor: Liq;
+  public static final iq d;
+    descriptor: Liq;
+  public static final iq e;
+    descriptor: Liq;
+  public static final iq f;
+    descriptor: Liq;
+  public static final iq g;
+    descriptor: Liq;
+  public static final iq h;
+    descriptor: Liq;
+  public static final iq i;
+    descriptor: Liq;
+  public static final iq j;
+    descriptor: Liq;
+  public static final iq k;
+    descriptor: Liq;
+  public static final iq l;
+    descriptor: Liq;
+  public static final iq m;
+    descriptor: Liq;
+  public static final iq n;
+    descriptor: Liq;
+  public static final iq o;
+    descriptor: Liq;
+  public static final iq p;
+    descriptor: Liq;
+  public static final iq q;
+    descriptor: Liq;
+  public static final iq r;
+    descriptor: Liq;
+  public static final iq s;
+    descriptor: Liq;
+  public static final iq t;
+    descriptor: Liq;
+  public static final iq u;
+    descriptor: Liq;
+  public static final iq v;
+    descriptor: Liq;
+  public static final iq w;
+    descriptor: Liq;
+  public static final iq x;
+    descriptor: Liq;
+  public static final iq y;
+    descriptor: Liq;
+  public static final int z;
+    descriptor: I
+  public final java.lang.String A;
+    descriptor: Ljava/lang/String;
+  public final int B;
+    descriptor: I
+  public final int C;
+    descriptor: I
+  public final int D;
+    descriptor: I
+  public final int E;
+    descriptor: I
+  private static final iq[] F;
+    descriptor: [Liq;
+  public static iq[] values();
+    descriptor: ()[Liq;
+
+  public static iq valueOf(java.lang.String);
+    descriptor: (Ljava/lang/String;)Liq;
+
+  private iq(java.lang.String, int, java.lang.String, int, int, int, int);
+    descriptor: (Ljava/lang/String;ILjava/lang/String;IIII)V
+
+  static {};
+    descriptor: ()V
+}

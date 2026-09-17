@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "jar_sha256": "49b44949dcb0d64a72664f4a9c543fe4b04026c1f52665403c95c9577ddcb221",
+  "command": [
+    "/usr/lib/jvm/java-8-openjdk/jre/bin/java",
+    "-Xmx512M",
+    "-Djava.awt.headless=true",
+    "-verbose:class",
+    "-jar",
+    "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+    "nogui"
+  ],
+  "runtime": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "working_directory": "/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/stack-data",
+  "bind_address": "127.0.0.1",
+  "port": 45093,
+  "seed": 8675309,
+  "ready": true,
+  "exit_code": 0,
+  "stop_logged": true,
+  "level_dat_exists": true,
+  "forbidden_loaded_classes": [],
+  "error": null,
+  "login_probe": {
+    "result": "PASS",
+    "protocol": 14,
+    "offline_challenge": "-",
+    "entity_id": 0,
+    "seed": 8675309,
+    "dimension": 0
+  },
+  "level_template_sha256": null,
+  "process_log_sha256": "ef37b5449d5ef16cb4460729f77d1bb88684ae3f8b0ec9bd2221715d6f07f5e2",
+  "limits": "Optional synthetic login only; no graphical client, player actions, worldgen, save-content or gameplay parity assertion."
+}

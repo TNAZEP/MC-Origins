@@ -1,0 +1,22 @@
+{
+  "raw_chunk_samples": 2700,
+  "climate_columns_per_field": 691200,
+  "observed_biomes": [
+    "seasonalForest",
+    "forest",
+    "savanna",
+    "shrubland",
+    "desert",
+    "plains",
+    "hell"
+  ],
+  "temperature_range": [
+    0.5178284793437942,
+    1.0
+  ],
+  "humidity_range": [
+    0.0,
+    0.8012852625835946
+  ],
+  "all_original_repeat_and_candidate_comparisons": "PASS"
+}

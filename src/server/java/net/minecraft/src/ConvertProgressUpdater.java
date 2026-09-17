@@ -11,7 +11,7 @@ public class ConvertProgressUpdater implements IProgressUpdate {
 		this.lastTimeMillis = System.currentTimeMillis();
 	}
 
-	public void func_438_a(String var1) {
+	public void func_594_b(String var1) {
 	}
 
 	public void setLoadingProgress(int var1) {

@@ -1,0 +1,30 @@
+{
+  "mapping_archive": "reference/tools/bin/retromcp-b1.7-resources-2026-09-08.zip",
+  "sha256": "b1903f261dca46e25feb50151102afd11807d446ac49c59dac7a995b497c92a9",
+  "namespaces": "tiny\t2\t0\tnamed\tclient\tserver",
+  "mapped_classes": 719,
+  "examples": {
+    "net/minecraft/src/World": [
+      "fd",
+      "dj"
+    ],
+    "net/minecraft/src/ItemStack": [
+      "iz",
+      "fy"
+    ],
+    "net/minecraft/src/Packet": [
+      "ki",
+      "gt"
+    ],
+    "net/minecraft/src/Entity": [
+      "sn",
+      "lq"
+    ]
+  },
+  "artifacts": {
+    "build/libs/Minecraft.jar": "b886aa24cc40e36e6c68bd30b3e38cd9da8a9d41004d1c5c9e9ea25a21896c58",
+    "build/libs/Minecraft-server.jar": "315c836c3c563713b1a5c0d5d8941b4af01b0f0c10d6a2239eca3b4f33c6c42a"
+  },
+  "evolution_sha256": "1f73a729a58c3749528dfbb69cbe88bb438f93f9a214c4e5b3d2ebe765a07b3d",
+  "import_sha256": "9198896a8a3aa9724d8c65c5116b6e57b737052803f6401aa4c919da1677e5d6"
+}

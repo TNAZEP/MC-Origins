@@ -1,0 +1,175 @@
+write-string-0	OK:2:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+read-string-0	OK:2:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7:remaining=0
+write-string-1	OK:16:ca389539a153fb5ee49ebf12a0a0a1cba11e6ddcc87c3759af1bb07ad37be43b
+read-string-1	OK:16:ca389539a153fb5ee49ebf12a0a0a1cba11e6ddcc87c3759af1bb07ad37be43b:remaining=0
+write-string-2	OK:14:1e6bc9ccb18d96492c9fdd6e9518b9bd70fe023eb29511d88959297f5ffc95c7
+read-string-2	OK:14:1e6bc9ccb18d96492c9fdd6e9518b9bd70fe023eb29511d88959297f5ffc95c7:remaining=0
+write-string-3	OK:4:c93b1203e799458cc92a0f32f1602cd77c4fd75d9f3d69aa1be1d9b75a3c09b0
+read-string-3	OK:4:c93b1203e799458cc92a0f32f1602cd77c4fd75d9f3d69aa1be1d9b75a3c09b0:remaining=0
+write-string-4	OK:4:c0df7a1a63fc0676e7c7824bac8bc785b5bcbeccc9b60fd23e898087c3789273
+read-string-4	OK:4:c0df7a1a63fc0676e7c7824bac8bc785b5bcbeccc9b60fd23e898087c3789273:remaining=0
+write-string-5	OK:66:20b6a5d8b3753e7dcdfb09118e2f0dbf7ed1a0dda18eb1e99ce572fd41745a5f
+read-string-5	OK:66:20b6a5d8b3753e7dcdfb09118e2f0dbf7ed1a0dda18eb1e99ce572fd41745a5f:remaining=0
+write-string-6	OK:68:b5d299cf76bea7370a9481138fd1453805f1b2f6f2c04d94ce9676a71ac9f49a
+read-string-6	OK:68:b5d299cf76bea7370a9481138fd1453805f1b2f6f2c04d94ce9676a71ac9f49a:remaining=0
+write-string-7	OK:202:85651fdea5433136dac7d7b5fa3fb5eb480da53b4fae4842df4f432cb87072f8
+read-string-7	OK:202:85651fdea5433136dac7d7b5fa3fb5eb480da53b4fae4842df4f432cb87072f8:remaining=0
+write-string-8	OK:204:27f2261d93dd83de4b3ce55fd438ba430e73298ef48003736933ef5141253adf
+read-string-8	OK:204:27f2261d93dd83de4b3ce55fd438ba430e73298ef48003736933ef5141253adf:remaining=0
+write-string-9	OK:240:8ec3cbe316c6b9416d8331d572db2ac1292fee6b43d618ce3d760e6a2519d4da
+read-string-9	OK:240:8ec3cbe316c6b9416d8331d572db2ac1292fee6b43d618ce3d760e6a2519d4da:remaining=0
+write-string-10	OK:242:b861ca029906f8392be87b4795ed5f838aa9fb47d74a1a75e10f09905cc01101
+read-string-10	OK:242:b861ca029906f8392be87b4795ed5f838aa9fb47d74a1a75e10f09905cc01101:remaining=0
+write-string-11	OK:65536:a019c9606b92162efe6d3fc41a17c778e66f642dcab5ec50055105187843332a
+read-string-11	OK:65536:a019c9606b92162efe6d3fc41a17c778e66f642dcab5ec50055105187843332a:remaining=0
+write-string-12	ERROR:java.io.IOException:String too big
+read-string-12	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+negative-length	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+over-limit	ERROR:java.io.IOException:Received string length longer than maximum allowed (33 > 32)
+negative-maximum	ERROR:java.io.IOException:Received string length longer than maximum allowed (0 > -1)
+truncated-string-0	ERROR:java.io.EOFException:null
+truncated-string-1	ERROR:java.io.EOFException:null
+truncated-string-2	ERROR:java.io.EOFException:null
+truncated-string-3	ERROR:java.io.EOFException:null
+truncated-string-4	ERROR:java.io.EOFException:null
+truncated-string-5	ERROR:java.io.EOFException:null
+construct-0-0	OK:1:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d:size=0
+packet-0-0-false	OK:id=0:size=0:wire=1:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d:remaining=0
+packet-0-0-true	OK:id=0:size=0:wire=1:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d:remaining=0
+construct-2-0	OK:3:070b13c004e9475fa155cd84d90de9f87db1b7dea6707329638a6ce66043d246:size=8
+packet-2-0-false	OK:id=2:size=8:wire=3:070b13c004e9475fa155cd84d90de9f87db1b7dea6707329638a6ce66043d246:remaining=0
+packet-2-0-true	OK:id=2:size=8:wire=3:070b13c004e9475fa155cd84d90de9f87db1b7dea6707329638a6ce66043d246:remaining=0
+construct-2-1	OK:17:fc6720de21cd46f5aaf06dbbc8653bfc9e1c0f6772db2d9c223a21ce3b9f3e47:size=15
+packet-2-1-false	OK:id=2:size=15:wire=17:fc6720de21cd46f5aaf06dbbc8653bfc9e1c0f6772db2d9c223a21ce3b9f3e47:remaining=0
+packet-2-1-true	OK:id=2:size=15:wire=17:fc6720de21cd46f5aaf06dbbc8653bfc9e1c0f6772db2d9c223a21ce3b9f3e47:remaining=0
+construct-2-2	OK:15:3d9470fb32bc6d523ab6d22a478a98bc2260e70b3c5347a3df2d02aa1b7d10fd:size=14
+packet-2-2-false	OK:id=2:size=14:wire=15:3d9470fb32bc6d523ab6d22a478a98bc2260e70b3c5347a3df2d02aa1b7d10fd:remaining=0
+packet-2-2-true	OK:id=2:size=14:wire=15:3d9470fb32bc6d523ab6d22a478a98bc2260e70b3c5347a3df2d02aa1b7d10fd:remaining=0
+construct-2-3	OK:5:dd20394e2647988e44370ee82e3ef8c59def2d3753440c9b2af89db0e3c46bad:size=9
+packet-2-3-false	OK:id=2:size=9:wire=5:dd20394e2647988e44370ee82e3ef8c59def2d3753440c9b2af89db0e3c46bad:remaining=0
+packet-2-3-true	OK:id=2:size=9:wire=5:dd20394e2647988e44370ee82e3ef8c59def2d3753440c9b2af89db0e3c46bad:remaining=0
+construct-2-4	OK:5:9dce446b63c2272f2804f803a5720c4b1272b466724d99af420ef7b6edf1e4c6:size=9
+packet-2-4-false	OK:id=2:size=9:wire=5:9dce446b63c2272f2804f803a5720c4b1272b466724d99af420ef7b6edf1e4c6:remaining=0
+packet-2-4-true	OK:id=2:size=9:wire=5:9dce446b63c2272f2804f803a5720c4b1272b466724d99af420ef7b6edf1e4c6:remaining=0
+construct-2-5	OK:67:c16ab3fbb1e3ccd19bb0f2168ff197e738b538a9a3e93e94e5856de1cd864c2e:size=40
+packet-2-5-false	OK:id=2:size=40:wire=67:c16ab3fbb1e3ccd19bb0f2168ff197e738b538a9a3e93e94e5856de1cd864c2e:remaining=0
+packet-2-5-true	OK:id=2:size=40:wire=67:c16ab3fbb1e3ccd19bb0f2168ff197e738b538a9a3e93e94e5856de1cd864c2e:remaining=0
+construct-2-6	OK:69:f9020438e0417cc01ea5814eb6f761182844e8f20532f5f493b44c5248692506:size=41
+packet-2-6-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (33 > 32)
+packet-2-6-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (33 > 32)
+construct-2-7	OK:203:ac0031d84ad7020a236f0dffc66038d10249fcc36fbe804ff807f675634056eb:size=108
+packet-2-7-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (100 > 32)
+packet-2-7-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (100 > 32)
+construct-2-8	OK:205:8e06d007b6e18068e985cd899d13c7fd5582c5fc52af1e8ea7c4a0cb8841d4ab:size=109
+packet-2-8-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (101 > 32)
+packet-2-8-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (101 > 32)
+construct-2-9	OK:241:f97c2f36565e466b5057cb37b5f96a89b8de08305baf0d54be5fed2b55c93925:size=127
+packet-2-9-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (119 > 32)
+packet-2-9-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (119 > 32)
+construct-2-10	OK:243:5845e0da606c7d063a07934ec46213647e6439a996179fc52fe898c2852a54cf:size=128
+packet-2-10-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 32)
+packet-2-10-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 32)
+construct-2-11	OK:65537:d76dd758a98c72bc370d2c42560ee4c7360ab44ae65d4cb4f612c5cb41ef7318:size=32775
+packet-2-11-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 32)
+packet-2-11-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 32)
+construct-2-12	ERROR:java.io.IOException:String too big
+packet-2-12-false	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+packet-2-12-true	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+construct-3-0	OK:3:3e4479e6b5a0a3bed1440325ca4bb09327a1dfb39c28bdd59de53a687ade0105:size=0
+packet-3-0-false	OK:id=3:size=0:wire=3:3e4479e6b5a0a3bed1440325ca4bb09327a1dfb39c28bdd59de53a687ade0105:remaining=0
+packet-3-0-true	OK:id=3:size=0:wire=3:3e4479e6b5a0a3bed1440325ca4bb09327a1dfb39c28bdd59de53a687ade0105:remaining=0
+construct-3-1	OK:17:fb2512e37c42a875029dd749d71224bbf630c5c69578fcb4cf8182cd2455094c:size=7
+packet-3-1-false	OK:id=3:size=7:wire=17:fb2512e37c42a875029dd749d71224bbf630c5c69578fcb4cf8182cd2455094c:remaining=0
+packet-3-1-true	OK:id=3:size=7:wire=17:fb2512e37c42a875029dd749d71224bbf630c5c69578fcb4cf8182cd2455094c:remaining=0
+construct-3-2	OK:15:ef1a32f7c3065920b728900f4334d2dfba17f205a822cbc93fbd3f1690de6a25:size=6
+packet-3-2-false	OK:id=3:size=6:wire=15:ef1a32f7c3065920b728900f4334d2dfba17f205a822cbc93fbd3f1690de6a25:remaining=0
+packet-3-2-true	OK:id=3:size=6:wire=15:ef1a32f7c3065920b728900f4334d2dfba17f205a822cbc93fbd3f1690de6a25:remaining=0
+construct-3-3	OK:5:3305b7751a8527be1410a3477d61b488842223758e2883f0d58d48c24fb944d3:size=1
+packet-3-3-false	OK:id=3:size=1:wire=5:3305b7751a8527be1410a3477d61b488842223758e2883f0d58d48c24fb944d3:remaining=0
+packet-3-3-true	OK:id=3:size=1:wire=5:3305b7751a8527be1410a3477d61b488842223758e2883f0d58d48c24fb944d3:remaining=0
+construct-3-4	OK:5:27a6aeae0f4754f1ae3324a6d17d87badbf15b6b28e55fc25dcd1be74f1007d8:size=1
+packet-3-4-false	OK:id=3:size=1:wire=5:27a6aeae0f4754f1ae3324a6d17d87badbf15b6b28e55fc25dcd1be74f1007d8:remaining=0
+packet-3-4-true	OK:id=3:size=1:wire=5:27a6aeae0f4754f1ae3324a6d17d87badbf15b6b28e55fc25dcd1be74f1007d8:remaining=0
+construct-3-5	OK:67:263f03854e024daf943ff758bf48df09fb1d6de8c291ca0eb6e4e358fb99be8f:size=32
+packet-3-5-false	OK:id=3:size=32:wire=67:263f03854e024daf943ff758bf48df09fb1d6de8c291ca0eb6e4e358fb99be8f:remaining=0
+packet-3-5-true	OK:id=3:size=32:wire=67:263f03854e024daf943ff758bf48df09fb1d6de8c291ca0eb6e4e358fb99be8f:remaining=0
+construct-3-6	OK:69:29414ec6fad49c21e4ced6a518e332441269ffd95ad45297d3d5bbbf6c26a383:size=33
+packet-3-6-false	OK:id=3:size=33:wire=69:29414ec6fad49c21e4ced6a518e332441269ffd95ad45297d3d5bbbf6c26a383:remaining=0
+packet-3-6-true	OK:id=3:size=33:wire=69:29414ec6fad49c21e4ced6a518e332441269ffd95ad45297d3d5bbbf6c26a383:remaining=0
+construct-3-7	OK:203:a09f6eee77a2ae7a2e403a22c58fe4540f39b6566bbff2babe770946a1d31252:size=100
+packet-3-7-false	OK:id=3:size=100:wire=203:a09f6eee77a2ae7a2e403a22c58fe4540f39b6566bbff2babe770946a1d31252:remaining=0
+packet-3-7-true	OK:id=3:size=100:wire=203:a09f6eee77a2ae7a2e403a22c58fe4540f39b6566bbff2babe770946a1d31252:remaining=0
+construct-3-8	OK:205:537534362b3844eaa9093005bbafd89fd95be0bb65f6e3eadc58dd6236454f49:size=101
+packet-3-8-false	OK:id=3:size=101:wire=205:537534362b3844eaa9093005bbafd89fd95be0bb65f6e3eadc58dd6236454f49:remaining=0
+packet-3-8-true	OK:id=3:size=101:wire=205:537534362b3844eaa9093005bbafd89fd95be0bb65f6e3eadc58dd6236454f49:remaining=0
+construct-3-9	OK:241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:size=119
+packet-3-9-false	OK:id=3:size=119:wire=241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:remaining=0
+packet-3-9-true	OK:id=3:size=119:wire=241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:remaining=0
+construct-3-10	OK:241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:size=119
+packet-3-10-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 119)
+packet-3-10-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 119)
+construct-3-11	OK:241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:size=119
+packet-3-11-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 119)
+packet-3-11-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 119)
+construct-3-12	OK:241:3f61caaee7c9906d8e295dcd7fc128b447767f8445ef9e2e81746d9a07d11334:size=119
+packet-3-12-false	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+packet-3-12-true	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+construct-255-0	OK:3:7fa54a42524916a1648ec76ce75d295024840b7a3a4f4bbaf3e43155d0014767:size=0
+packet-255-0-false	OK:id=255:size=0:wire=3:7fa54a42524916a1648ec76ce75d295024840b7a3a4f4bbaf3e43155d0014767:remaining=0
+packet-255-0-true	OK:id=255:size=0:wire=3:7fa54a42524916a1648ec76ce75d295024840b7a3a4f4bbaf3e43155d0014767:remaining=0
+construct-255-1	OK:17:8f8eca8bb0b0cfcd5642d07bea6eaf4ffd8a1490e4538c76831df295152ea5d5:size=7
+packet-255-1-false	OK:id=255:size=7:wire=17:8f8eca8bb0b0cfcd5642d07bea6eaf4ffd8a1490e4538c76831df295152ea5d5:remaining=0
+packet-255-1-true	OK:id=255:size=7:wire=17:8f8eca8bb0b0cfcd5642d07bea6eaf4ffd8a1490e4538c76831df295152ea5d5:remaining=0
+construct-255-2	OK:15:c26de75d55c83f70abd7c920f6c6ec6feb852912e609efffa42470710ad9904b:size=6
+packet-255-2-false	OK:id=255:size=6:wire=15:c26de75d55c83f70abd7c920f6c6ec6feb852912e609efffa42470710ad9904b:remaining=0
+packet-255-2-true	OK:id=255:size=6:wire=15:c26de75d55c83f70abd7c920f6c6ec6feb852912e609efffa42470710ad9904b:remaining=0
+construct-255-3	OK:5:15c13f2d64fa84942a9914ad3505ed8248c5de094c64a9dd1f30e96089e1d2d3:size=1
+packet-255-3-false	OK:id=255:size=1:wire=5:15c13f2d64fa84942a9914ad3505ed8248c5de094c64a9dd1f30e96089e1d2d3:remaining=0
+packet-255-3-true	OK:id=255:size=1:wire=5:15c13f2d64fa84942a9914ad3505ed8248c5de094c64a9dd1f30e96089e1d2d3:remaining=0
+construct-255-4	OK:5:b9307f52cb4d496b4f4f282ad0491e2fb91c08c9b04a06cf5ea5d3a854fab284:size=1
+packet-255-4-false	OK:id=255:size=1:wire=5:b9307f52cb4d496b4f4f282ad0491e2fb91c08c9b04a06cf5ea5d3a854fab284:remaining=0
+packet-255-4-true	OK:id=255:size=1:wire=5:b9307f52cb4d496b4f4f282ad0491e2fb91c08c9b04a06cf5ea5d3a854fab284:remaining=0
+construct-255-5	OK:67:92747edcea00a0d5b786119b85757c5c93a928fa1da4b8ab4363c78751a76f27:size=32
+packet-255-5-false	OK:id=255:size=32:wire=67:92747edcea00a0d5b786119b85757c5c93a928fa1da4b8ab4363c78751a76f27:remaining=0
+packet-255-5-true	OK:id=255:size=32:wire=67:92747edcea00a0d5b786119b85757c5c93a928fa1da4b8ab4363c78751a76f27:remaining=0
+construct-255-6	OK:69:c155fdf48751872669998c0b79b7137cbe66a68f15a86077ed0783c6c69c1682:size=33
+packet-255-6-false	OK:id=255:size=33:wire=69:c155fdf48751872669998c0b79b7137cbe66a68f15a86077ed0783c6c69c1682:remaining=0
+packet-255-6-true	OK:id=255:size=33:wire=69:c155fdf48751872669998c0b79b7137cbe66a68f15a86077ed0783c6c69c1682:remaining=0
+construct-255-7	OK:203:506adbf67653370a2a173e005a8de36a39bbb117df870d59fd009c65a0d7de96:size=100
+packet-255-7-false	OK:id=255:size=100:wire=203:506adbf67653370a2a173e005a8de36a39bbb117df870d59fd009c65a0d7de96:remaining=0
+packet-255-7-true	OK:id=255:size=100:wire=203:506adbf67653370a2a173e005a8de36a39bbb117df870d59fd009c65a0d7de96:remaining=0
+construct-255-8	OK:205:287235a5e9d2c867f1716e2f7e7114fc9c937ab796b7d3e6f4cac8fe667149e5:size=101
+packet-255-8-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (101 > 100)
+packet-255-8-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (101 > 100)
+construct-255-9	OK:241:74dde432e52dfdb343d9214b13722696481b806408859d5c6c308b94145333fe:size=119
+packet-255-9-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (119 > 100)
+packet-255-9-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (119 > 100)
+construct-255-10	OK:243:152edaa9176411300403486aee45036c2454d676afb756e144130ab0dd3b8014:size=120
+packet-255-10-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 100)
+packet-255-10-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (120 > 100)
+construct-255-11	OK:65537:18c7addbf69aed5535fc3b83bee480e8142e3bd292fab86590bc75e0f3dd3538:size=32767
+packet-255-11-false	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 100)
+packet-255-11-true	ERROR:java.io.IOException:Received string length longer than maximum allowed (32767 > 100)
+construct-255-12	ERROR:java.io.IOException:String too big
+packet-255-12-false	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+packet-255-12-true	ERROR:java.io.IOException:Received string length is less than zero! Weird string!
+empty-false	OK:null:remaining=0
+unknown-id-false	ERROR:java.io.IOException:Bad packet id 254
+direction-4-false	OK:id=4:size=8:wire=9:93e60f669b99ad3e3ee6284b139e57adfb419960f390858e46ea565bbf82d001:remaining=1
+direction-7-false	ERROR:java.io.IOException:Bad packet id 7
+truncated-packet-1-false	OK:null:remaining=0
+truncated-packet-2-false	OK:null:remaining=0
+truncated-packet-3-false	OK:null:remaining=0
+truncated-packet-4-false	OK:null:remaining=0
+truncated-packet-5-false	OK:null:remaining=0
+truncated-packet-6-false	OK:null:remaining=0
+empty-true	OK:null:remaining=0
+unknown-id-true	ERROR:java.io.IOException:Bad packet id 254
+direction-4-true	ERROR:java.io.IOException:Bad packet id 4
+direction-7-true	OK:id=7:size=9:wire=10:960469fe52008c3bcd16dbb2b6a327608d71734e55476b988176b257d682988f:remaining=0
+truncated-packet-1-true	OK:null:remaining=0
+truncated-packet-2-true	OK:null:remaining=0
+truncated-packet-3-true	OK:null:remaining=0
+truncated-packet-4-true	OK:null:remaining=0
+truncated-packet-5-true	OK:null:remaining=0
+truncated-packet-6-true	OK:null:remaining=0

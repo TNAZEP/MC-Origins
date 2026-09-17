@@ -1,0 +1,11 @@
+{
+  "field_20176_t": "field_20101_t",
+  "field_28141_d": "field_28145_d",
+  "field_28140_e": "field_28144_e",
+  "field_20175_w": "field_20100_w",
+  "func_28138_a": "wakeThreads",
+  "func_28136_f": "func_28140_f",
+  "func_28135_e": "func_28138_e",
+  "func_30007_a": "func_30005_a",
+  "ThreadMonitorConnection": "ThreadCloseConnection"
+}

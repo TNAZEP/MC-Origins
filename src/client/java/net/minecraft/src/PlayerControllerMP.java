@@ -30,7 +30,7 @@ public class PlayerControllerMP extends PlayerController {
 		if(var7 != null) {
 			var7.onDestroyBlock(var5, var1, var2, var3, this.mc.thePlayer);
 			if(var7.stackSize == 0) {
-				var7.func_1097_a(this.mc.thePlayer);
+				var7.onItemDestroyed(this.mc.thePlayer);
 				this.mc.thePlayer.destroyCurrentEquippedItem();
 			}
 		}

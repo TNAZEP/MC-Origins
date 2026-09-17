@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 0,
+    "order": "xz",
+    "saved": 144,
+    "populated": 96
+  },
+  {
+    "seed": 0,
+    "order": "reverse",
+    "saved": 138,
+    "populated": 96
+  },
+  {
+    "seed": 0,
+    "order": "spiral",
+    "saved": 142,
+    "populated": 96
+  },
+  {
+    "seed": 1,
+    "order": "xz",
+    "saved": 143,
+    "populated": 96
+  },
+  {
+    "seed": 1,
+    "order": "reverse",
+    "saved": 147,
+    "populated": 96
+  },
+  {
+    "seed": 1,
+    "order": "spiral",
+    "saved": 145,
+    "populated": 96
+  },
+  {
+    "seed": -1,
+    "order": "xz",
+    "saved": 144,
+    "populated": 96
+  },
+  {
+    "seed": -1,
+    "order": "reverse",
+    "saved": 149,
+    "populated": 96
+  },
+  {
+    "seed": -1,
+    "order": "spiral",
+    "saved": 146,
+    "populated": 96
+  },
+  {
+    "seed": 123456789,
+    "order": "xz",
+    "saved": 146,
+    "populated": 96
+  },
+  {
+    "seed": 123456789,
+    "order": "reverse",
+    "saved": 147,
+    "populated": 96
+  },
+  {
+    "seed": 123456789,
+    "order": "spiral",
+    "saved": 144,
+    "populated": 96
+  },
+  {
+    "seed": -9223372036854775808,
+    "order": "xz",
+    "saved": 144,
+    "populated": 96
+  },
+  {
+    "seed": -9223372036854775808,
+    "order": "reverse",
+    "saved": 138,
+    "populated": 96
+  },
+  {
+    "seed": -9223372036854775808,
+    "order": "spiral",
+    "saved": 142,
+    "populated": 96
+  },
+  {
+    "seed": 9223372036854775807,
+    "order": "xz",
+    "saved": 144,
+    "populated": 96
+  },
+  {
+    "seed": 9223372036854775807,
+    "order": "reverse",
+    "saved": 149,
+    "populated": 96
+  },
+  {
+    "seed": 9223372036854775807,
+    "order": "spiral",
+    "saved": 146,
+    "populated": 96
+  }
+]

@@ -2,12 +2,13 @@
 
 Modernize Minecraft Beta 1.7.3's engine while preserving its gameplay and appearance.
 
-The editable game code is under [src/](src/README.md): client and dedicated-server sources/resources are imported, with a shared source root reserved for the a1 reconciliation. The initial import is byte-preserving; source unification, build configuration and runtime verification are still in progress.
+The editable game code is under [src/](src/README.md). The pinned build compiles both Beta sides and produces client/server jars. Headless dedicated-server startup/shutdown is verified; shared-source reconciliation, client play and multiplayer parity remain in progress.
 
 - [Working source layout and provenance](src/README.md)
+- [Build and launch instructions](BUILDING.md)
 - [Current implementation status](.plan/status/CURRENT.md)
 - [Next tasks](.plan/status/NEXT.md)
 - [Architecture and development plan](.plan/README.md)
 - [Immutable reference material](reference/README.md)
 
-Edit working files in `src/`; keep `reference/` unchanged. No game build or launch command is available yet.
+Edit working files in `src/`; keep `reference/` unchanged. Start with `./gradlew clean build` using a Gradle-compatible JDK plus a Java 8 toolchain; see BUILDING.md for requirements and verification limits.

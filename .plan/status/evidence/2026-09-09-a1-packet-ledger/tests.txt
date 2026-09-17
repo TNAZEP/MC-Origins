@@ -1,0 +1,21 @@
+test_bad_requests_rejected (test_capture_beta_terrain.CaptureTests.test_bad_requests_rejected) ... ok
+test_orders_cover_same_boundaries_without_duplicates (test_capture_beta_terrain.CaptureTests.test_orders_cover_same_boundaries_without_duplicates) ... ok
+test_seed_patch_changes_only_target_payload (test_capture_beta_terrain.CaptureTests.test_seed_patch_changes_only_target_payload) ... ok
+test_corrupt_regions_rejected (test_compare_beta_terrain.TerrainTests.test_corrupt_regions_rejected) ... ok
+test_missing_chunk_or_spawn_difference_is_not_a_pass (test_compare_beta_terrain.TerrainTests.test_missing_chunk_or_spawn_difference_is_not_a_pass) ... ok
+test_negative_coordinates_and_compression_variants (test_compare_beta_terrain.TerrainTests.test_negative_coordinates_and_compression_variants) ... ok
+test_one_block_mutation_is_detected (test_compare_beta_terrain.TerrainTests.test_one_block_mutation_is_detected) ... ok
+test_truncation_duplicate_keys_and_bad_array_length_rejected (test_compare_beta_terrain.TerrainTests.test_truncation_duplicate_keys_and_bad_array_length_rejected) ... ok
+test_method_boundaries_include_nested_blocks (test_inventory_beta_packets.PacketInventoryTests.test_method_boundaries_include_nested_blocks) ... ok
+test_normalization_preserves_strings_operators_and_values (test_inventory_beta_packets.PacketInventoryTests.test_normalization_preserves_strings_operators_and_values) ... ok
+test_correspondence_does_not_infer_equivalence (test_inventory_references.InventoryTests.test_correspondence_does_not_infer_equivalence) ... ok
+test_missing_tree_has_no_files (test_inventory_references.InventoryTests.test_missing_tree_has_no_files) ... ok
+test_tree_tracks_content_and_paths (test_inventory_references.InventoryTests.test_tree_tracks_content_and_paths) ... ok
+test_block_biome_and_single_climate_bit_changes_are_detected (test_read_beta_raw.RawTests.test_block_biome_and_single_climate_bit_changes_are_detected) ... ok
+test_corruption_rejected (test_read_beta_raw.RawTests.test_corruption_rejected) ... ok
+test_negative_coordinates_and_both_dimensions (test_read_beta_raw.RawTests.test_negative_coordinates_and_both_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.005s
+
+OK

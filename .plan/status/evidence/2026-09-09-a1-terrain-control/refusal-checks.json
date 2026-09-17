@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/capture_beta_terrain.py",
+      "--java-home",
+      "/usr/lib/jvm/java-8-openjdk",
+      "--level-template",
+      "reference/fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+      "--jar",
+      "build/libs/Minecraft-server.jar",
+      "--namespace",
+      "original",
+      "--output",
+      "run/terrain-control/refusal-must-not-exist"
+    ],
+    "returncode": 2,
+    "stderr": "usage: capture_beta_terrain.py [-h] --java-home JAVA_HOME --jar JAR\n                               --namespace {original,named}\n                               --level-template LEVEL_TEMPLATE\n                               [--rng-seed RNG_SEED] --output OUTPUT\ncapture_beta_terrain.py: error: Original adapter is qualified only for the recorded Beta server SHA-256\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/capture_beta_terrain.py",
+      "--java-home",
+      "/usr/lib/jvm/java-8-openjdk",
+      "--level-template",
+      "reference/fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+      "--jar",
+      "build/libs/Minecraft-server.jar",
+      "--namespace",
+      "named",
+      "--output",
+      "run/terrain-control/original-1"
+    ],
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/home/tnazep/My Stuff/Dev/MC-Origins/tools/capture_beta_terrain.py\", line 65, in <module>\n    main()\n    ~~~~^^\n  File \"/home/tnazep/My Stuff/Dev/MC-Origins/tools/capture_beta_terrain.py\", line 36, in main\n    output.mkdir(parents=True, exist_ok=False)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 1011, in mkdir\n    os.mkdir(self, mode)\n    ~~~~~~~~^^^^^^^^^^^^\nFileExistsError: [Errno 17] File exists: '/home/tnazep/My Stuff/Dev/MC-Origins/run/terrain-control/original-1'\n"
+  }
+]

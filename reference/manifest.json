@@ -83,8 +83,11 @@
       "output_tree_sha256": null,
       "fix_patch_paths": [],
       "baseline_launch": {
-        "result": "NOT RUN",
-        "evidence": null
+        "result": "PASS",
+        "scope": "Headless loopback startup, console stop, exit 0, save presence only; no player/MP/worldgen parity check",
+        "evidence": "../.plan/status/evidence/2026-09-08-a1-build/original-result.json",
+        "runtime": "OpenJDK 1.8.0_504-b01",
+        "recorded_at": "2026-09-09"
       },
       "source_directory": "source/beta-1.7.3/server",
       "purpose": "Behavioral baseline",
@@ -371,5 +374,112 @@
       }
     }
   ],
-  "fixtures": []
+  "fixtures": [
+    {
+      "id": "beta-server-startup-seed-8675309-diagnostic",
+      "status": "diagnostic_not_golden",
+      "seed": 8675309,
+      "level_template": "fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+      "level_template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+      "source": "Original Beta server startup smoke level.dat, copied without modification",
+      "evidence": "../.plan/status/evidence/2026-09-09-a1-terrain/README.md",
+      "result": "FAIL",
+      "reason": "Same-metadata original repeat differs in saved Overworld lava-related state; further RNG/tick control required"
+    },
+    {
+      "id": "beta-server-controlled-seed-8675309-xz-v1",
+      "status": "qualified_bounded_server_terrain",
+      "result": "PASS",
+      "seed": 8675309,
+      "world_rng_seed": 8675309,
+      "ticks": 0,
+      "level_template": "fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+      "level_template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+      "order": "overworld then nether; x outer/z inner; offsets -196..196 step16 around spawn; lighting drained per request",
+      "saved_chunks": 1248,
+      "format": "origins-beta-saved-terrain-v1",
+      "evidence": "../.plan/status/evidence/2026-09-09-a1-terrain-control/README.md",
+      "limits": "One seed/order and tick-free server adapter; not full worldgen, gameplay or persistence parity"
+    },
+    {
+      "id": "beta-server-saved-terrain-matrix-v1",
+      "status": "qualified_bounded_server_terrain",
+      "result": "PASS",
+      "seeds": [
+        0,
+        1,
+        -1,
+        123456789,
+        -9223372036854775808,
+        9223372036854775807
+      ],
+      "orders": [
+        "xz",
+        "reverse",
+        "spiral"
+      ],
+      "neighborhood_centers": [
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "radius_chunks": 2,
+      "world_rng_seed": 8675309,
+      "ticks": 0,
+      "cases": 18,
+      "captures": 54,
+      "format": "origins-beta-saved-terrain-v1",
+      "evidence": "../.plan/status/evidence/2026-09-09-a1-terrain-matrix/README.md",
+      "limits": "Saved post-request server terrain only; raw pre-population, biome/climate, SP and full gameplay gates pending"
+    },
+    {
+      "id": "beta-server-raw-terrain-climate-v1",
+      "status": "qualified_bounded_server_terrain",
+      "result": "PASS",
+      "seeds": [
+        0,
+        1,
+        -1,
+        123456789,
+        -9223372036854775808,
+        9223372036854775807
+      ],
+      "orders": [
+        "xz",
+        "reverse",
+        "spiral"
+      ],
+      "neighborhood_centers": [
+        [
+          -32,
+          -32
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "radius_chunks": 2,
+      "world_rng_seed": 8675309,
+      "ticks": 0,
+      "cases": 18,
+      "captures": 54,
+      "format": "origins-beta-raw-terrain-v1",
+      "evidence": "../.plan/status/evidence/2026-09-09-a1-raw-terrain/README.md",
+      "limits": "Raw server generation and explicit biome/climate query; SP, active simulation, far-distance cases and full gameplay remain pending"
+    }
+  ]
 }

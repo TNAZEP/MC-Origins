@@ -6,7 +6,7 @@ a1 may retain a named legacy game compilation/runtime toolchain while source uni
 
 ## Target build task contract
 
-These names are planned interfaces, not commands that already exist. Record actual implemented commands in status.
+The table describes the target interfaces. The 2026-09-08 a1 build now implements build/test (test has no sources), runClient/runServer, and buildMinecraftJar/buildServerJar. See [BUILDING.md](../BUILDING.md) for bootstrap requirements, Linux-only client native configuration and remaining runtime gates. Patch, Prism and integrationTest tasks are not implemented yet.
 
 | Proposed task | Outcome |
 |---|---|

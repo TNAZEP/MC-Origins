@@ -1,0 +1,124 @@
+plugins { id 'java' }
+
+group = 'org.minecraftorigins'
+version = '1.0a1-dev'
+
+// a1 bootstrap only. Java 25/LWJGL 3 migration remains an a2 requirement.
+java { toolchain { languageVersion = JavaLanguageVersion.of(8) } }
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                url = uri('https://mcphackers.github.io/libraries/')
+                metadataSources { artifact() }
+            }
+        }
+        filter { includeModule 'com.paulscode', 'codecjorbis' }
+    }
+    maven {
+        url = uri('https://libraries.minecraft.net/')
+        metadataSources { artifact() }
+        content {
+            includeGroup 'org.lwjgl.lwjgl'
+            includeGroup 'net.java.jinput'
+            includeGroup 'net.java.jutils'
+            includeGroup 'com.paulscode'
+        }
+    }
+}
+sourceSets {
+    client {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+    server {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+configurations {
+    clientImplementation.extendsFrom implementation
+    serverImplementation.extendsFrom implementation
+    clientNatives
+}
+dependencyLocking { lockAllConfigurations() }
+dependencies {
+    clientImplementation 'org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209'
+    clientImplementation 'org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209'
+    clientImplementation 'net.java.jinput:jinput:2.0.5'
+    clientImplementation 'net.java.jutils:jutils:1.0.0'
+    clientImplementation 'com.paulscode:codecjorbis:20230120'
+    clientImplementation 'com.paulscode:codecwav:20101023'
+    clientImplementation 'com.paulscode:libraryjavasound:20101123'
+    clientImplementation 'com.paulscode:librarylwjglopenal:20100824'
+    clientImplementation 'com.paulscode:soundsystem:20120107'
+    clientNatives 'org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209:natives-linux'
+    clientNatives 'net.java.jinput:jinput-platform:2.0.5:natives-linux'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(ProcessResources).configureEach { exclude '**/.gitkeep' }
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+tasks.named('jar') { enabled = false } // Do not advertise an empty shared game jar.
+tasks.register('buildMinecraftJar', Jar) {
+    archiveFileName = 'Minecraft.jar'
+    from sourceSets.main.output, sourceSets.client.output
+    manifest { attributes 'Main-Class': 'net.minecraft.client.Minecraft' }
+}
+tasks.register('buildServerJar', Jar) {
+    archiveFileName = 'Minecraft-server.jar'
+    from sourceSets.main.output, sourceSets.server.output
+    manifest { attributes 'Main-Class': 'net.minecraft.server.MinecraftServer' }
+}
+tasks.named('assemble') { dependsOn 'buildMinecraftJar', 'buildServerJar' }
+tasks.register('reportBuildEnvironment') {
+    group = 'help'
+    description = 'Print the selected a1 Java toolchain and side dependency boundaries.'
+    doLast {
+        def metadata = javaToolchains.compilerFor(java.toolchain).get().metadata
+        println "Gradle JVM: ${System.getProperty('java.runtime.version')}"
+        println "Game toolchain: ${metadata.javaRuntimeVersion} (${metadata.vendor}) at ${metadata.installationPath}"
+        println "Client libraries: ${configurations.clientRuntimeClasspath.files*.name.sort()}"
+        println "Server libraries: ${configurations.serverRuntimeClasspath.files*.name.sort()}"
+        println "Shared Java files: ${sourceSets.main.allJava.files.size()} (zero until reviewed source merge)"
+    }
+}
+tasks.register('prepareClientNatives', Sync) {
+    from { configurations.clientNatives.collect { zipTree(it) } }
+    exclude 'META-INF/**'
+    into layout.buildDirectory.dir('natives/linux')
+}
+tasks.register('copyClientLibraries', Sync) {
+    from configurations.clientRuntimeClasspath
+    into layout.buildDirectory.dir('client-libraries')
+}
+tasks.register('runServer', JavaExec) {
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(8) }
+    classpath = sourceSets.server.runtimeClasspath
+    mainClass = 'net.minecraft.server.MinecraftServer'
+    args 'nogui'
+    workingDir = file('run/server')
+    standardInput = System.in
+    doFirst { workingDir.mkdirs() }
+}
+tasks.register('runClient', JavaExec) {
+    dependsOn 'prepareClientNatives'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(8) }
+    classpath = sourceSets.client.runtimeClasspath
+    mainClass = 'net.minecraft.client.Minecraft'
+    args 'Player', '-'
+    workingDir = file('run/client')
+    // Beta resolves saves through user.home rather than the process working directory.
+    systemProperty 'user.home', file('run/client').absolutePath
+    systemProperty 'org.lwjgl.librarypath', layout.buildDirectory.dir('natives/linux').get().asFile.absolutePath
+    systemProperty 'java.library.path', layout.buildDirectory.dir('natives/linux').get().asFile.absolutePath
+    doFirst {
+        if (!System.getProperty('os.name').toLowerCase().contains('linux') ||
+                !(System.getProperty('os.arch') in ['amd64', 'x86_64'])) {
+            throw new GradleException('runClient currently configures Linux x86_64 natives only.')
+        }
+        workingDir.mkdirs()
+    }
+}

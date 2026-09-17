@@ -12,7 +12,7 @@ public class WorldServer extends World {
 	private MCHash field_20912_E = new MCHash();
 
 	public WorldServer(MinecraftServer var1, ISaveHandler var2, String var3, int var4, long var5) {
-		super(var2, var3, var5, WorldProvider.func_4091_a(var4));
+		super(var2, var3, var5, WorldProvider.getProviderForDimension(var4));
 		this.mcServer = var1;
 	}
 
@@ -32,7 +32,7 @@ public class WorldServer extends World {
 	}
 
 	protected IChunkProvider getChunkProvider() {
-		IChunkLoader var1 = this.worldFile.func_22092_a(this.worldProvider);
+		IChunkLoader var1 = this.saveHandler.getChunkLoader(this.worldProvider);
 		this.chunkProviderServer = new ChunkProviderServer(this, var1, this.worldProvider.getChunkProvider());
 		return this.chunkProviderServer;
 	}
@@ -50,7 +50,7 @@ public class WorldServer extends World {
 		return var7;
 	}
 
-	public boolean canMineBlock(EntityPlayer var1, int var2, int var3, int var4) {
+	public boolean func_6466_a(EntityPlayer var1, int var2, int var3, int var4) {
 		int var5 = (int)MathHelper.abs((float)(var2 - this.worldInfo.getSpawnX()));
 		int var6 = (int)MathHelper.abs((float)(var4 - this.worldInfo.getSpawnZ()));
 		if(var5 > var6) {
@@ -74,16 +74,16 @@ public class WorldServer extends World {
 		return (Entity)this.field_20912_E.lookup(var1);
 	}
 
-	public boolean addLightningBolt(Entity var1) {
-		if(super.addLightningBolt(var1)) {
-			this.mcServer.configManager.sendPacketToPlayersAroundPoint(var1.posX, var1.posY, var1.posZ, 512.0D, this.worldProvider.worldType, new Packet71Weather(var1));
+	public boolean addWeatherEffect(Entity var1) {
+		if(super.addWeatherEffect(var1)) {
+			this.mcServer.configManager.sendPacketToPlayersAroundPoint(var1.posX, var1.posY, var1.posZ, 512.0D, this.worldProvider.worldType, PacketFactory.createPacket71Weather(var1));
 			return true;
 		} else {
 			return false;
 		}
 	}
 
-	public void sendTrackedEntityStatusUpdatePacket(Entity var1, byte var2) {
+	public void func_9425_a(Entity var1, byte var2) {
 		Packet38EntityStatus var3 = new Packet38EntityStatus(var1.entityId, var2);
 		this.mcServer.getEntityTracker(this.worldProvider.worldType).sendPacketToTrackedPlayersAndTrackedEntity(var1, var3);
 	}
@@ -91,8 +91,8 @@ public class WorldServer extends World {
 	public Explosion newExplosion(Entity var1, double var2, double var4, double var6, float var8, boolean var9) {
 		Explosion var10 = new Explosion(this, var1, var2, var4, var6, var8);
 		var10.isFlaming = var9;
-		var10.doExplosion();
-		var10.doEffects(false);
+		var10.doExplosionA();
+		var10.doExplosionB(false);
 		this.mcServer.configManager.sendPacketToPlayersAroundPoint(var2, var4, var6, 64.0D, this.worldProvider.worldType, new Packet60Explosion(var2, var4, var6, var8, var10.destroyedBlockPositions));
 		return var10;
 	}
@@ -103,13 +103,13 @@ public class WorldServer extends World {
 	}
 
 	public void func_30006_w() {
-		this.worldFile.func_22093_e();
+		this.saveHandler.func_22093_e();
 	}
 
 	protected void updateWeather() {
-		boolean var1 = this.func_27068_v();
+		boolean var1 = this.func_27161_C();
 		super.updateWeather();
-		if(var1 != this.func_27068_v()) {
+		if(var1 != this.func_27161_C()) {
 			if(var1) {
 				this.mcServer.configManager.sendPacketToAllPlayers(new Packet70Bed(2));
 			} else {

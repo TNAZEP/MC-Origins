@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "jar_sha256": "dde3a5627a65c6310977e202efddaffd52c02f515e129e87918899348dc3e7b7",
+  "command": [
+    "/usr/lib/jvm/java-8-temurin/bin/java",
+    "-Xmx512M",
+    "-Djava.awt.headless=true",
+    "-verbose:class",
+    "-jar",
+    "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+    "nogui"
+  ],
+  "runtime": "openjdk version \"1.8.0_492\"\nOpenJDK Runtime Environment (Temurin)(build 1.8.0_492-b09)\nOpenJDK 64-Bit Server VM (Temurin)(build 25.492-b09, mixed mode)\n",
+  "working_directory": "/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/built-server-temurin",
+  "bind_address": "127.0.0.1",
+  "port": 49325,
+  "seed": 8675309,
+  "ready": true,
+  "exit_code": 0,
+  "stop_logged": true,
+  "level_dat_exists": true,
+  "forbidden_loaded_classes": [],
+  "error": null,
+  "process_log_sha256": "57558ffac97593005ba5cd08f294c2dc69861496ddf3bd4f82560f0849711fdf",
+  "limits": "No player connected; no worldgen, save-content or gameplay parity assertion."
+}

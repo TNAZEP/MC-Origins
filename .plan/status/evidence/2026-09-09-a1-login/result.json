@@ -1,0 +1,34 @@
+{
+  "result": "PASS",
+  "jar_sha256": "dde3a5627a65c6310977e202efddaffd52c02f515e129e87918899348dc3e7b7",
+  "command": [
+    "/usr/lib/jvm/java-8-temurin/bin/java",
+    "-Xmx512M",
+    "-Djava.awt.headless=true",
+    "-verbose:class",
+    "-jar",
+    "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+    "nogui"
+  ],
+  "runtime": "openjdk version \"1.8.0_492\"\nOpenJDK Runtime Environment (Temurin)(build 1.8.0_492-b09)\nOpenJDK 64-Bit Server VM (Temurin)(build 25.492-b09, mixed mode)\n",
+  "working_directory": "/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/offline-login",
+  "bind_address": "127.0.0.1",
+  "port": 57245,
+  "seed": 8675309,
+  "ready": true,
+  "exit_code": 0,
+  "stop_logged": true,
+  "level_dat_exists": true,
+  "forbidden_loaded_classes": [],
+  "error": null,
+  "login_probe": {
+    "result": "PASS",
+    "protocol": 14,
+    "offline_challenge": "-",
+    "entity_id": 0,
+    "seed": 8675309,
+    "dimension": 0
+  },
+  "process_log_sha256": "a4b0da167a14172088c60bbca24a8f94693d896e36bbf3ac56f48bdc64f13e1d",
+  "limits": "Optional synthetic login only; no graphical client, player actions, worldgen, save-content or gameplay parity assertion."
+}

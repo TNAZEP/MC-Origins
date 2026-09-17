@@ -1,0 +1,238 @@
+{
+  "candidate_chunks": 1248,
+  "differences": [
+    {
+      "chunk": "overworld/-1,-11",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,-2",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-10,1",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,-6",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-2,0",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,-4",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-3,-6",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,0",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-8,2",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/-9,-14",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-3",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/0,-5",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/0,10",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/1,-14",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-13",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/10,-3",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/11,-13",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-12",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-13",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-2",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-7",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/2,-8",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/3,-13",
+      "fields": [
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/3,-5",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/4,-2",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,-3",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,-5",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/4,0",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/5,0",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/5,4",
+      "fields": [
+        "Blocks",
+        "Data"
+      ]
+    },
+    {
+      "chunk": "overworld/8,3",
+      "fields": [
+        "Blocks",
+        "Data",
+        "BlockLight"
+      ]
+    },
+    {
+      "chunk": "overworld/9,3",
+      "fields": [
+        "BlockLight"
+      ]
+    }
+  ],
+  "format": "origins-beta-saved-terrain-v1",
+  "original_chunks": 1248,
+  "result": "FAIL"
+}

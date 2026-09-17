@@ -1,0 +1,22 @@
+{
+  "seed": 123456789,
+  "order": "reverse",
+  "result": "PASS",
+  "traces_match": true,
+  "comparisons": {
+    "repeat": {
+      "format": "origins-beta-saved-terrain-v1",
+      "result": "PASS",
+      "original_chunks": 147,
+      "candidate_chunks": 147,
+      "differences": []
+    },
+    "candidate": {
+      "format": "origins-beta-saved-terrain-v1",
+      "result": "PASS",
+      "original_chunks": 147,
+      "candidate_chunks": 147,
+      "differences": []
+    }
+  }
+}

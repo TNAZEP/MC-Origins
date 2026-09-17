@@ -39,7 +39,7 @@ public class ItemInWorldManager {
 	}
 
 	public void func_324_a(int var1, int var2, int var3, int var4) {
-		this.thisWorld.func_28096_a((EntityPlayer)null, var1, var2, var3, var4);
+		this.thisWorld.onBlockHit((EntityPlayer)null, var1, var2, var3, var4);
 		this.field_22055_d = this.field_22051_j;
 		int var5 = this.thisWorld.getBlockId(var1, var2, var3);
 		if(var5 > 0) {
@@ -92,20 +92,20 @@ public class ItemInWorldManager {
 	public boolean func_325_c(int var1, int var2, int var3) {
 		int var4 = this.thisWorld.getBlockId(var1, var2, var3);
 		int var5 = this.thisWorld.getBlockMetadata(var1, var2, var3);
-		this.thisWorld.func_28101_a(this.thisPlayer, 2001, var1, var2, var3, var4 + this.thisWorld.getBlockMetadata(var1, var2, var3) * 256);
+		this.thisWorld.func_28107_a(this.thisPlayer, 2001, var1, var2, var3, var4 + this.thisWorld.getBlockMetadata(var1, var2, var3) * 256);
 		boolean var6 = this.removeBlock(var1, var2, var3);
 		ItemStack var7 = this.thisPlayer.getCurrentEquippedItem();
 		if(var7 != null) {
-			var7.func_25124_a(var4, var1, var2, var3, this.thisPlayer);
+			var7.onDestroyBlock(var4, var1, var2, var3, this.thisPlayer);
 			if(var7.stackSize == 0) {
-				var7.func_577_a(this.thisPlayer);
+				var7.onItemDestroyed(this.thisPlayer);
 				this.thisPlayer.destroyCurrentEquippedItem();
 			}
 		}
 
 		if(var6 && this.thisPlayer.canHarvestBlock(Block.blocksList[var4])) {
 			Block.blocksList[var4].harvestBlock(this.thisWorld, this.thisPlayer, var1, var2, var3, var5);
-			((EntityPlayerMP)this.thisPlayer).playerNetServerHandler.sendPacket(new Packet53BlockChange(var1, var2, var3, this.thisWorld));
+			((EntityPlayerMP)this.thisPlayer).playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var1, var2, var3, this.thisWorld));
 		}
 
 		return var6;

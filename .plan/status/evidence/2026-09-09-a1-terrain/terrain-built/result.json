@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "jar_sha256": "dde3a5627a65c6310977e202efddaffd52c02f515e129e87918899348dc3e7b7",
+  "command": [
+    "/usr/lib/jvm/java-8-openjdk/jre/bin/java",
+    "-Xmx512M",
+    "-Djava.awt.headless=true",
+    "-verbose:class",
+    "-jar",
+    "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+    "nogui"
+  ],
+  "runtime": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "working_directory": "/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/terrain-built",
+  "bind_address": "127.0.0.1",
+  "port": 39841,
+  "seed": 8675309,
+  "ready": true,
+  "exit_code": 0,
+  "stop_logged": true,
+  "level_dat_exists": true,
+  "forbidden_loaded_classes": [],
+  "error": null,
+  "login_probe": null,
+  "level_template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+  "process_log_sha256": "8e0aff67bcb24b920e20ece4e245e0ae9711170b42759ede2ccc4fcdd94d6daa",
+  "limits": "Optional synthetic login only; no graphical client, player actions, worldgen, save-content or gameplay parity assertion."
+}

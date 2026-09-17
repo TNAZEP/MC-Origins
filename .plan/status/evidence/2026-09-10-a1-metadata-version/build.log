@@ -1,0 +1,35 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :compileClientJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processClientResources UP-TO-DATE
+> Task :clientClasses
+> Task :buildMinecraftJar
+
+> Task :compileServerJava
+Note: /home/tnazep/My Stuff/Dev/MC-Origins/src/server/java/net/minecraft/server/MinecraftServer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processServerResources UP-TO-DATE
+> Task :serverClasses
+> Task :buildServerJar
+> Task :jar SKIPPED
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+
+[Incubating] Problems report is available at: file:///home/tnazep/My%20Stuff/Dev/MC-Origins/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 5s
+7 actionable tasks: 4 executed, 3 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html

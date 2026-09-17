@@ -1,0 +1,1 @@
+PASS: inventory(Path("reference")) equals prior acquisition inventory. Working imported hashes: source-verification.txt.

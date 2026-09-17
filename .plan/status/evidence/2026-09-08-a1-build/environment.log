@@ -1,0 +1,13 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :reportBuildEnvironment
+Gradle JVM: 21.0.12+8
+Game toolchain: 1.8.0_492-b09 (Eclipse Temurin) at /usr/lib/jvm/java-8-temurin
+Client libraries: [codecjorbis-20230120.jar, codecwav-20101023.jar, jinput-2.0.5.jar, jutils-1.0.0.jar, libraryjavasound-20101123.jar, librarylwjglopenal-20100824.jar, lwjgl-2.9.4-nightly-20150209.jar, lwjgl_util-2.9.4-nightly-20150209.jar, soundsystem-20120107.jar]
+Server libraries: []
+Shared Java files: 0 (zero until reviewed source merge)
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html

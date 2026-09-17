@@ -28,7 +28,7 @@ public class PlayerControllerSP extends PlayerController {
 		if(var8 != null) {
 			var8.onDestroyBlock(var5, var1, var2, var3, this.mc.thePlayer);
 			if(var8.stackSize == 0) {
-				var8.func_1097_a(this.mc.thePlayer);
+				var8.onItemDestroyed(this.mc.thePlayer);
 				this.mc.thePlayer.destroyCurrentEquippedItem();
 			}
 		}

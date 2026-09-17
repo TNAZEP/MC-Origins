@@ -1,0 +1,5398 @@
+{
+  "aliases": {
+    "func_27059_a": "func_27089_a",
+    "func_27061_c": "registerAchievement",
+    "field_27063_l": "achievementDescription",
+    "field_25067_a": "displayColumn",
+    "field_27991_b": "displayRow",
+    "field_27114_a": "minDisplayColumn",
+    "field_27113_b": "minDisplayRow",
+    "field_27112_c": "maxDisplayColumn",
+    "field_27111_d": "maxDisplayRow",
+    "field_27992_c": "parentAchievement",
+    "func_27036_e": "isOpen",
+    "func_22020_d": "isBlockFootOfBed",
+    "func_22019_c": "getDirectionFromMetadata",
+    "field_22023_a": "headBlockToFootBlockMap",
+    "func_22018_f": "isBedOccupied",
+    "func_22022_a": "setBedOccupied",
+    "field_6084_a": "localFlag",
+    "func_322_g": "func_305_h",
+    "func_27035_f": "setStateIfMinecartInteractsWithRail",
+    "func_28097_e": "func_28106_e",
+    "field_28012_a": "doesArrowBelongToPlayer",
+    "func_20078_a": "setEggHeading",
+    "func_6141_a": "setSnowballHeading",
+    "field_28032_a": "random",
+    "func_28101_a": "func_28107_a",
+    "func_271_d": "getState",
+    "func_273_b": "setDoorRotation",
+    "func_272_a": "onPoweredBlockChange",
+    "func_268_g": "func_263_h",
+    "func_276_g": "func_268_h",
+    "func_30004_i": "func_30003_j",
+    "func_309_k": "blockBlocksFlow",
+    "func_300_h": "triggerLavaMixEffects",
+    "func_298_c": "getFlowVector",
+    "func_301_g": "getFlowDecay",
+    "func_303_b": "getEffectiveFlowDecay",
+    "field_28034_c": "keepFurnaceInventory",
+    "field_28033_a": "furnaceRand",
+    "func_28035_b_": "func_28038_b_",
+    "field_28009_a": "record",
+    "func_31045_b": "func_31050_c",
+    "field_31046_a": "field_31053_a",
+    "func_31032_a": "func_31035_a",
+    "field_27034_a": "isPowered",
+    "func_27032_a": "func_27044_a",
+    "func_4038_g": "func_4031_h",
+    "func_321_g": "func_320_h",
+    "field_665_a": "field_468_a",
+    "field_22015_c": "isRepeaterPowered",
+    "func_22012_g": "func_22022_g",
+    "func_30003_g": "func_30002_h",
+    "func_21031_a": "func_21030_a",
+    "field_21032_b": "field_21031_b",
+    "func_275_g": "func_314_h",
+    "func_30005_i": "func_30004_j",
+    "func_4033_j": "func_301_k",
+    "func_31028_g": "func_31032_h",
+    "func_28039_c": "setBlockBoundsForBlockRender",
+    "func_28040_a": "onPoweredBlockChange",
+    "func_28038_d": "isTrapdoorOpen",
+    "func_339_g": "func_1003_g",
+    "func_333_c": "func_996_c",
+    "field_4306_c": "hasNoSky",
+    "func_355_f": "func_1020_f",
+    "func_334_a": "func_997_a",
+    "func_21101_g": "func_21167_h",
+    "field_28064_f": "chunkList",
+    "func_28060_a": "func_28063_a",
+    "func_28059_b": "func_28062_b",
+    "field_28066_d": "chunkLoader",
+    "field_28065_e": "chunkMap",
+    "func_364_b": "canSave",
+    "field_695_u": "field_902_u",
+    "func_667_a": "func_867_a",
+    "func_353_b": "func_1024_c",
+    "field_4224_q": "field_4180_q",
+    "func_4058_a": "func_4061_a",
+    "field_702_n": "field_909_n",
+    "field_701_o": "field_908_o",
+    "field_705_k": "field_912_k",
+    "field_704_l": "field_911_l",
+    "field_703_m": "field_910_m",
+    "field_715_a": "field_922_a",
+    "field_714_b": "field_921_b",
+    "func_361_a": "unload100OldestChunks",
+    "func_4062_a": "func_4059_a",
+    "func_4061_b": "func_4058_b",
+    "field_4230_s": "field_4159_s",
+    "field_4235_n": "worldObj",
+    "field_4240_i": "field_4169_i",
+    "field_4239_j": "field_4168_j",
+    "field_4238_k": "field_4167_k",
+    "field_4237_l": "field_4166_l",
+    "field_4236_m": "field_4165_m",
+    "field_4248_a": "field_4177_a",
+    "field_4247_b": "field_4176_b",
+    "field_28085_j": "field_28087_j",
+    "field_28079_p": "field_28081_p",
+    "field_28073_v": "field_28075_v",
+    "func_28070_a": "func_28071_a",
+    "func_28069_a": "func_28072_a",
+    "field_28074_u": "field_28076_u",
+    "field_28084_k": "field_28086_k",
+    "field_28083_l": "field_28085_l",
+    "field_28082_m": "field_28084_m",
+    "field_28081_n": "field_28083_n",
+    "field_28080_o": "field_28082_o",
+    "field_28094_a": "field_28096_a",
+    "field_28093_b": "field_28095_b",
+    "field_28092_c": "field_28094_c",
+    "field_28011_h": "field_28019_h",
+    "func_28099_a": "func_28105_a",
+    "field_393_af": "field_756_e",
+    "field_391_b": "field_752_b",
+    "field_394_ae": "field_757_d",
+    "field_395_ad": "destPos",
+    "field_390_ai": "field_755_h",
+    "func_25026_u": "isMovementCeased",
+    "func_31021_B": "func_31026_E",
+    "func_28013_b": "attackBlockedEntity",
+    "field_20081_ak": "field_20050_h",
+    "field_20083_aj": "field_20051_g",
+    "field_9199_b": "field_9405_b",
+    "field_9198_c": "field_9404_c",
+    "field_9196_d": "field_9403_d",
+    "field_6149_an": "field_6388_l",
+    "field_6148_ao": "field_6387_m",
+    "field_6147_ap": "field_6386_n",
+    "field_6146_aq": "field_6385_o",
+    "field_6145_ar": "field_6384_p",
+    "field_6144_as": "field_6383_q",
+    "func_6142_a": "func_4042_a",
+    "field_9142_bc": "field_705_Q",
+    "field_9141_bd": "field_704_R",
+    "field_386_ba": "field_703_S",
+    "func_27013_Q": "func_27021_X",
+    "field_9170_e": "field_803_e",
+    "func_27017_a": "triggerAchievement",
+    "field_25131_c": "mineWood",
+    "field_27099_t": "killCow",
+    "field_27018_b": "field_27028_b",
+    "field_27020_c": "field_27030_c",
+    "field_27019_a": "field_27029_a",
+    "field_27080_i": "field_27172_i",
+    "field_9140_bf": "newPosRotationIncrements",
+    "field_9139_bg": "newPosX",
+    "field_9138_bh": "newPosY",
+    "field_9137_bi": "newPosZ",
+    "field_9136_bj": "newRotationYaw",
+    "field_9135_bk": "newRotationPitch",
+    "field_9124_aB": "field_9362_u",
+    "field_9123_aC": "field_9361_v",
+    "field_9099_av": "heartsHalvesLife",
+    "field_9122_aD": "field_9360_w",
+    "field_9096_ay": "field_9363_r",
+    "field_9098_aw": "field_9365_p",
+    "field_9102_aX": "cameraPitch",
+    "field_9101_aY": "field_9328_R",
+    "func_6101_K": "onEntityDeath",
+    "field_9121_aE": "field_9359_x",
+    "func_25020_s": "canDespawn",
+    "func_25018_n_": "func_25026_x",
+    "func_25021_O": "hasCurrentTarget",
+    "func_22057_E": "isPlayerSleeping",
+    "func_27067_u": "func_27160_B",
+    "func_179_a": "func_412_b",
+    "field_452_ad": "field_695_c",
+    "func_180_c": "func_411_c",
+    "field_27098_u": "flyPig",
+    "field_9150_ao": "field_775_e",
+    "field_9149_ap": "field_774_f",
+    "func_171_h": "collideWithPlayer",
+    "func_25047_a": "alertWolves",
+    "field_27100_s": "killEnemy",
+    "func_25045_g": "addMovementStat",
+    "func_27015_h": "addMountedMovementStat",
+    "func_21069_f_": "getSheared",
+    "func_21066_a": "getRandomFleeceColor",
+    "func_25027_m": "getSlimeSize",
+    "field_400_b": "field_767_b",
+    "field_401_a": "field_768_a",
+    "field_21052_ar": "randomMotionVecX",
+    "field_21051_as": "randomMotionVecY",
+    "field_21050_at": "randomMotionVecZ",
+    "field_21062_b": "field_21088_b",
+    "field_21063_a": "field_21089_a",
+    "field_21059_f": "field_21086_f",
+    "field_21061_c": "field_21087_c",
+    "field_21058_al": "field_21084_h",
+    "field_21060_ak": "field_21085_g",
+    "field_21056_an": "field_21082_j",
+    "field_21057_am": "field_21083_i",
+    "field_21054_ap": "field_21080_l",
+    "field_21055_ao": "randomMotionSpeed",
+    "field_21053_aq": "field_21079_m",
+    "func_25030_y": "isWolfTamed",
+    "field_21106_g": "isPeacefulCreature",
+    "field_984_c": "field_1722_c",
+    "field_21085_b": "field_21104_b",
+    "func_21083_d": "storePartialItemStack",
+    "func_21082_c": "storeItemStack",
+    "func_28010_c": "func_28018_c",
+    "field_260_a": "doorMaterial",
+    "func_21033_c": "func_21034_c",
+    "field_25011_bi": "isWolfsFavoriteMeat",
+    "func_28023_a": "func_28012_a",
+    "func_28155_a": "func_28169_a",
+    "func_28024_a": "func_28011_a",
+    "func_28104_b": "getUniqueDataId",
+    "func_28102_a": "setItemData",
+    "field_28164_b": "field_28180_b",
+    "field_28163_c": "field_28179_c",
+    "field_28161_e": "field_28177_e",
+    "field_28162_d": "field_28178_d",
+    "func_27030_c": "isRailBlock",
+    "field_253_a": "field_320_a",
+    "field_271_a": "field_318_a",
+    "field_28203_e": "field_28218_e",
+    "field_28202_a": "field_28217_a",
+    "field_28201_b": "field_28216_b",
+    "field_28205_c": "field_28220_c",
+    "field_28204_d": "field_28219_d",
+    "field_28160_f": "field_28176_f",
+    "field_947_a": "field_1306_a",
+    "func_669_a": "func_870_a",
+    "field_28124_d": "mapDataObj",
+    "field_28125_c": "field_28124_c",
+    "field_28123_e": "field_28122_e",
+    "field_28122_f": "field_28121_f",
+    "field_28120_a": "entityplayerObj",
+    "field_957_a": "field_1299_a",
+    "field_956_b": "field_1298_b",
+    "field_962_c": "field_1304_c",
+    "field_961_d": "field_1303_d",
+    "field_960_e": "field_1302_e",
+    "field_959_f": "field_1301_f",
+    "field_958_g": "field_1300_g",
+    "func_27029_g": "isRailBlockAt",
+    "func_27083_a": "setConnections",
+    "func_591_b": "func_785_b",
+    "func_599_b": "isInTrack",
+    "func_21034_d": "func_21035_d",
+    "func_27006_b": "getHasStack",
+    "field_20102_a": "armorType",
+    "field_25004_e": "thePlayer",
+    "field_25130_d": "buildWorkBench",
+    "field_27110_i": "buildPickaxe",
+    "field_27109_j": "buildFurnace",
+    "field_27107_l": "buildHoe",
+    "field_27106_m": "makeBread",
+    "field_27105_n": "bakeCake",
+    "field_27104_o": "buildBetterPickaxe",
+    "field_27101_r": "buildSword",
+    "func_21103_d": "getPeacefulCreature",
+    "func_4066_a": "getBiomeGenAtChunkCoord",
+    "func_21167_a": "canCreatureTypeSpawnAtLocation",
+    "func_21166_a": "creatureSpecificInit",
+    "field_22213_a": "nightSpawnEntities",
+    "func_22021_g": "getNearestEmptyChunkCoordinates",
+    "func_31005_e": "getBlockMetadata",
+    "field_778_L": "field_1012_M",
+    "field_27075_F": "field_27168_F",
+    "field_27079_B": "prevRainingStrength",
+    "field_27078_C": "rainingStrength",
+    "field_27077_D": "prevThunderingStrength",
+    "field_27076_E": "thunderingStrength",
+    "func_27074_d": "func_27162_g",
+    "func_27065_c": "func_27166_f",
+    "field_9207_I": "collidingBoundingBoxes",
+    "func_484_a": "scheduleLightingUpdate_do",
+    "func_494_a": "func_675_a",
+    "field_4255_e": "field_4194_e",
+    "field_4254_f": "field_4193_f",
+    "field_4257_c": "field_4196_c",
+    "field_4253_g": "field_4192_g",
+    "func_4065_a": "func_4069_a",
+    "field_4262_e": "field_4201_e",
+    "field_4260_g": "field_4199_g",
+    "field_4261_f": "field_4200_f",
+    "field_28055_a": "field_28058_a",
+    "field_4250_a": "field_4158_a",
+    "field_15005_a": "field_15235_a",
+    "field_28057_a": "field_28060_a",
+    "field_28056_b": "field_28059_b",
+    "func_4091_a": "getProviderForDimension",
+    "field_6167_c": "isNether",
+    "func_28108_d": "canRespawnHere",
+    "field_28054_m": "sky",
+    "field_25129_a": "achievementList",
+    "func_312_l": "liquidCanDisplaceBlock",
+    "func_596_a": "func_792_a",
+    "func_27031_a": "func_27043_a",
+    "func_27028_d": "getIsPowered",
+    "field_686_i": "lowestBlockHeight",
+    "field_4226_g": "field_4182_g",
+    "field_4225_h": "field_4181_h",
+    "field_4229_d": "field_4185_d",
+    "field_4228_e": "field_4184_e",
+    "field_4227_f": "field_4183_f",
+    "field_28077_r": "field_28079_r",
+    "field_28076_s": "field_28078_s",
+    "field_28075_t": "field_28077_t",
+    "field_28078_q": "field_28080_q",
+    "func_28071_a": "func_28073_a",
+    "field_27995_d": "startMinecartRidingCoordinate",
+    "field_27102_q": "onARail",
+    "func_25010_k": "getIsWolfsFavoriteMeat",
+    "func_28103_a": "loadItemData",
+    "field_28159_g": "field_28175_g",
+    "func_28153_a": "func_28170_a",
+    "field_28156_j": "field_28172_j",
+    "field_28158_h": "field_28174_h",
+    "field_28157_i": "field_28173_i",
+    "func_666_a": "func_868_a",
+    "func_4107_a": "func_4127_a",
+    "func_692_a": "func_866_a",
+    "func_592_c": "func_786_c",
+    "field_28105_z": "field_28108_z",
+    "func_28133_a": "func_28136_a",
+    "func_28096_a": "onBlockHit",
+    "func_27070_x": "func_27163_E",
+    "func_27068_v": "func_27161_C",
+    "field_4256_d": "field_4195_d",
+    "func_311_f": "flowIntoBlock",
+    "field_28088_g": "field_28090_g",
+    "field_28087_h": "field_28089_h",
+    "field_28091_d": "field_28093_d",
+    "field_28090_e": "field_28092_e",
+    "field_28089_f": "field_28091_f",
+    "func_4106_a": "func_4129_a",
+    "func_4105_a": "func_4128_a",
+    "field_27084_f": "isPoweredRail",
+    "func_598_d": "func_788_d"
+  },
+  "proof": {
+    "func_27059_a": [
+      [
+        "func_27089_a",
+        "Achievement",
+        "public StatBase func_27082_h() {",
+        "aligned method body"
+      ],
+      [
+        "func_27089_a",
+        "Achievement",
+        "public Achievement func_27059_a() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27061_c": [
+      [
+        "registerAchievement",
+        "Achievement",
+        "public StatBase registerStat() {",
+        "aligned method body"
+      ]
+    ],
+    "field_27063_l": [
+      [
+        "achievementDescription",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_25067_a": [
+      [
+        "displayColumn",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27991_b": [
+      [
+        "displayRow",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27114_a": [
+      [
+        "minDisplayColumn",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ],
+      [
+        "minDisplayColumn",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27113_b": [
+      [
+        "minDisplayRow",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ],
+      [
+        "minDisplayRow",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27112_c": [
+      [
+        "maxDisplayColumn",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ],
+      [
+        "maxDisplayColumn",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27111_d": [
+      [
+        "maxDisplayRow",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ],
+      [
+        "maxDisplayRow",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27992_c": [
+      [
+        "parentAchievement",
+        "Achievement",
+        "public Achievement(int var1, String var2, int var3, int var4, ItemStack var5, Achievement var6) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27036_e": [
+      [
+        "isOpen",
+        "BetaPathfinder",
+        "protected int getVerticalOffset( int var2, int var3, int var4, PathPoint var5) {",
+        "aligned method body"
+      ],
+      [
+        "isOpen",
+        "BlockDoor",
+        "public static boolean func_27036_e(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_22020_d": [
+      [
+        "isBlockFootOfBed",
+        "BlockBed",
+        "public int idDropped(int var1, Random var2) {",
+        "aligned method body"
+      ],
+      [
+        "isBlockFootOfBed",
+        "BlockBed",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "isBlockFootOfBed",
+        "BlockBed",
+        "public void dropBlockAsItemWithChance(World var1, int var2, int var3, int var4, int var5, float var6) {",
+        "aligned method body"
+      ],
+      [
+        "isBlockFootOfBed",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "isBlockFootOfBed",
+        "BlockBed",
+        "public static boolean func_22020_d(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_22019_c": [
+      [
+        "getDirectionFromMetadata",
+        "BlockBed",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "getDirectionFromMetadata",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "getDirectionFromMetadata",
+        "BlockBed",
+        "public static int func_22019_c(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_22023_a": [
+      [
+        "headBlockToFootBlockMap",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "headBlockToFootBlockMap",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "headBlockToFootBlockMap",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "headBlockToFootBlockMap",
+        "BlockBed",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_22018_f": [
+      [
+        "isBedOccupied",
+        "BlockBed",
+        "public static boolean func_22018_f(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_22022_a": [
+      [
+        "setBedOccupied",
+        "BlockBed",
+        "public static void func_22022_a(World var0, int var1, int var2, int var3, boolean var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_6084_a": [
+      [
+        "localFlag",
+        "BlockBreakable",
+        "protected BlockBreakable(int var1, int var2, Material var3, boolean var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_322_g": [
+      [
+        "func_305_h",
+        "BlockButton",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_305_h",
+        "BlockButton",
+        "private boolean func_322_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27035_f": [
+      [
+        "setStateIfMinecartInteractsWithRail",
+        "BlockDetectorRail",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "setStateIfMinecartInteractsWithRail",
+        "BlockDetectorRail",
+        "public void onEntityCollidedWithBlock(World var1, int var2, int var3, int var4, Entity var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28097_e": [
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28106_e",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28012_a": [
+      [
+        "doesArrowBelongToPlayer",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "doesArrowBelongToPlayer",
+        "EntityArrow",
+        "public EntityArrow(World var1, EntityLiving var2) {",
+        "aligned method body"
+      ],
+      [
+        "doesArrowBelongToPlayer",
+        "EntityArrow",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ],
+      [
+        "doesArrowBelongToPlayer",
+        "EntityArrow",
+        "public void readEntityFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "doesArrowBelongToPlayer",
+        "EntityArrow",
+        "public void writeEntityToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_20078_a": [
+      [
+        "setEggHeading",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "setEggHeading",
+        "EntityEgg",
+        "public EntityEgg(World var1, EntityLiving var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_6141_a": [
+      [
+        "setSnowballHeading",
+        "BlockDispenser",
+        "private void dispenseItem(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28032_a": [
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "random",
+        "BlockDispenser",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28101_a": [
+      [
+        "func_28107_a",
+        "BlockDoor",
+        "public boolean blockActivated(World var1, int var2, int var3, int var4, EntityPlayer var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28107_a",
+        "BlockTrapDoor",
+        "public boolean blockActivated(World var1, int var2, int var3, int var4, EntityPlayer var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28107_a",
+        "ItemRecord",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "func_271_d": [
+      [
+        "getState",
+        "BlockDoor",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "getState",
+        "BlockDoor",
+        "public void setBlockBoundsBasedOnState(IBlockAccess var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "getState",
+        "BlockDoor",
+        "public int func_271_d(int var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_273_b": [
+      [
+        "setDoorRotation",
+        "BlockDoor",
+        "public void setBlockBoundsBasedOnState(IBlockAccess var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "setDoorRotation",
+        "BlockDoor",
+        "public void func_273_b(int var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_272_a": [
+      [
+        "onPoweredBlockChange",
+        "BlockDoor",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_268_g": [
+      [
+        "func_263_h",
+        "BlockFire",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_263_h",
+        "BlockFire",
+        "public boolean canPlaceBlockAt(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_263_h",
+        "BlockFire",
+        "private boolean func_268_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_276_g": [
+      [
+        "func_268_h",
+        "BlockFlower",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_268_h",
+        "BlockFlower",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_268_h",
+        "BlockFlower",
+        "protected final void func_276_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_30004_i": [
+      [
+        "func_30003_j",
+        "BlockFlowing",
+        "private void func_30004_i(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_309_k": [
+      [
+        "blockBlocksFlow",
+        "BlockFlowing",
+        "private boolean func_309_k(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_300_h": [
+      [
+        "triggerLavaMixEffects",
+        "BlockFluid",
+        "private void checkForHarden(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "triggerLavaMixEffects",
+        "BlockFluid",
+        "protected void func_300_h(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_298_c": [
+      [
+        "getFlowVector",
+        "BlockFluid",
+        "public void velocityToAddToEntity(World var1, int var2, int var3, int var4, Entity var5, Vec3D var6) {",
+        "aligned method body"
+      ]
+    ],
+    "func_301_g": [
+      [
+        "getFlowDecay",
+        "BlockFluid",
+        "protected int func_301_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_303_b": [
+      [
+        "getEffectiveFlowDecay",
+        "BlockFluid",
+        "protected int func_303_b(IBlockAccess var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28034_c": [
+      [
+        "keepFurnaceInventory",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28033_a": [
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "furnaceRand",
+        "BlockFurnace",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28035_b_": [
+      [
+        "func_28038_b_",
+        "BlockJukeBox",
+        "public boolean blockActivated(World var1, int var2, int var3, int var4, EntityPlayer var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_28038_b_",
+        "BlockJukeBox",
+        "public void onBlockRemoval(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28009_a": [
+      [
+        "record",
+        "BlockJukeBox",
+        "public void ejectRecord(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "record",
+        "TileEntityRecordPlayer",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "record",
+        "TileEntityRecordPlayer",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "record",
+        "TileEntityRecordPlayer",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_31045_b": [
+      [
+        "func_31050_c",
+        "BlockPistonExtension",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "func_31050_c",
+        "BlockPistonExtension",
+        "public void getCollidingBoundingBoxes(World var1, int var2, int var3, int var4, AxisAlignedBB var5, ArrayList var6) {",
+        "aligned method body"
+      ],
+      [
+        "func_31050_c",
+        "BlockPistonExtension",
+        "public void setBlockBoundsBasedOnState(IBlockAccess var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_31050_c",
+        "BlockPistonExtension",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_31050_c",
+        "BlockPistonExtension",
+        "public static int func_31045_b(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_31046_a": [
+      [
+        "field_31053_a",
+        "BlockPistonExtension",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_31053_a",
+        "BlockPistonExtension",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_31032_a": [
+      [
+        "func_31035_a",
+        "BlockPistonMoving",
+        "public AxisAlignedBB func_31032_a(World var1, int var2, int var3, int var4, int var5, float var6, int var7) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_27034_a": [
+      [
+        "isPowered",
+        "BlockRail",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "isPowered",
+        "BlockRail",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "isPowered",
+        "BlockRail",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "isPowered",
+        "BlockRail",
+        "protected BlockRail(int var1, int var2, boolean var3) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27032_a": [
+      [
+        "func_27044_a",
+        "BlockRail",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_27044_a",
+        "BlockRail",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4038_g": [
+      [
+        "func_4031_h",
+        "BlockRail",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_4031_h",
+        "BlockRail",
+        "public void onBlockAdded(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_321_g": [
+      [
+        "func_320_h",
+        "BlockRedstoneOre",
+        "public boolean blockActivated(World var1, int var2, int var3, int var4, EntityPlayer var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_320_h",
+        "BlockRedstoneOre",
+        "public void onEntityWalking(World var1, int var2, int var3, int var4, Entity var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_320_h",
+        "BlockRedstoneOre",
+        "public void onBlockClicked(World var1, int var2, int var3, int var4, EntityPlayer var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_665_a": [
+      [
+        "field_468_a",
+        "BlockRedstoneOre",
+        "public BlockRedstoneOre(int var1, int var2, boolean var3) {",
+        "aligned method body"
+      ]
+    ],
+    "field_22015_c": [
+      [
+        "isRepeaterPowered",
+        "BlockRedstoneRepeater",
+        "public boolean isPoweringTo(IBlockAccess var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "isRepeaterPowered",
+        "BlockRedstoneRepeater",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "isRepeaterPowered",
+        "BlockRedstoneRepeater",
+        "public int getBlockTextureFromSideAndMetadata(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "isRepeaterPowered",
+        "BlockRedstoneRepeater",
+        "protected BlockRedstoneRepeater(int var1, boolean var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_22012_g": [
+      [
+        "func_22022_g",
+        "BlockRedstoneRepeater",
+        "private boolean func_22012_g(World var1, int var2, int var3, int var4, int var5) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_30003_g": [
+      [
+        "func_30002_h",
+        "BlockRedstoneTorch",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_30002_h",
+        "BlockRedstoneTorch",
+        "private boolean func_30003_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_21031_a": [
+      [
+        "func_21030_a",
+        "BlockRedstoneWire",
+        "private void updateAndPropagateCurrentStrength(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_21032_b": [
+      [
+        "field_21031_b",
+        "BlockRedstoneWire",
+        "private void updateAndPropagateCurrentStrength(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_21031_b",
+        "BlockRedstoneWire",
+        "private void updateAndPropagateCurrentStrength(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_275_g": [
+      [
+        "func_314_h",
+        "BlockSnow",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_314_h",
+        "BlockSnow",
+        "private boolean func_275_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_30005_i": [
+      [
+        "func_30004_j",
+        "BlockStationary",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4033_j": [
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "public void updateTick(World var1, int var2, int var3, int var4, Random var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_301_k",
+        "BlockStationary",
+        "private boolean func_4033_j(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_31028_g": [
+      [
+        "func_31032_h",
+        "BlockTorch",
+        "public void onBlockPlaced(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_31032_h",
+        "BlockTorch",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_31032_h",
+        "BlockTorch",
+        "public boolean canPlaceBlockAt(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_31032_h",
+        "BlockTorch",
+        "public void onBlockAdded(World var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_31032_h",
+        "BlockTorch",
+        "private boolean func_31028_g(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_28039_c": [
+      [
+        "setBlockBoundsForBlockRender",
+        "BlockTrapDoor",
+        "public void setBlockBoundsBasedOnState(IBlockAccess var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28040_a": [
+      [
+        "onPoweredBlockChange",
+        "BlockTrapDoor",
+        "public void onNeighborBlockChange(World var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28038_d": [
+      [
+        "isTrapdoorOpen",
+        "BlockTrapDoor",
+        "public static boolean func_28038_d(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_339_g": [
+      [
+        "func_1003_g",
+        "Chunk",
+        "public boolean setBlockID(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_1003_g",
+        "Chunk",
+        "public boolean setBlockID(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_1003_g",
+        "Chunk",
+        "public boolean setBlockIDWithMetadata(int var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_1003_g",
+        "Chunk",
+        "public boolean setBlockIDWithMetadata(int var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_333_c": [
+      [
+        "func_996_c",
+        "Chunk",
+        "public boolean setBlockID(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "func_996_c",
+        "Chunk",
+        "public boolean setBlockIDWithMetadata(int var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4306_c": [
+      [
+        "hasNoSky",
+        "Chunk",
+        "public boolean setBlockIDWithMetadata(int var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "hasNoSky",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "hasNoSky",
+        "World",
+        "public void neighborLightPropagationChanged(EnumSkyBlock var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "hasNoSky",
+        "WorldProviderHell",
+        "public void registerWorldChunkManager() {",
+        "aligned method body"
+      ]
+    ],
+    "func_355_f": [
+      [
+        "func_1020_f",
+        "Chunk",
+        "private void func_355_f(int var1, int var2, int var3) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_334_a": [
+      [
+        "func_997_a",
+        "Chunk",
+        "public Random func_334_a(long var1) {",
+        "unique method body and signature shape"
+      ],
+      [
+        "func_997_a",
+        "EmptyChunk",
+        "public Random func_334_a(long var1) {",
+        "unique method body and signature shape"
+      ],
+      [
+        "func_997_a",
+        "EntitySlime",
+        "public boolean getCanSpawnHere() {",
+        "aligned method body"
+      ]
+    ],
+    "func_21101_g": [
+      [
+        "func_21167_h",
+        "Chunk",
+        "public boolean func_21101_g() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "func_21167_h",
+        "EmptyChunk",
+        "public boolean func_21101_g() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28064_f": [
+      [
+        "chunkList",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ],
+      [
+        "chunkList",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28060_a": [
+      [
+        "func_28063_a",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28059_b": [
+      [
+        "func_28062_b",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28066_d": [
+      [
+        "chunkLoader",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ],
+      [
+        "chunkLoader",
+        "ChunkProvider",
+        "public boolean saveChunks(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28065_e": [
+      [
+        "chunkMap",
+        "ChunkProvider",
+        "public boolean chunkExists(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_364_b": [
+      [
+        "canSave",
+        "ChunkProvider",
+        "public boolean func_364_b() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "canSave",
+        "ChunkProviderGenerate",
+        "public boolean func_364_b() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "canSave",
+        "ChunkProviderHell",
+        "public boolean func_364_b() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "canSave",
+        "ChunkProviderSky",
+        "public boolean func_364_b() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "canSave",
+        "World",
+        "public void saveWorld(boolean var1, IProgressUpdate var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_695_u": [
+      [
+        "field_902_u",
+        "ChunkProviderGenerate",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_667_a": [
+      [
+        "func_867_a",
+        "ChunkProviderGenerate",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "func_867_a",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "func_867_a",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_353_b": [
+      [
+        "func_1024_c",
+        "ChunkProviderGenerate",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "func_1024_c",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4224_q": [
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4180_q",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4058_a": [
+      [
+        "func_4061_a",
+        "ChunkProviderGenerate",
+        "public void generateTerrain(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_702_n": [
+      [
+        "field_909_n",
+        "ChunkProviderGenerate",
+        "public void replaceBlocksForBiome(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_909_n",
+        "ChunkProviderGenerate",
+        "public void replaceBlocksForBiome(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_909_n",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_701_o": [
+      [
+        "field_908_o",
+        "ChunkProviderGenerate",
+        "public void replaceBlocksForBiome(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_908_o",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_705_k": [
+      [
+        "field_912_k",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_704_l": [
+      [
+        "field_911_l",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_703_m": [
+      [
+        "field_910_m",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_715_a": [
+      [
+        "field_922_a",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_714_b": [
+      [
+        "field_921_b",
+        "ChunkProviderGenerate",
+        "public ChunkProviderGenerate(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_361_a": [
+      [
+        "unload100OldestChunks",
+        "ChunkProviderGenerate",
+        "public boolean func_361_a() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "unload100OldestChunks",
+        "ChunkProviderHell",
+        "public boolean func_361_a() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "unload100OldestChunks",
+        "ChunkProviderSky",
+        "public boolean func_361_a() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_4062_a": [
+      [
+        "func_4059_a",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4061_b": [
+      [
+        "func_4058_b",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4230_s": [
+      [
+        "field_4159_s",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4235_n": [
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "worldObj",
+        "ChunkProviderHell",
+        "public void populate(IChunkProvider var1, int var2, int var3) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4240_i": [
+      [
+        "field_4169_i",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4239_j": [
+      [
+        "field_4168_j",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4238_k": [
+      [
+        "field_4167_k",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4237_l": [
+      [
+        "field_4166_l",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4236_m": [
+      [
+        "field_4165_m",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4248_a": [
+      [
+        "field_4177_a",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4247_b": [
+      [
+        "field_4176_b",
+        "ChunkProviderHell",
+        "public ChunkProviderHell(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28085_j": [
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28087_j",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28079_p": [
+      [
+        "field_28081_p",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28081_p",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28081_p",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28081_p",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28081_p",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28073_v": [
+      [
+        "field_28075_v",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28075_v",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28075_v",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28075_v",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28070_a": [
+      [
+        "func_28071_a",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28069_a": [
+      [
+        "func_28072_a",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28074_u": [
+      [
+        "field_28076_u",
+        "ChunkProviderSky",
+        "public Chunk provideChunk(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28084_k": [
+      [
+        "field_28086_k",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28083_l": [
+      [
+        "field_28085_l",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28082_m": [
+      [
+        "field_28084_m",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28081_n": [
+      [
+        "field_28083_n",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28080_o": [
+      [
+        "field_28082_o",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28094_a": [
+      [
+        "field_28096_a",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28093_b": [
+      [
+        "field_28095_b",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28092_c": [
+      [
+        "field_28094_c",
+        "ChunkProviderSky",
+        "public ChunkProviderSky(World var1, long var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28011_h": [
+      [
+        "field_28019_h",
+        "EntityArrow",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_28019_h",
+        "EntityArrow",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_28019_h",
+        "EntityArrow",
+        "public void readEntityFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28019_h",
+        "EntityArrow",
+        "public void writeEntityToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28099_a": [
+      [
+        "func_28105_a",
+        "EntityArrow",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "func_28105_a",
+        "World",
+        "public MovingObjectPosition rayTraceBlocks(Vec3D var1, Vec3D var2) {",
+        "aligned method body"
+      ],
+      [
+        "func_28105_a",
+        "World",
+        "public MovingObjectPosition rayTraceBlocks_do(Vec3D var1, Vec3D var2, boolean var3) {",
+        "aligned method body"
+      ],
+      [
+        "func_28105_a",
+        "World",
+        "public MovingObjectPosition func_28099_a(Vec3D var1, Vec3D var2, boolean var3, boolean var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_393_af": [
+      [
+        "field_756_e",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_391_b": [
+      [
+        "field_752_b",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_752_b",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_394_ae": [
+      [
+        "field_757_d",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_395_ad": [
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "destPos",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_390_ai": [
+      [
+        "field_755_h",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_755_h",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_755_h",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_755_h",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_755_h",
+        "EntityChicken",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_25026_u": [
+      [
+        "isMovementCeased",
+        "EntityCreature",
+        "protected boolean func_25026_u() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_31021_B": [
+      [
+        "func_31026_E",
+        "EntityCreature",
+        "protected void func_31021_B() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_28013_b": [
+      [
+        "attackBlockedEntity",
+        "EntityCreeper",
+        "protected void func_28013_b(Entity var1, float var2) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_20081_ak": [
+      [
+        "field_20050_h",
+        "EntityEgg",
+        "public EntityEgg(World var1, double var2, double var4, double var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_20083_aj": [
+      [
+        "field_20051_g",
+        "EntityEgg",
+        "public EntityEgg(World var1, EntityLiving var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9199_b": [
+      [
+        "field_9405_b",
+        "EntityFireball",
+        "public boolean attackEntityFrom(Entity var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9198_c": [
+      [
+        "field_9404_c",
+        "EntityFireball",
+        "public boolean attackEntityFrom(Entity var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9196_d": [
+      [
+        "field_9403_d",
+        "EntityFireball",
+        "public boolean attackEntityFrom(Entity var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_6149_an": [
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_6388_l",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_6148_ao": [
+      [
+        "field_6387_m",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_6147_ap": [
+      [
+        "field_6386_n",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_6146_aq": [
+      [
+        "field_6385_o",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_6145_ar": [
+      [
+        "field_6384_p",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_6144_as": [
+      [
+        "field_6383_q",
+        "EntityFish",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_6142_a": [
+      [
+        "func_4042_a",
+        "EntityFish",
+        "public void func_6142_a(double var1, double var3, double var5, float var7, float var8) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_9142_bc": [
+      [
+        "field_705_Q",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_705_Q",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9141_bd": [
+      [
+        "field_704_R",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_704_R",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_386_ba": [
+      [
+        "field_703_S",
+        "EntityFlying",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_703_S",
+        "EntityLiving",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27013_Q": [
+      [
+        "func_27021_X",
+        "EntityGhast",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "func_27021_X",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9170_e": [
+      [
+        "field_803_e",
+        "EntityItem",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_27017_a": [
+      [
+        "triggerAchievement",
+        "EntityItem",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ],
+      [
+        "triggerAchievement",
+        "EntityItem",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ],
+      [
+        "triggerAchievement",
+        "EntityPig",
+        "protected void fall(float var1) {",
+        "aligned method body"
+      ],
+      [
+        "triggerAchievement",
+        "EntityPlayer",
+        "public void onKillEntity(EntityLiving var1) {",
+        "aligned method body"
+      ],
+      [
+        "triggerAchievement",
+        "EntityPlayer",
+        "public void func_27017_a(StatBase var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_25131_c": [
+      [
+        "mineWood",
+        "EntityItem",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27099_t": [
+      [
+        "killCow",
+        "EntityItem",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27018_b": [
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27028_b",
+        "EntityLightningBolt",
+        "public EntityLightningBolt(World var1, double var2, double var4, double var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27020_c": [
+      [
+        "field_27030_c",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27030_c",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27030_c",
+        "EntityLightningBolt",
+        "public EntityLightningBolt(World var1, double var2, double var4, double var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27019_a": [
+      [
+        "field_27029_a",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_27029_a",
+        "EntityLightningBolt",
+        "public EntityLightningBolt(World var1, double var2, double var4, double var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27080_i": [
+      [
+        "field_27172_i",
+        "EntityLightningBolt",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9140_bf": [
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "newPosRotationIncrements",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9139_bg": [
+      [
+        "newPosX",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9138_bh": [
+      [
+        "newPosY",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9137_bi": [
+      [
+        "newPosZ",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9136_bj": [
+      [
+        "newRotationYaw",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9135_bk": [
+      [
+        "newRotationPitch",
+        "EntityLiving",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9124_aB": [
+      [
+        "field_9362_u",
+        "EntityLiving",
+        "public void updateRidden() {",
+        "aligned method body"
+      ],
+      [
+        "field_9362_u",
+        "EntityLiving",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9123_aC": [
+      [
+        "field_9361_v",
+        "EntityLiving",
+        "public void updateRidden() {",
+        "aligned method body"
+      ],
+      [
+        "field_9361_v",
+        "EntityLiving",
+        "public void updateRidden() {",
+        "aligned method body"
+      ],
+      [
+        "field_9361_v",
+        "EntityLiving",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_9361_v",
+        "EntityLiving",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_9361_v",
+        "EntityLiving",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9099_av": [
+      [
+        "heartsHalvesLife",
+        "EntityLiving",
+        "public void heal(int var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9122_aD": [
+      [
+        "field_9360_w",
+        "EntityLiving",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_9360_w",
+        "EntityLiving",
+        "public void onEntityUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9096_ay": [
+      [
+        "field_9363_r",
+        "EntityLiving",
+        "public EntityLiving(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9098_aw": [
+      [
+        "field_9365_p",
+        "EntityLiving",
+        "public EntityLiving(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9102_aX": [
+      [
+        "cameraPitch",
+        "EntityLiving",
+        "public void onEntityUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9101_aY": [
+      [
+        "field_9328_R",
+        "EntityLiving",
+        "public void onEntityUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_9328_R",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_9328_R",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_6101_K": [
+      [
+        "onEntityDeath",
+        "EntityLiving",
+        "public void onEntityUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9121_aE": [
+      [
+        "field_9359_x",
+        "EntityLiving",
+        "public void onEntityUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_25020_s": [
+      [
+        "canDespawn",
+        "EntityLiving",
+        "protected boolean func_25020_s() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_25018_n_": [
+      [
+        "func_25026_x",
+        "EntityLiving",
+        "protected int func_25018_n_() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_25021_O": [
+      [
+        "hasCurrentTarget",
+        "EntityLiving",
+        "public boolean func_25021_O() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_22057_E": [
+      [
+        "isPlayerSleeping",
+        "EntityLiving",
+        "public boolean func_22057_E() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "isPlayerSleeping",
+        "EntityPlayer",
+        "protected boolean isMovementBlocked() {",
+        "aligned method body"
+      ],
+      [
+        "isPlayerSleeping",
+        "EntityPlayer",
+        "public boolean func_22057_E() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "isPlayerSleeping",
+        "World",
+        "public void updateAllPlayersSleepingFlag() {",
+        "aligned method body"
+      ]
+    ],
+    "func_27067_u": [
+      [
+        "func_27160_B",
+        "EntityMob",
+        "public boolean getCanSpawnHere() {",
+        "aligned method body"
+      ]
+    ],
+    "func_179_a": [
+      [
+        "func_412_b",
+        "EntityPainting",
+        "public void readEntityFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_452_ad": [
+      [
+        "field_695_c",
+        "EntityPainting",
+        "public EntityPainting(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_180_c": [
+      [
+        "func_411_c",
+        "EntityPainting",
+        "private float func_180_c(int var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_27098_u": [
+      [
+        "flyPig",
+        "EntityPig",
+        "protected void fall(float var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9150_ao": [
+      [
+        "field_775_e",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_775_e",
+        "EntityPlayer",
+        "public void updateRidden() {",
+        "aligned method body"
+      ]
+    ],
+    "field_9149_ap": [
+      [
+        "field_774_f",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_774_f",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_774_f",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_774_f",
+        "EntityPlayer",
+        "public void updateRidden() {",
+        "aligned method body"
+      ],
+      [
+        "field_774_f",
+        "EntityPlayer",
+        "public void updateRidden() {",
+        "aligned method body"
+      ]
+    ],
+    "func_171_h": [
+      [
+        "collideWithPlayer",
+        "EntityPlayer",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "collideWithPlayer",
+        "EntityPlayer",
+        "private void func_171_h(Entity var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_25047_a": [
+      [
+        "alertWolves",
+        "EntityPlayer",
+        "public void attackTargetEntityWithCurrentItem(Entity var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27100_s": [
+      [
+        "killEnemy",
+        "EntityPlayer",
+        "public void onKillEntity(EntityLiving var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_25045_g": [
+      [
+        "addMovementStat",
+        "EntityPlayer",
+        "public void moveEntityWithHeading(float var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "addMovementStat",
+        "EntityPlayer",
+        "private void func_25045_g(double var1, double var3, double var5) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27015_h": [
+      [
+        "addMountedMovementStat",
+        "EntityPlayer",
+        "public void updateRidden() {",
+        "aligned method body"
+      ]
+    ],
+    "func_21069_f_": [
+      [
+        "getSheared",
+        "EntitySheep",
+        "public void writeEntityToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "getSheared",
+        "EntitySheep",
+        "public boolean interact(EntityPlayer var1) {",
+        "aligned method body"
+      ],
+      [
+        "getSheared",
+        "EntitySheep",
+        "protected void dropFewItems() {",
+        "aligned method body"
+      ],
+      [
+        "getSheared",
+        "EntitySheep",
+        "public boolean func_21069_f_() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "getSheared",
+        "ItemDye",
+        "public void saddleEntity(ItemStack var1, EntityLiving var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_21066_a": [
+      [
+        "getRandomFleeceColor",
+        "EntitySheep",
+        "public static int func_21066_a(Random var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_25027_m": [
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "protected int getDropItemId() {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public void onCollideWithPlayer(EntityPlayer var1) {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public void setEntityDead() {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public boolean getCanSpawnHere() {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public void writeEntityToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "getSlimeSize",
+        "EntitySlime",
+        "public int func_25027_m() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_400_b": [
+      [
+        "field_767_b",
+        "EntitySlime",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_401_a": [
+      [
+        "field_768_a",
+        "EntitySlime",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_768_a",
+        "EntitySlime",
+        "public void onUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_768_a",
+        "EntitySlime",
+        "public void onUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21052_ar": [
+      [
+        "randomMotionVecX",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecX",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecX",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21051_as": [
+      [
+        "randomMotionVecY",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecY",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecY",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21050_at": [
+      [
+        "randomMotionVecZ",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecZ",
+        "EntitySquid",
+        "protected void updatePlayerActionState() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionVecZ",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21062_b": [
+      [
+        "field_21088_b",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21063_a": [
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21089_a",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21059_f": [
+      [
+        "field_21086_f",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21061_c": [
+      [
+        "field_21087_c",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21087_c",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21058_al": [
+      [
+        "field_21084_h",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21060_ak": [
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21085_g",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21056_an": [
+      [
+        "field_21082_j",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21057_am": [
+      [
+        "field_21083_i",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21083_i",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21083_i",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21083_i",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21054_ap": [
+      [
+        "field_21080_l",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21080_l",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21080_l",
+        "EntitySquid",
+        "public EntitySquid(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_21055_ao": [
+      [
+        "randomMotionSpeed",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionSpeed",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionSpeed",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionSpeed",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "randomMotionSpeed",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "field_21053_aq": [
+      [
+        "field_21079_m",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21079_m",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21079_m",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ],
+      [
+        "field_21079_m",
+        "EntitySquid",
+        "public void onLivingUpdate() {",
+        "aligned method body"
+      ]
+    ],
+    "func_25030_y": [
+      [
+        "isWolfTamed",
+        "EntityWolf",
+        "protected void attackEntity(Entity var1, float var2) {",
+        "aligned method body"
+      ],
+      [
+        "isWolfTamed",
+        "EntityWolf",
+        "public boolean func_25030_y() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_21106_g": [
+      [
+        "isPeacefulCreature",
+        "EnumCreatureType",
+        "private EnumCreatureType(Class var3, int var4, Material var5, boolean var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_984_c": [
+      [
+        "field_1722_c",
+        "EnumSkyBlock",
+        "private EnumSkyBlock(int var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_1722_c",
+        "World",
+        "public int getSavedLightValue(EnumSkyBlock var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_21085_b": [
+      [
+        "field_21104_b",
+        "InventoryCrafting",
+        "public InventoryCrafting(Container var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_21104_b",
+        "InventoryCrafting",
+        "public ItemStack func_21103_b(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_21104_b",
+        "InventoryCrafting",
+        "public ItemStack func_21103_b(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_21083_d": [
+      [
+        "storePartialItemStack",
+        "InventoryPlayer",
+        "public boolean addItemStackToInventory(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_21082_c": [
+      [
+        "storeItemStack",
+        "InventoryPlayer",
+        "private int func_21082_c(ItemStack var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_28010_c": [
+      [
+        "func_28018_c",
+        "InventoryPlayer",
+        "public boolean func_28010_c(ItemStack var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_260_a": [
+      [
+        "doorMaterial",
+        "ItemDoor",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "doorMaterial",
+        "ItemDoor",
+        "public ItemDoor(int var1, Material var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_21033_c": [
+      [
+        "func_21034_c",
+        "ItemDye",
+        "public void saddleEntity(ItemStack var1, EntityLiving var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_25011_bi": [
+      [
+        "isWolfsFavoriteMeat",
+        "ItemFood",
+        "public ItemFood(int var1, int var2, boolean var3) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28023_a": [
+      [
+        "func_28012_a",
+        "ItemMap",
+        "public void onUpdate(ItemStack var1, World var2, Entity var3, int var4, boolean var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28155_a": [
+      [
+        "func_28169_a",
+        "ItemMap",
+        "public void onUpdate(ItemStack var1, World var2, Entity var3, int var4, boolean var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28024_a": [
+      [
+        "func_28011_a",
+        "ItemMap",
+        "public void onUpdate(ItemStack var1, World var2, Entity var3, int var4, boolean var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28104_b": [
+      [
+        "getUniqueDataId",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28102_a": [
+      [
+        "setItemData",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28164_b": [
+      [
+        "field_28180_b",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28180_b",
+        "MapData",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28180_b",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28163_c": [
+      [
+        "field_28179_c",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28179_c",
+        "MapData",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28179_c",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28161_e": [
+      [
+        "field_28177_e",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28177_e",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28162_d": [
+      [
+        "field_28178_d",
+        "ItemMap",
+        "public void onCreated(ItemStack var1, World var2, EntityPlayer var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28178_d",
+        "MapData",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28178_d",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27030_c": [
+      [
+        "isRailBlock",
+        "ItemMinecart",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_253_a": [
+      [
+        "field_320_a",
+        "ItemReed",
+        "public ItemReed(int var1, Block var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_320_a",
+        "ItemReed",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_320_a",
+        "ItemReed",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_320_a",
+        "ItemReed",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_320_a",
+        "ItemReed",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_320_a",
+        "ItemReed",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_271_a": [
+      [
+        "field_318_a",
+        "ItemSeeds",
+        "public ItemSeeds(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_318_a",
+        "ItemSeeds",
+        "public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28203_e": [
+      [
+        "field_28218_e",
+        "MapCoord",
+        "public MapCoord(MapData var1, byte var2, byte var3, byte var4, byte var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28202_a": [
+      [
+        "field_28217_a",
+        "MapCoord",
+        "public MapCoord(MapData var1, byte var2, byte var3, byte var4, byte var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28201_b": [
+      [
+        "field_28216_b",
+        "MapCoord",
+        "public MapCoord(MapData var1, byte var2, byte var3, byte var4, byte var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28205_c": [
+      [
+        "field_28220_c",
+        "MapCoord",
+        "public MapCoord(MapData var1, byte var2, byte var3, byte var4, byte var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28204_d": [
+      [
+        "field_28219_d",
+        "MapCoord",
+        "public MapCoord(MapData var1, byte var2, byte var3, byte var4, byte var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28160_f": [
+      [
+        "field_28176_f",
+        "MapData",
+        "public void writeToNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28176_f",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28176_f",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ],
+      [
+        "field_28176_f",
+        "MapData",
+        "public void readFromNBT(NBTTagCompound var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_947_a": [
+      [
+        "field_1306_a",
+        "MapGenCaves",
+        "protected void releaseEntitySkin(int var1, int var2, byte[] var3, double var4, double var6, double var8, float var10, float var11, float var12, int var13, int var14, double var15) {",
+        "aligned method body"
+      ]
+    ],
+    "func_669_a": [
+      [
+        "func_870_a",
+        "MapGenCaves",
+        "protected void func_669_a(int var1, int var2, byte[] var3, double var4, double var6, double var8) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28124_d": [
+      [
+        "mapDataObj",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28125_c": [
+      [
+        "field_28124_c",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28124_c",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28123_e": [
+      [
+        "field_28122_e",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28122_f": [
+      [
+        "field_28121_f",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28120_a": [
+      [
+        "entityplayerObj",
+        "MapInfo",
+        "public MapInfo(MapData var1, EntityPlayer var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_957_a": [
+      [
+        "field_1299_a",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_956_b": [
+      [
+        "field_1298_b",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_962_c": [
+      [
+        "field_1304_c",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_961_d": [
+      [
+        "field_1303_d",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_960_e": [
+      [
+        "field_1302_e",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_959_f": [
+      [
+        "field_1301_f",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_958_g": [
+      [
+        "field_1300_g",
+        "MetadataChunkBlock",
+        "public MetadataChunkBlock(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27029_g": [
+      [
+        "isRailBlockAt",
+        "RailLogic",
+        "private boolean isMinecartTrack(int var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "isRailBlockAt",
+        "RailLogic",
+        "private boolean isMinecartTrack(int var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "isRailBlockAt",
+        "RailLogic",
+        "private boolean isMinecartTrack(int var1, int var2, int var3) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27083_a": [
+      [
+        "setConnections",
+        "RailLogic",
+        "private void func_27083_a(int var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_591_b": [
+      [
+        "func_785_b",
+        "RailLogic",
+        "private void func_591_b() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_599_b": [
+      [
+        "isInTrack",
+        "RailLogic",
+        "private boolean func_599_b(int var1, int var2, int var3) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_21034_d": [
+      [
+        "func_21035_d",
+        "RecipesDyes",
+        "public void addRecipes(CraftingManager var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27006_b": [
+      [
+        "getHasStack",
+        "Slot",
+        "public boolean func_27006_b() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_20102_a": [
+      [
+        "armorType",
+        "SlotArmor",
+        "public boolean isItemValid(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "armorType",
+        "SlotArmor",
+        "public boolean isItemValid(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_25004_e": [
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public SlotCrafting(EntityPlayer var1, IInventory var2, IInventory var3, int var4, int var5, int var6) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ],
+      [
+        "thePlayer",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_25130_d": [
+      [
+        "buildWorkBench",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27110_i": [
+      [
+        "buildPickaxe",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27109_j": [
+      [
+        "buildFurnace",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27107_l": [
+      [
+        "buildHoe",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27106_m": [
+      [
+        "makeBread",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27105_n": [
+      [
+        "bakeCake",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27104_o": [
+      [
+        "buildBetterPickaxe",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27101_r": [
+      [
+        "buildSword",
+        "SlotCrafting",
+        "public void onPickupFromSlot(ItemStack var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_21103_d": [
+      [
+        "getPeacefulCreature",
+        "SpawnerAnimals",
+        "public static final int performSpawning(World var0, boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "getPeacefulCreature",
+        "SpawnerAnimals",
+        "public static final int performSpawning(World var0, boolean var1, boolean var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4066_a": [
+      [
+        "getBiomeGenAtChunkCoord",
+        "SpawnerAnimals",
+        "public static final int performSpawning(World var0, boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "getBiomeGenAtChunkCoord",
+        "WorldChunkManager",
+        "public BiomeGenBase func_4066_a(ChunkCoordIntPair var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_21167_a": [
+      [
+        "canCreatureTypeSpawnAtLocation",
+        "SpawnerAnimals",
+        "public static final int performSpawning(World var0, boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "canCreatureTypeSpawnAtLocation",
+        "SpawnerAnimals",
+        "public static boolean performSleepSpawning(World var0, List var1) {",
+        "aligned method body"
+      ],
+      [
+        "canCreatureTypeSpawnAtLocation",
+        "SpawnerAnimals",
+        "private static boolean func_21167_a(EnumCreatureType var0, World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_21166_a": [
+      [
+        "creatureSpecificInit",
+        "SpawnerAnimals",
+        "public static final int performSpawning(World var0, boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "creatureSpecificInit",
+        "SpawnerAnimals",
+        "public static boolean performSleepSpawning(World var0, List var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_22213_a": [
+      [
+        "nightSpawnEntities",
+        "SpawnerAnimals",
+        "public static boolean performSleepSpawning(World var0, List var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_22021_g": [
+      [
+        "getNearestEmptyChunkCoordinates",
+        "SpawnerAnimals",
+        "public static boolean performSleepSpawning(World var0, List var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_31005_e": [
+      [
+        "getBlockMetadata",
+        "TileEntity",
+        "public int func_31005_e() {",
+        "unique method body and signature shape"
+      ],
+      [
+        "getBlockMetadata",
+        "TileEntityPiston",
+        "public int func_31005_e() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_778_L": [
+      [
+        "field_1012_M",
+        "World",
+        "public List getEntitiesWithinAABBExcludingEntity(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_1012_M",
+        "World",
+        "public List getEntitiesWithinAABBExcludingEntity(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_1012_M",
+        "World",
+        "public List getEntitiesWithinAABBExcludingEntity(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27075_F": [
+      [
+        "field_27168_F",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "field_27168_F",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ]
+    ],
+    "field_27079_B": [
+      [
+        "prevRainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ]
+    ],
+    "field_27078_C": [
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "rainingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ]
+    ],
+    "field_27077_D": [
+      [
+        "prevThunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ]
+    ],
+    "field_27076_E": [
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ],
+      [
+        "thunderingStrength",
+        "World",
+        "protected void updateWeather() {",
+        "aligned method body"
+      ]
+    ],
+    "func_27074_d": [
+      [
+        "func_27162_g",
+        "World",
+        "public int calculateSkylightSubtracted(float var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27065_c": [
+      [
+        "func_27166_f",
+        "World",
+        "public int calculateSkylightSubtracted(float var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_9207_I": [
+      [
+        "collidingBoundingBoxes",
+        "World",
+        "public List getCollidingBoundingBoxes(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "collidingBoundingBoxes",
+        "World",
+        "public List getCollidingBoundingBoxes(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "collidingBoundingBoxes",
+        "World",
+        "public List getCollidingBoundingBoxes(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "collidingBoundingBoxes",
+        "World",
+        "public List getCollidingBoundingBoxes(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ],
+      [
+        "collidingBoundingBoxes",
+        "World",
+        "public List getCollidingBoundingBoxes(Entity var1, AxisAlignedBB var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_484_a": [
+      [
+        "scheduleLightingUpdate_do",
+        "World",
+        "public void scheduleLightingUpdate(EnumSkyBlock var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "func_494_a": [
+      [
+        "func_675_a",
+        "World",
+        "public float func_494_a(Vec3D var1, AxisAlignedBB var2) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_4255_e": [
+      [
+        "field_4194_e",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4194_e",
+        "WorldChunkManager",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4194_e",
+        "WorldChunkManager",
+        "public WorldChunkManager(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4254_f": [
+      [
+        "field_4193_f",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4193_f",
+        "WorldChunkManager",
+        "public WorldChunkManager(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4257_c": [
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4196_c",
+        "WorldChunkManager",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4253_g": [
+      [
+        "field_4192_g",
+        "WorldChunkManager",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4192_g",
+        "WorldChunkManager",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4192_g",
+        "WorldChunkManager",
+        "public WorldChunkManager(World var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4065_a": [
+      [
+        "func_4069_a",
+        "WorldChunkManager",
+        "public BiomeGenBase getBiomeGenAt(int var1, int var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4262_e": [
+      [
+        "field_4201_e",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase getBiomeGenAt(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_4201_e",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4201_e",
+        "WorldChunkManagerHell",
+        "public WorldChunkManagerHell(BiomeGenBase var1, double var2, double var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4260_g": [
+      [
+        "field_4199_g",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4199_g",
+        "WorldChunkManagerHell",
+        "public WorldChunkManagerHell(BiomeGenBase var1, double var2, double var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4261_f": [
+      [
+        "field_4200_f",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] loadBlockGeneratorData(BiomeGenBase[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_4200_f",
+        "WorldChunkManagerHell",
+        "public WorldChunkManagerHell(BiomeGenBase var1, double var2, double var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4200_f",
+        "WorldChunkManagerHell",
+        "public double[] getTemperatures(double[] var1, int var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28055_a": [
+      [
+        "field_28058_a",
+        "WorldGenDeadBush",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28058_a",
+        "WorldGenDeadBush",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28058_a",
+        "WorldGenDeadBush",
+        "public WorldGenDeadBush(int var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4250_a": [
+      [
+        "field_4158_a",
+        "WorldGenHellLava",
+        "public WorldGenHellLava(int var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_15005_a": [
+      [
+        "field_15235_a",
+        "WorldGenLakes",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_15235_a",
+        "WorldGenLakes",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_15235_a",
+        "WorldGenLakes",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_15235_a",
+        "WorldGenLakes",
+        "public WorldGenLakes(int var1) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28057_a": [
+      [
+        "field_28060_a",
+        "WorldGenTallGrass",
+        "public WorldGenTallGrass(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28060_a",
+        "WorldGenTallGrass",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28060_a",
+        "WorldGenTallGrass",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28056_b": [
+      [
+        "field_28059_b",
+        "WorldGenTallGrass",
+        "public WorldGenTallGrass(int var1, int var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28059_b",
+        "WorldGenTallGrass",
+        "public boolean generate(World var1, Random var2, int var3, int var4, int var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4091_a": [
+      [
+        "getProviderForDimension",
+        "WorldProvider",
+        "public static WorldProvider func_4091_a(int var0) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_6167_c": [
+      [
+        "isNether",
+        "WorldProviderHell",
+        "public void registerWorldChunkManager() {",
+        "aligned method body"
+      ]
+    ],
+    "func_28108_d": [
+      [
+        "canRespawnHere",
+        "WorldProviderHell",
+        "public boolean func_28108_d() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28054_m": [
+      [
+        "sky",
+        "WorldProviderSky",
+        "public void registerWorldChunkManager() {",
+        "aligned method body"
+      ]
+    ],
+    "field_25129_a": [
+      [
+        "achievementList",
+        "Achievement",
+        "public Achievement registerAchievement() {",
+        "aligned method body"
+      ]
+    ],
+    "func_312_l": [
+      [
+        "liquidCanDisplaceBlock",
+        "BlockFlowing",
+        "private boolean func_312_l(World var1, int var2, int var3, int var4) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_596_a": [
+      [
+        "func_792_a",
+        "BlockRail",
+        "private void func_4031_h(World var1, int var2, int var3, int var4, boolean var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_27031_a": [
+      [
+        "func_27043_a",
+        "BlockRail",
+        "private boolean func_27044_a(World var1, int var2, int var3, int var4, int var5, boolean var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "func_27043_a",
+        "BlockRail",
+        "private boolean func_27044_a(World var1, int var2, int var3, int var4, int var5, boolean var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "func_27043_a",
+        "BlockRail",
+        "private boolean func_27031_a(World var1, int var2, int var3, int var4, boolean var5, int var6, int var7) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27028_d": [
+      [
+        "getIsPowered",
+        "BlockRail",
+        "public boolean func_27028_d() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_686_i": [
+      [
+        "lowestBlockHeight",
+        "Chunk",
+        "private void func_1003_g(int var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "lowestBlockHeight",
+        "Chunk",
+        "private void func_1003_g(int var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "lowestBlockHeight",
+        "Chunk",
+        "private void func_1003_g(int var1, int var2, int var3) {",
+        "aligned method body"
+      ],
+      [
+        "lowestBlockHeight",
+        "Chunk",
+        "public void func_1024_c() {",
+        "aligned method body"
+      ]
+    ],
+    "field_4226_g": [
+      [
+        "field_4182_g",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4182_g",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4182_g",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4225_h": [
+      [
+        "field_4181_h",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4181_h",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4181_h",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4229_d": [
+      [
+        "field_4185_d",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4185_d",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4185_d",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4228_e": [
+      [
+        "field_4184_e",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4184_e",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4184_e",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_4227_f": [
+      [
+        "field_4183_f",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4183_f",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_4183_f",
+        "ChunkProviderGenerate",
+        "private double[] func_4061_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28077_r": [
+      [
+        "field_28079_r",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_28079_r",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28076_s": [
+      [
+        "field_28078_s",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_28078_s",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28075_t": [
+      [
+        "field_28077_t",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_28077_t",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_28077_t",
+        "ChunkProviderSky",
+        "public void func_28072_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28078_q": [
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "field_28080_q",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28071_a": [
+      [
+        "func_28073_a",
+        "ChunkProviderSky",
+        "public void func_28071_a(int var1, int var2, byte[] var3, BiomeGenBase[] var4, double[] var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27995_d": [
+      [
+        "startMinecartRidingCoordinate",
+        "EntityPlayer",
+        "private void addMountedMovementStat(double var1, double var3, double var5) {",
+        "aligned method body"
+      ],
+      [
+        "startMinecartRidingCoordinate",
+        "EntityPlayer",
+        "private void addMountedMovementStat(double var1, double var3, double var5) {",
+        "aligned method body"
+      ],
+      [
+        "startMinecartRidingCoordinate",
+        "EntityPlayer",
+        "private void addMountedMovementStat(double var1, double var3, double var5) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27102_q": [
+      [
+        "onARail",
+        "EntityPlayer",
+        "private void addMountedMovementStat(double var1, double var3, double var5) {",
+        "aligned method body"
+      ]
+    ],
+    "func_25010_k": [
+      [
+        "getIsWolfsFavoriteMeat",
+        "ItemFood",
+        "public boolean func_25010_k() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_28103_a": [
+      [
+        "loadItemData",
+        "ItemMap",
+        "public MapData func_28012_a(ItemStack var1, World var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28159_g": [
+      [
+        "field_28175_g",
+        "ItemMap",
+        "public void func_28011_a(World var1, Entity var2, MapData var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28175_g",
+        "ItemMap",
+        "public void func_28011_a(World var1, Entity var2, MapData var3) {",
+        "aligned method body"
+      ],
+      [
+        "field_28175_g",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28153_a": [
+      [
+        "func_28170_a",
+        "ItemMap",
+        "public void func_28011_a(World var1, Entity var2, MapData var3) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28156_j": [
+      [
+        "field_28172_j",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28172_j",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28172_j",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28158_h": [
+      [
+        "field_28174_h",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28174_h",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28174_h",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28174_h",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28157_i": [
+      [
+        "field_28173_i",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28173_i",
+        "MapData",
+        "public void func_28169_a(EntityPlayer var1, ItemStack var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_666_a": [
+      [
+        "func_868_a",
+        "MapGenBase",
+        "public void func_867_a(IChunkProvider var1, World var2, int var3, int var4, byte[] var5) {",
+        "aligned method body"
+      ],
+      [
+        "func_868_a",
+        "MapGenCaves",
+        "protected void func_666_a(World var1, int var2, int var3, int var4, int var5, byte[] var6) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_4107_a": [
+      [
+        "func_4127_a",
+        "MetadataChunkBlock",
+        "public void func_4107_a(World var1) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_692_a": [
+      [
+        "func_866_a",
+        "MetadataChunkBlock",
+        "public boolean func_692_a(int var1, int var2, int var3, int var4, int var5, int var6) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_592_c": [
+      [
+        "func_786_c",
+        "RailLogic",
+        "private boolean func_592_c(int var1, int var2, int var3) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28105_z": [
+      [
+        "field_28108_z",
+        "World",
+        "public void setItemData(String var1, MapDataBase var2) {",
+        "aligned method body"
+      ],
+      [
+        "field_28108_z",
+        "World",
+        "public int getUniqueDataId(String var1) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28133_a": [
+      [
+        "func_28136_a",
+        "World",
+        "public void func_28107_a(EntityPlayer var1, int var2, int var3, int var4, int var5, int var6) {",
+        "aligned method body"
+      ]
+    ],
+    "func_28096_a": [
+      [
+        "onBlockHit",
+        "World",
+        "public void func_28096_a(EntityPlayer var1, int var2, int var3, int var4, int var5) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27070_x": [
+      [
+        "func_27163_E",
+        "World",
+        "private void func_27070_x() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "func_27068_v": [
+      [
+        "func_27161_C",
+        "World",
+        "public boolean func_27068_v() {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_4256_d": [
+      [
+        "field_4195_d",
+        "WorldChunkManager",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4195_d",
+        "WorldChunkManager",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4195_d",
+        "WorldChunkManager",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4195_d",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4195_d",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ],
+      [
+        "field_4195_d",
+        "WorldChunkManagerHell",
+        "public BiomeGenBase[] func_4069_a(int var1, int var2, int var3, int var4) {",
+        "aligned method body"
+      ]
+    ],
+    "func_311_f": [
+      [
+        "flowIntoBlock",
+        "BlockFlowing",
+        "private void func_311_f(World var1, int var2, int var3, int var4, int var5) {",
+        "unique method body and signature shape"
+      ]
+    ],
+    "field_28088_g": [
+      [
+        "field_28090_g",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28090_g",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28090_g",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28087_h": [
+      [
+        "field_28089_h",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28089_h",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28089_h",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28091_d": [
+      [
+        "field_28093_d",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28093_d",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28093_d",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28090_e": [
+      [
+        "field_28092_e",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28092_e",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28092_e",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "field_28089_f": [
+      [
+        "field_28091_f",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28091_f",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ],
+      [
+        "field_28091_f",
+        "ChunkProviderSky",
+        "private double[] func_28073_a(double[] var1, int var2, int var3, int var4, int var5, int var6, int var7) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4106_a": [
+      [
+        "func_4129_a",
+        "MapGenCavesHell",
+        "protected void func_868_a(World var1, int var2, int var3, int var4, int var5, byte[] var6) {",
+        "aligned method body"
+      ]
+    ],
+    "func_4105_a": [
+      [
+        "func_4128_a",
+        "MapGenCavesHell",
+        "protected void func_868_a(World var1, int var2, int var3, int var4, int var5, byte[] var6) {",
+        "aligned method body"
+      ]
+    ],
+    "field_27084_f": [
+      [
+        "isPoweredRail",
+        "RailLogic",
+        "public void func_792_a(boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "isPoweredRail",
+        "RailLogic",
+        "public void func_792_a(boolean var1, boolean var2) {",
+        "aligned method body"
+      ],
+      [
+        "isPoweredRail",
+        "RailLogic",
+        "public void func_792_a(boolean var1, boolean var2) {",
+        "aligned method body"
+      ]
+    ],
+    "func_598_d": [
+      [
+        "func_788_d",
+        "RailLogic",
+        "public void func_792_a(boolean var1, boolean var2) {",
+        "aligned method body"
+      ]
+    ]
+  },
+  "ambiguous": []
+}

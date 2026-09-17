@@ -1,0 +1,22 @@
+{
+  "field_27012_bb": "isInWeb",
+  "field_9077_F": "field_9293_aM",
+  "field_9083_ac": "heartsLife",
+  "firstUpdate": "isFirstUpdate",
+  "field_31001_bF": "entityBrightness",
+  "field_28008_bI": "ignoreFrustumCheck",
+  "singleplayerWorld": "multiplayerWorld",
+  "setFlag": "setEntityFlag",
+  "getFlag": "getEntityFlag",
+  "func_25017_l": "canTriggerWalking",
+  "func_27008_Y": "isWet",
+  "getInsetBoundingBox": "func_28195_e",
+  "canLightningStrikeAt": "canBlockBeRainedOn",
+  "setFluidHeight": "getPercentAir",
+  "setWorldHandler": "setWorld",
+  "func_89_d": "getCollisionBox",
+  "func_27010_a": "onKillEntity",
+  "func_28005_g": "pushOutOfBlocks",
+  "isVecInXYZ": "isVecInside",
+  "func_706_a": "func_1169_a"
+}

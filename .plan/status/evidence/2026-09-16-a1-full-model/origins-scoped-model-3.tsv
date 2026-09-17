@@ -1,0 +1,14 @@
+net.minecraft.src.Block	setRequiresSelfNotify	disableNeighborNotifyOnMetadataChange
+net.minecraft.src.Container	func_27086_a	getStackInSlot
+net.minecraft.src.Container	func_28126_a	func_28125_a
+net.minecraft.src.EntityPlayer	getSpawnChunk	getPlayerSpawnCoordinate
+net.minecraft.src.World	removePlayerForLogoff	setEntityDead
+net.minecraft.src.World	setAllowedSpawnTypes	setAllowedMobSpawns
+net.minecraft.src.World	o	getIChunkProvider
+net.minecraft.src.Block	setFireBurnRates	initializeBlock
+net.minecraft.src.ISaveHandler	func_22096_c	loadWorldInfo
+net.minecraft.src.World	generateSpawnPoint	getInitialSpawnLocation
+net.minecraft.src.World	worldChunkLoadOverride	findingSpawnPoint
+net.minecraft.src.World	field_6159_E	field_1019_F
+net.minecraft.src.World	DIST_HASH_MAGIC	field_9436_h
+net.minecraft.src.World	field_4265_J	lightingUpdatesCounter

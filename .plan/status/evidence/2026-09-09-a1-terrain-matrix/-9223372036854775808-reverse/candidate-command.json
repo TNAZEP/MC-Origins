@@ -1,0 +1,18 @@
+[
+  "/usr/bin/python3",
+  "/home/tnazep/My Stuff/Dev/MC-Origins/tools/capture_beta_terrain.py",
+  "--java-home",
+  "/usr/lib/jvm/java-8-openjdk",
+  "--jar",
+  "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+  "--namespace",
+  "named",
+  "--level-template",
+  "/home/tnazep/My Stuff/Dev/MC-Origins/reference/fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+  "--seed",
+  "-9223372036854775808",
+  "--requests",
+  "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-terrain-matrix/-9223372036854775808-reverse/schedule.tsv",
+  "--output",
+  "/home/tnazep/My Stuff/Dev/MC-Origins/run/terrain-matrix/-9223372036854775808-reverse/candidate"
+]

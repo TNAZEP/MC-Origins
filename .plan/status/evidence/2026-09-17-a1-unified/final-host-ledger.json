@@ -1,0 +1,81 @@
+[
+  {
+    "class": "ContainerChest",
+    "origins": [
+      "src/client/java/net/minecraft/src/ContainerChest.java",
+      "src/server/java/net/minecraft/src/ContainerChest.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "ContainerDispenser",
+    "origins": [
+      "src/client/java/net/minecraft/src/ContainerDispenser.java",
+      "src/server/java/net/minecraft/src/ContainerDispenser.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "ContainerFurnace",
+    "origins": [
+      "src/client/java/net/minecraft/src/ContainerFurnace.java",
+      "src/server/java/net/minecraft/src/ContainerFurnace.java"
+    ],
+    "decision": "Union of furnace progress producer and receiver"
+  },
+  {
+    "class": "ContainerWorkbench",
+    "origins": [
+      "src/client/java/net/minecraft/src/ContainerWorkbench.java",
+      "src/server/java/net/minecraft/src/ContainerWorkbench.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "ISaveFormat",
+    "origins": [
+      "src/client/java/net/minecraft/src/ISaveFormat.java",
+      "src/server/java/net/minecraft/src/ISaveFormat.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "SaveConverterMcRegion",
+    "origins": [
+      "src/client/java/net/minecraft/src/SaveConverterMcRegion.java",
+      "src/server/java/net/minecraft/src/SaveConverterMcRegion.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "SaveFormatOld",
+    "origins": [
+      "src/client/java/net/minecraft/src/SaveFormatOld.java",
+      "src/server/java/net/minecraft/src/SaveFormatOld.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "SlotFurnace",
+    "origins": [
+      "src/client/java/net/minecraft/src/SlotFurnace.java",
+      "src/server/java/net/minecraft/src/SlotFurnace.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "Teleporter",
+    "origins": [
+      "src/client/java/net/minecraft/src/Teleporter.java",
+      "src/server/java/net/minecraft/src/Teleporter.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  },
+  {
+    "class": "SaveFormatComparator",
+    "origins": [
+      "src/client/java/net/minecraft/src/SaveFormatComparator.java"
+    ],
+    "decision": "Client API superset; common bodies equal after scoped aliases"
+  }
+]

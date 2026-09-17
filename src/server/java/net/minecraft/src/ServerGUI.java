@@ -26,7 +26,7 @@ public class ServerGUI extends JComponent implements ICommandListener {
 		}
 
 		ServerGUI var1 = new ServerGUI(var0);
-		JFrame var2 = new JFrame("Minecraft server");
+		JFrame var2 = new JFrame(net.minecraft.src.OriginsVersion.DISPLAY_NAME);
 		var2.add(var1);
 		var2.pack();
 		var2.setLocationRelativeTo((Component)null);

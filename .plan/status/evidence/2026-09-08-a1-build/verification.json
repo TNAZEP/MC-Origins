@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "byte_identical_clean_rebuild": true,
+  "artifacts": {
+    "Minecraft.jar": {
+      "sha256": "4332144c3869f46afc217847b5ab3c77163633d156ec90759261b70b6cc8bfd8",
+      "class_count": 678,
+      "size_bytes": 1690634,
+      "compiled_classes_and_resources_match": true
+    },
+    "Minecraft-server.jar": {
+      "sha256": "dde3a5627a65c6310977e202efddaffd52c02f515e129e87918899348dc3e7b7",
+      "class_count": 444,
+      "size_bytes": 787041,
+      "compiled_classes_and_resources_match": true
+    }
+  },
+  "references_unchanged": true,
+  "client_libraries_match_upstream_sha1": [
+    "jinput-2.0.5.jar",
+    "jutils-1.0.0.jar",
+    "lwjgl-2.9.4-nightly-20150209.jar",
+    "lwjgl_util-2.9.4-nightly-20150209.jar",
+    "codecjorbis-20230120.jar",
+    "codecwav-20101023.jar",
+    "libraryjavasound-20101123.jar",
+    "librarylwjglopenal-20100824.jar",
+    "soundsystem-20120107.jar"
+  ]
+}

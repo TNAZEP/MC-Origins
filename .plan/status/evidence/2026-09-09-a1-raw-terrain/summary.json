@@ -1,0 +1,434 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "seed": 0,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -1,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -1,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -1,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 123456789,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 123456789,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 123456789,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -9223372036854775808,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -9223372036854775808,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": -9223372036854775808,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 9223372036854775807,
+      "order": "xz",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 9223372036854775807,
+      "order": "reverse",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    },
+    {
+      "seed": 9223372036854775807,
+      "order": "spiral",
+      "result": "PASS",
+      "traces_match": true,
+      "comparisons": {
+        "repeat": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        },
+        "candidate": {
+          "format": "origins-beta-saved-terrain-v1",
+          "result": "PASS",
+          "original_chunks": 150,
+          "candidate_chunks": 150,
+          "differences": []
+        }
+      }
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    -1,
+    123456789,
+    -9223372036854775808,
+    9223372036854775807
+  ],
+  "orders": [
+    "xz",
+    "reverse",
+    "spiral"
+  ],
+  "mode": "raw",
+  "script_sha256": "91eb180d5f3beabfb2967748f70f38b188c5accc90e5652af3ed2db204de9b54",
+  "argv": [
+    "tools/check_beta_terrain_matrix.py",
+    "--java-home",
+    "/usr/lib/jvm/java-8-openjdk",
+    "--original",
+    "reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+    "--candidate",
+    "build/libs/Minecraft-server.jar",
+    "--level-template",
+    "reference/fixtures/beta-1.7.3/worlds/startup-seed-8675309/level.dat",
+    "--output",
+    "run/raw-terrain-matrix",
+    "--evidence",
+    ".plan/status/evidence/2026-09-09-a1-raw-terrain",
+    "--mode",
+    "raw"
+  ],
+  "revision": "e1eaaac7d06a41452762eb92fe4bf3fec5670968"
+}

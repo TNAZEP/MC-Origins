@@ -34,7 +34,7 @@ import net.minecraft.src.ServerGUI;
 import net.minecraft.src.StatList;
 import net.minecraft.src.ThreadCommandReader;
 import net.minecraft.src.ThreadServerApplication;
-import net.minecraft.src.ThreadSleepForever;
+import net.minecraft.src.ServerSleepThread;
 import net.minecraft.src.Vec3D;
 import net.minecraft.src.WorldManager;
 import net.minecraft.src.WorldServer;
@@ -62,7 +62,7 @@ public class MinecraftServer implements Runnable, ICommandListener {
 	public boolean allowFlight;
 
 	public MinecraftServer() {
-		new ThreadSleepForever(this);
+		new ServerSleepThread(this);
 	}
 
 	private boolean startServer() throws UnknownHostException {
@@ -71,7 +71,7 @@ public class MinecraftServer implements Runnable, ICommandListener {
 		var1.setDaemon(true);
 		var1.start();
 		ConsoleLogManager.init();
-		logger.info("Starting minecraft server version Beta 1.7.3");
+		logger.info("Starting " + net.minecraft.src.OriginsVersion.DISPLAY_NAME);
 		if(Runtime.getRuntime().maxMemory() / 1024L / 1024L < 512L) {
 			logger.warning("**** NOT ENOUGH RAM!");
 			logger.warning("To start the server with more ram, launch it as \"java -Xmx1024M -Xms1024M -jar minecraft_server.jar\"");
@@ -130,9 +130,9 @@ public class MinecraftServer implements Runnable, ICommandListener {
 	}
 
 	private void initWorld(ISaveFormat var1, String var2, long var3) {
-		if(var1.isOldSaveType(var2)) {
+		if(var1.isOldMapFormat(var2)) {
 			logger.info("Converting map!");
-			var1.converMapToMCRegion(var2, new ConvertProgressUpdater(this));
+			var1.convertMapFormat(var2, new ConvertProgressUpdater(this));
 		}
 
 		this.worldMngr = new WorldServer[2];
@@ -147,7 +147,7 @@ public class MinecraftServer implements Runnable, ICommandListener {
 
 			this.worldMngr[var6].addWorldAccess(new WorldManager(this, this.worldMngr[var6]));
 			this.worldMngr[var6].difficultySetting = this.propertyManagerObj.getBooleanProperty("spawn-monsters", true) ? 1 : 0;
-			this.worldMngr[var6].setAllowedSpawnTypes(this.propertyManagerObj.getBooleanProperty("spawn-monsters", true), this.spawnPeacefulMobs);
+			this.worldMngr[var6].setAllowedMobSpawns(this.propertyManagerObj.getBooleanProperty("spawn-monsters", true), this.spawnPeacefulMobs);
 			this.configManager.setPlayerManager(this.worldMngr);
 		}
 
@@ -174,9 +174,9 @@ public class MinecraftServer implements Runnable, ICommandListener {
 							var7 = var14;
 						}
 
-						var10.chunkProviderServer.loadChunk(var11.posX + var12 >> 4, var11.posZ + var13 >> 4);
+						var10.chunkProviderServer.prepareChunk(var11.x + var12 >> 4, var11.z + var13 >> 4);
 
-						while(var10.func_6156_d() && this.serverRunning) {
+						while(var10.updatingLighting() && this.serverRunning) {
 						}
 					}
 				}
@@ -327,7 +327,7 @@ public class MinecraftServer implements Runnable, ICommandListener {
 
 				var7.tick();
 
-				while(var7.func_6156_d()) {
+				while(var7.updatingLighting()) {
 				}
 
 				var7.updateEntities();
@@ -370,7 +370,7 @@ public class MinecraftServer implements Runnable, ICommandListener {
 	}
 
 	public static void main(String[] var0) {
-		StatList.func_27092_a();
+		StatList.func_27360_a();
 
 		try {
 			MinecraftServer var1 = new MinecraftServer();

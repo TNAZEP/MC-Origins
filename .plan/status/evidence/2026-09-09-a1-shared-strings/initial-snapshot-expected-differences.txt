@@ -1,0 +1,4 @@
+Initial import snapshot differs (expected after development edits):
+src/client/java/net/minecraft/src/Packet.java
+src/main/java/net/minecraft/src/BetaStringCodec.java
+src/server/java/net/minecraft/src/Packet.java

@@ -60,7 +60,7 @@ public class ServerConfigurationManager {
 		this.playerManagerObj[1].removePlayer(var1);
 		this.getPlayerManager(var1.dimension).addPlayer(var1);
 		WorldServer var2 = this.mcServer.getWorldManager(var1.dimension);
-		var2.chunkProviderServer.loadChunk((int)var1.posX >> 4, (int)var1.posZ >> 4);
+		var2.chunkProviderServer.prepareChunk((int)var1.posX >> 4, (int)var1.posZ >> 4);
 	}
 
 	public int getMaxTrackingDistance() {
@@ -78,7 +78,7 @@ public class ServerConfigurationManager {
 	public void playerLoggedIn(EntityPlayerMP var1) {
 		this.playerEntities.add(var1);
 		WorldServer var2 = this.mcServer.getWorldManager(var1.dimension);
-		var2.chunkProviderServer.loadChunk((int)var1.posX >> 4, (int)var1.posZ >> 4);
+		var2.chunkProviderServer.prepareChunk((int)var1.posX >> 4, (int)var1.posZ >> 4);
 
 		while(var2.getCollidingBoundingBoxes(var1, var1.boundingBox).size() != 0) {
 			var1.setPosition(var1.posX, var1.posY + 1.0D, var1.posZ);
@@ -94,7 +94,7 @@ public class ServerConfigurationManager {
 
 	public void playerLoggedOut(EntityPlayerMP var1) {
 		this.playerNBTManagerObj.writePlayerData(var1);
-		this.mcServer.getWorldManager(var1.dimension).removePlayerForLogoff(var1);
+		this.mcServer.getWorldManager(var1.dimension).setEntityDead(var1);
 		this.playerEntities.remove(var1);
 		this.getPlayerManager(var1.dimension).removePlayer(var1);
 	}
@@ -135,23 +135,23 @@ public class ServerConfigurationManager {
 		this.getPlayerManager(var1.dimension).removePlayer(var1);
 		this.playerEntities.remove(var1);
 		this.mcServer.getWorldManager(var1.dimension).removePlayer(var1);
-		ChunkCoordinates var3 = var1.getSpawnChunk();
+		ChunkCoordinates var3 = var1.getPlayerSpawnCoordinate();
 		var1.dimension = var2;
 		EntityPlayerMP var4 = new EntityPlayerMP(this.mcServer, this.mcServer.getWorldManager(var1.dimension), var1.username, new ItemInWorldManager(this.mcServer.getWorldManager(var1.dimension)));
 		var4.entityId = var1.entityId;
 		var4.playerNetServerHandler = var1.playerNetServerHandler;
 		WorldServer var5 = this.mcServer.getWorldManager(var1.dimension);
 		if(var3 != null) {
-			ChunkCoordinates var6 = EntityPlayer.func_25051_a(this.mcServer.getWorldManager(var1.dimension), var3);
+			ChunkCoordinates var6 = EntityPlayer.func_25060_a(this.mcServer.getWorldManager(var1.dimension), var3);
 			if(var6 != null) {
-				var4.setLocationAndAngles((double)((float)var6.posX + 0.5F), (double)((float)var6.posY + 0.1F), (double)((float)var6.posZ + 0.5F), 0.0F, 0.0F);
-				var4.setSpawnChunk(var3);
+				var4.setLocationAndAngles((double)((float)var6.x + 0.5F), (double)((float)var6.y + 0.1F), (double)((float)var6.z + 0.5F), 0.0F, 0.0F);
+				var4.setPlayerSpawnCoordinate(var3);
 			} else {
 				var4.playerNetServerHandler.sendPacket(new Packet70Bed(0));
 			}
 		}
 
-		var5.chunkProviderServer.loadChunk((int)var4.posX >> 4, (int)var4.posZ >> 4);
+		var5.chunkProviderServer.prepareChunk((int)var4.posX >> 4, (int)var4.posZ >> 4);
 
 		while(var5.getCollidingBoundingBoxes(var4, var4.boundingBox).size() != 0) {
 			var4.setPosition(var4.posX, var4.posY + 1.0D, var4.posZ);
@@ -207,13 +207,13 @@ public class ServerConfigurationManager {
 			var1.setLocationAndAngles(var5, var1.posY, var7, var1.rotationYaw, var1.rotationPitch);
 			var4.updateEntityWithOptionalForce(var1, false);
 			var4.chunkProviderServer.chunkLoadOverride = true;
-			(new Teleporter()).setExitLocation(var4, var1);
+			(new Teleporter()).func_4107_a(var4, var1);
 			var4.chunkProviderServer.chunkLoadOverride = false;
 		}
 
 		this.func_28172_a(var1);
 		var1.playerNetServerHandler.teleportTo(var1.posX, var1.posY, var1.posZ, var1.rotationYaw, var1.rotationPitch);
-		var1.setWorldHandler(var4);
+		var1.setWorld(var4);
 		this.func_28170_a(var1, var4);
 		this.func_30008_g(var1);
 	}
@@ -542,14 +542,14 @@ public class ServerConfigurationManager {
 
 	public void func_28170_a(EntityPlayerMP var1, WorldServer var2) {
 		var1.playerNetServerHandler.sendPacket(new Packet4UpdateTime(var2.getWorldTime()));
-		if(var2.func_27068_v()) {
+		if(var2.func_27161_C()) {
 			var1.playerNetServerHandler.sendPacket(new Packet70Bed(1));
 		}
 
 	}
 
 	public void func_30008_g(EntityPlayerMP var1) {
-		var1.func_28017_a(var1.personalCraftingInventory);
+		var1.func_28017_a(var1.inventorySlots);
 		var1.func_30001_B();
 	}
 }

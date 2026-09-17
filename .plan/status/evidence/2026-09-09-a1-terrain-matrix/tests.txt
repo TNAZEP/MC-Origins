@@ -1,0 +1,4 @@
+Command: python3 -m unittest discover -s tools -p 'test_*.py' -v
+Exit: 0
+Observed: Ran 11 tests in 0.004s; OK.
+Includes 3 new capture tests: seed patch modifies only target long, order coverage/uniqueness, malformed schedule rejection.

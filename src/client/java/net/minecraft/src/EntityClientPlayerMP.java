@@ -44,9 +44,9 @@ public class EntityClientPlayerMP extends EntityPlayerSP {
 		boolean var1 = this.isSneaking();
 		if(var1 != this.wasSneaking) {
 			if(var1) {
-				this.sendQueue.addToSendQueue(new Packet19EntityAction(this, 1));
+				this.sendQueue.addToSendQueue(PacketFactory.createPacket19EntityAction(this, 1));
 			} else {
-				this.sendQueue.addToSendQueue(new Packet19EntityAction(this, 2));
+				this.sendQueue.addToSendQueue(PacketFactory.createPacket19EntityAction(this, 2));
 			}
 
 			this.wasSneaking = var1;
@@ -117,7 +117,7 @@ public class EntityClientPlayerMP extends EntityPlayerSP {
 
 	public void swingItem() {
 		super.swingItem();
-		this.sendQueue.addToSendQueue(new Packet18Animation(this, 1));
+		this.sendQueue.addToSendQueue(PacketFactory.createPacket18Animation(this, 1));
 	}
 
 	public void respawnPlayer() {

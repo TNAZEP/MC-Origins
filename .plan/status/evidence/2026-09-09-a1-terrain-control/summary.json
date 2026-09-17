@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "original_repeat_differences": 0,
+  "candidate_differences": 0,
+  "saved_chunks": 1248,
+  "overworld_saved_chunks": 625,
+  "nether_saved_chunks": 623,
+  "request_trace_and_rng_logs_identical": true,
+  "reference_inventory_unchanged": true,
+  "revision": "e1eaaac7d06a41452762eb92fe4bf3fec5670968",
+  "python": "3.14.7 (main, Aug 14 2026, 06:38:32) [GCC 16.2.1 20260810]",
+  "platform": "linux"
+}

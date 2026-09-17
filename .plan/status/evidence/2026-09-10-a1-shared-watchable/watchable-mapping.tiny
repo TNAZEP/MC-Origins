@@ -1,0 +1,11 @@
+c	net/minecraft/src/WatchableObject	ma	ht
+	f	Ljava/lang/Object;	watchedObject	c	c
+	f	I	objectType	a	a
+	f	I	dataValueId	b	b
+	f	Z	isWatching	d	d
+	m	()Ljava/lang/Object;	getObject	b	b
+	m	(Ljava/lang/Object;)V	setObject	a	a
+	m	(Z)V	setWatching	a	a
+	m	()I	getDataValueId	a	a
+	m	()I	getObjectType	c	c
+	m	()Z	getWatching		d

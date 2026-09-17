@@ -1,0 +1,77 @@
+{
+  "result": "PASS",
+  "commands": [
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/javac",
+      "-d",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/classes",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/tools/BetaPacketCodecTest.java"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/classes",
+      "BetaPacketCodecTest",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/beta-1.7.3/client/original/minecraft.jar",
+      "client",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/original-client.tsv"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/classes",
+      "BetaPacketCodecTest",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+      "server",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/original-server.tsv"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/classes",
+      "BetaPacketCodecTest",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft.jar",
+      "named",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/built-client.tsv"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/classes",
+      "BetaPacketCodecTest",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+      "named",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/.plan/status/evidence/2026-09-09-a1-shared-accounting/before/built-server.tsv"
+    ]
+  ],
+  "harness_sha256": "f02e61304f82d8fd608f0d93e0ac3bb597f01bd5758de24d3ee0551a2535b752",
+  "driver_sha256": "312a95bb50d56aa76360563096302e733b475da194a438e37a6b750f61b582d2",
+  "revision": "e1eaaac7d06a41452762eb92fe4bf3fec5670968",
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "inputs": {
+    "original-client": {
+      "path": "reference/source/beta-1.7.3/client/original/minecraft.jar",
+      "sha256": "af1fa04b8006d3ef78c7e24f8de4aa56f439a74d7f314827529062d5bab6db4c"
+    },
+    "original-server": {
+      "path": "reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+      "sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d"
+    },
+    "built-client": {
+      "path": "build/libs/Minecraft.jar",
+      "sha256": "d65db859eb2e3d5ec1bdb4930a4f500eaf4c55fe77876e74b665a1b562052c4a"
+    },
+    "built-server": {
+      "path": "build/libs/Minecraft-server.jar",
+      "sha256": "9d5d25ec3f3ceadb582e95f139cb54963544133a9101ebdbcd0d506820d59f1b"
+    }
+  },
+  "matches": {
+    "original-client": true,
+    "original-server": true,
+    "built-client": true,
+    "built-server": true
+  },
+  "observations": 566,
+  "oracle_sha256": "e9da94e9d487ad447acbe561629e9a17e91274387fd1bccbfc99c6121ae27624"
+}

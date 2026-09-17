@@ -1,0 +1,78 @@
+Compiled from "SourceFile"
+public final class fr extends java.lang.Enum {
+  public static final fr a;
+    descriptor: Lfr;
+  public static final fr b;
+    descriptor: Lfr;
+  public static final fr c;
+    descriptor: Lfr;
+  public static final fr d;
+    descriptor: Lfr;
+  public static final fr e;
+    descriptor: Lfr;
+  public static final fr f;
+    descriptor: Lfr;
+  public static final fr g;
+    descriptor: Lfr;
+  public static final fr h;
+    descriptor: Lfr;
+  public static final fr i;
+    descriptor: Lfr;
+  public static final fr j;
+    descriptor: Lfr;
+  public static final fr k;
+    descriptor: Lfr;
+  public static final fr l;
+    descriptor: Lfr;
+  public static final fr m;
+    descriptor: Lfr;
+  public static final fr n;
+    descriptor: Lfr;
+  public static final fr o;
+    descriptor: Lfr;
+  public static final fr p;
+    descriptor: Lfr;
+  public static final fr q;
+    descriptor: Lfr;
+  public static final fr r;
+    descriptor: Lfr;
+  public static final fr s;
+    descriptor: Lfr;
+  public static final fr t;
+    descriptor: Lfr;
+  public static final fr u;
+    descriptor: Lfr;
+  public static final fr v;
+    descriptor: Lfr;
+  public static final fr w;
+    descriptor: Lfr;
+  public static final fr x;
+    descriptor: Lfr;
+  public static final fr y;
+    descriptor: Lfr;
+  public static final int z;
+    descriptor: I
+  public final java.lang.String A;
+    descriptor: Ljava/lang/String;
+  public final int B;
+    descriptor: I
+  public final int C;
+    descriptor: I
+  public final int D;
+    descriptor: I
+  public final int E;
+    descriptor: I
+  private static final fr[] F;
+    descriptor: [Lfr;
+  public static fr[] values();
+    descriptor: ()[Lfr;
+
+  public static fr valueOf(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lfr;
+
+  private fr(java.lang.String, int, java.lang.String, int, int, int, int);
+    descriptor: (Ljava/lang/String;ILjava/lang/String;IIII)V
+
+  static {};
+    descriptor: ()V
+}

@@ -1,0 +1,4 @@
+Scenario directory: /home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/multiplayer-2321419714382881794
+16 achievements
+151 recipes
+PASS: two protocol clients login, chat, move, place/dig, open chest, save, disconnect/reconnect; persisted blocks and inventory; clean server stop

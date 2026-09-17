@@ -15,5 +15,6 @@ Accepted owner decisions record explicit project direction. Accepted engineering
 | [0009](0009-safe-migration.md) | Immutable-source import and explicit compatibility direction | Accepted — plan engineering default supporting owner compatibility goal |
 | [0010](0010-milestone-session-model.md) | Discrete alpha/beta releases and persistent session state | Accepted — owner decision; exact milestone count is a working plan |
 | [0011](0011-build-artifacts.md) | Unified reproducible build and verified distribution artifacts | Accepted — owner artifact requirements; Gradle/task details are engineering defaults |
+| [0012](0012-practical-verification.md) | Practical verification; prioritize implementation over exact replication | Accepted — owner direction |
 
 Use [the ADR template](../templates/ADR.md) for new consequential decisions. Link affected requirements, milestone, code and tests. Keep superseded records with a pointer to their successor. The detailed ordering/count of milestones and exact packages are adjustable; Beta scope and the owner-selected technology/compatibility goals are not silently adjustable.

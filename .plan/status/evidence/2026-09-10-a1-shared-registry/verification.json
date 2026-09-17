@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "shared_class_sha256": {
+    "BetaPacketRegistry": "1e1500dd172b572a73688b3e7219fe5809bab47b1a5e8d67c2c0f74bdcec9e34",
+    "BetaStringCodec": "a826c18b2b95836a52c866d64de2731608669fdc1faac0b48adef1ad32d07e4b",
+    "PacketCounter": "90409a8ad399b22724faf60ce374c5ebe5eeaf795a12b759d886726dcf83e400",
+    "Empty1": "2a73f562d6047392938ad29466ac53bb7d932d97ba352ed5ef7fc4dc4269d8c7"
+  },
+  "artifacts_sha256": {
+    "Minecraft.jar": "1415d9a296e1db3feefa8e7cf371c8035e8f6637933b0a8bba7012c391eb2331",
+    "Minecraft-server.jar": "275a2e2005e15bbaf930496c823fd734ceb3c042c9ab8825b2eec69f689af7ab"
+  },
+  "prior_566_observations_preserved": true,
+  "before_after_identical": true,
+  "reference_inventory_unchanged": true
+}

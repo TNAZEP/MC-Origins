@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "jar_sha256": "033a127e4a25a60b038f15369c89305a3d53752242a1cff11ae964954e79ba4d",
+  "template_sha256": "6493ca874703c5b66ac9d45df75df8aabc7c006847c5eef47de19fe0c9a6baf8",
+  "input_template_sha256": "9b35eadf49402b56f2f06a6b4ede4639d5df7733083b2471ddeed5b2db03e049",
+  "schedule_sha256": "ff833b7f619c7518ce493c74275e1583b94e005246ca5602ac21564a270936b8",
+  "harness_sha256": "12a63b08c341ac8afe12baa3d9fdfb08ca976ddb1aaa733d574d53eb989fbeae",
+  "driver_sha256": "ce5429da33c158b8da2c6a7ec877437766c389283eb4349b803130e87166edbf",
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "commands": [
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/javac",
+      "-d",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/-1-spiral/repeat/classes",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/tools/BetaTerrainHarness.java"
+    ],
+    [
+      "/usr/lib/jvm/java-8-openjdk/bin/java",
+      "-Xmx512M",
+      "-Djava.awt.headless=true",
+      "-cp",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/-1-spiral/repeat/classes",
+      "BetaTerrainHarness",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/reference/source/beta-1.7.3/server/original/minecraft_server.jar",
+      "original",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/-1-spiral/repeat",
+      "-1",
+      "8675309",
+      "/home/tnazep/My Stuff/Dev/MC-Origins/run/raw-terrain-matrix/-1-spiral/repeat/schedule.tsv",
+      "raw"
+    ]
+  ],
+  "seed": -1,
+  "spawn": [
+    32,
+    64,
+    -16
+  ],
+  "world_rng_seed": 8675309,
+  "ticks": 0,
+  "mode": "raw",
+  "order": "overworld then nether; explicit schedule.tsv",
+  "raw_reader_sha256": "6beeecf8301918addc6d6b87bd6c24605e474f3e110a2937c9b44887620ee575",
+  "requested_chunks_per_dimension": 75,
+  "chunks": 150,
+  "requests_sha256": "6106d5ee2002b3054a8421f5f790db738fc668a119b5d39b0082c901a37df0d0"
+}

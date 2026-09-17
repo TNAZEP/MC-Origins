@@ -1,0 +1,4 @@
+Command: python3 -m unittest discover -s tools -p 'test_*.py' -v
+Exit: 0
+Observed: Ran 14 tests in 0.006s; OK.
+New tests: raw coordinate/dimension decoding; block/biome/single-bit climate mutations; invalid/truncated/trailing/duplicate/unknown/non-finite records.

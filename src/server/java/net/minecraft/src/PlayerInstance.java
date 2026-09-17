@@ -26,7 +26,7 @@ class PlayerInstance {
 		this.chunkX = var2;
 		this.chunkZ = var3;
 		this.currentChunk = new ChunkCoordIntPair(var2, var3);
-		var1.getMinecraftServer().chunkProviderServer.loadChunk(var2, var3);
+		var1.getMinecraftServer().chunkProviderServer.prepareChunk(var2, var3);
 	}
 
 	public void addPlayer(EntityPlayerMP var1) {
@@ -127,7 +127,7 @@ class PlayerInstance {
 				var2 = this.chunkX * 16 + this.minX;
 				var3 = this.minY;
 				var4 = this.chunkZ * 16 + this.minZ;
-				this.sendPacketToPlayersInInstance(new Packet53BlockChange(var2, var3, var4, var1));
+				this.sendPacketToPlayersInInstance(PacketFactory.createPacket53BlockChange(var2, var3, var4, var1));
 				if(Block.isBlockContainer[var1.getBlockId(var2, var3, var4)]) {
 					this.updateTileEntity(var1.getBlockTileEntity(var2, var3, var4));
 				}
@@ -142,14 +142,14 @@ class PlayerInstance {
 					var5 = this.maxX - this.minX + 1;
 					int var6 = this.maxY - this.minY + 2;
 					int var7 = this.maxZ - this.minZ + 1;
-					this.sendPacketToPlayersInInstance(new Packet51MapChunk(var2, var3, var4, var5, var6, var7, var1));
+					this.sendPacketToPlayersInInstance(PacketFactory.createPacket51MapChunk(var2, var3, var4, var5, var6, var7, var1));
 					List var8 = var1.getTileEntityList(var2, var3, var4, var2 + var5, var3 + var6, var4 + var7);
 
 					for(int var9 = 0; var9 < var8.size(); ++var9) {
 						this.updateTileEntity((TileEntity)var8.get(var9));
 					}
 				} else {
-					this.sendPacketToPlayersInInstance(new Packet52MultiBlockChange(this.chunkX, this.chunkZ, this.blocksToUpdate, this.numBlocksToUpdate, var1));
+					this.sendPacketToPlayersInInstance(PacketFactory.createPacket52MultiBlockChange(this.chunkX, this.chunkZ, this.blocksToUpdate, this.numBlocksToUpdate, var1));
 
 					for(var2 = 0; var2 < this.numBlocksToUpdate; ++var2) {
 						var3 = this.chunkX * 16 + (this.numBlocksToUpdate >> 12 & 15);

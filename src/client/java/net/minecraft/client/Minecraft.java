@@ -86,7 +86,7 @@ import net.minecraft.src.TextureWaterFX;
 import net.minecraft.src.TextureWaterFlowFX;
 import net.minecraft.src.ThreadCheckHasPaid;
 import net.minecraft.src.ThreadDownloadResources;
-import net.minecraft.src.ThreadSleepForever;
+import net.minecraft.src.ClientSleepThread;
 import net.minecraft.src.Timer;
 import net.minecraft.src.UnexpectedThrowable;
 import net.minecraft.src.Vec3D;
@@ -169,7 +169,7 @@ public abstract class Minecraft implements Runnable {
 		this.tempDisplayHeight = var5;
 		this.fullscreen = var6;
 		this.mcApplet = var3;
-		new ThreadSleepForever(this, "Timer hack thread");
+		new ClientSleepThread(this, "Timer hack thread");
 		this.mcCanvas = var2;
 		this.displayWidth = var4;
 		this.displayHeight = var5;
@@ -218,7 +218,7 @@ public abstract class Minecraft implements Runnable {
 			Display.setDisplayMode(new DisplayMode(this.displayWidth, this.displayHeight));
 		}
 
-		Display.setTitle("Minecraft Minecraft Beta 1.7.3");
+		Display.setTitle(net.minecraft.src.OriginsVersion.DISPLAY_NAME);
 
 		try {
 			Display.create();
@@ -1468,7 +1468,7 @@ public abstract class Minecraft implements Runnable {
 
 	public static void startMainThread(String var0, String var1, String var2) {
 		boolean var3 = false;
-		Frame var5 = new Frame("Minecraft");
+		Frame var5 = new Frame(net.minecraft.src.OriginsVersion.DISPLAY_NAME);
 		Canvas var6 = new Canvas();
 		var5.setLayout(new BorderLayout());
 		var5.add(var6, "Center");

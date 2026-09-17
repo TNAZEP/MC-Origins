@@ -48,7 +48,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 		this.connectionClosed = true;
 	}
 
-	public void handleMovementTypePacket(Packet27Position var1) {
+	public void func_22185_a(Packet27Position var1) {
 		this.playerEntity.setMovementType(var1.func_22031_c(), var1.func_22028_e(), var1.func_22032_g(), var1.func_22030_h(), var1.func_22029_d(), var1.func_22033_f());
 	}
 
@@ -109,7 +109,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 				return;
 			}
 
-			if(this.playerEntity.func_22057_E()) {
+			if(this.playerEntity.isPlayerSleeping()) {
 				this.playerEntity.onUpdateEntity(true);
 				this.playerEntity.setPositionAndRotation(this.lastPosX, this.lastPosY, this.lastPosZ, this.playerEntity.rotationYaw, this.playerEntity.rotationPitch);
 				var2.updateEntity(this.playerEntity);
@@ -134,7 +134,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 				var7 = var1.yPosition;
 				var9 = var1.zPosition;
 				var13 = var1.stance - var1.yPosition;
-				if(!this.playerEntity.func_22057_E() && (var13 > 1.65D || var13 < 0.1D)) {
+				if(!this.playerEntity.isPlayerSleeping() && (var13 > 1.65D || var13 < 0.1D)) {
 					this.kickPlayer("Illegal stance");
 					logger.warning(this.playerEntity.username + " had an illegal stance: " + var13);
 					return;
@@ -169,7 +169,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 			}
 
 			float var21 = 1.0F / 16.0F;
-			boolean var22 = var2.getCollidingBoundingBoxes(this.playerEntity, this.playerEntity.boundingBox.copy().getInsetBoundingBox((double)var21, (double)var21, (double)var21)).size() == 0;
+			boolean var22 = var2.getCollidingBoundingBoxes(this.playerEntity, this.playerEntity.boundingBox.copy().func_28195_e((double)var21, (double)var21, (double)var21)).size() == 0;
 			this.playerEntity.moveEntity(var13, var15, var17);
 			var13 = var5 - this.playerEntity.posX;
 			var15 = var7 - this.playerEntity.posY;
@@ -180,7 +180,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 			var17 = var9 - this.playerEntity.posZ;
 			var19 = var13 * var13 + var15 * var15 + var17 * var17;
 			boolean var23 = false;
-			if(var19 > 1.0D / 16.0D && !this.playerEntity.func_22057_E()) {
+			if(var19 > 1.0D / 16.0D && !this.playerEntity.isPlayerSleeping()) {
 				var23 = true;
 				logger.warning(this.playerEntity.username + " moved wrongly!");
 				System.out.println("Got position " + var5 + ", " + var7 + ", " + var9);
@@ -188,8 +188,8 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 			}
 
 			this.playerEntity.setPositionAndRotation(var5, var7, var9, var11, var12);
-			boolean var24 = var2.getCollidingBoundingBoxes(this.playerEntity, this.playerEntity.boundingBox.copy().getInsetBoundingBox((double)var21, (double)var21, (double)var21)).size() == 0;
-			if(var22 && (var23 || !var24) && !this.playerEntity.func_22057_E()) {
+			boolean var24 = var2.getCollidingBoundingBoxes(this.playerEntity, this.playerEntity.boundingBox.copy().func_28195_e((double)var21, (double)var21, (double)var21)).size() == 0;
+			if(var22 && (var23 || !var24) && !this.playerEntity.isPlayerSleeping()) {
 				this.teleportTo(this.lastPosX, this.lastPosY, this.lastPosZ, var11, var12);
 				return;
 			}
@@ -253,22 +253,22 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 			}
 
 			ChunkCoordinates var19 = var2.getSpawnPoint();
-			int var9 = (int)MathHelper.abs((float)(var5 - var19.posX));
-			int var20 = (int)MathHelper.abs((float)(var7 - var19.posZ));
+			int var9 = (int)MathHelper.abs((float)(var5 - var19.x));
+			int var20 = (int)MathHelper.abs((float)(var7 - var19.z));
 			if(var9 > var20) {
 				var20 = var9;
 			}
 
 			if(var1.status == 0) {
 				if(var20 <= 16 && !var3) {
-					this.playerEntity.playerNetServerHandler.sendPacket(new Packet53BlockChange(var5, var6, var7, var2));
+					this.playerEntity.playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var5, var6, var7, var2));
 				} else {
 					this.playerEntity.itemInWorldManager.func_324_a(var5, var6, var7, var1.face);
 				}
 			} else if(var1.status == 2) {
 				this.playerEntity.itemInWorldManager.func_22045_b(var5, var6, var7);
 				if(var2.getBlockId(var5, var6, var7) != 0) {
-					this.playerEntity.playerNetServerHandler.sendPacket(new Packet53BlockChange(var5, var6, var7, var2));
+					this.playerEntity.playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var5, var6, var7, var2));
 				}
 			} else if(var1.status == 3) {
 				double var11 = this.playerEntity.posX - ((double)var5 + 0.5D);
@@ -276,7 +276,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 				double var15 = this.playerEntity.posZ - ((double)var7 + 0.5D);
 				double var17 = var11 * var11 + var13 * var13 + var15 * var15;
 				if(var17 < 256.0D) {
-					this.playerEntity.playerNetServerHandler.sendPacket(new Packet53BlockChange(var5, var6, var7, var2));
+					this.playerEntity.playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var5, var6, var7, var2));
 				}
 			}
 
@@ -300,8 +300,8 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 			int var7 = var1.zPosition;
 			int var8 = var1.direction;
 			ChunkCoordinates var9 = var2.getSpawnPoint();
-			int var10 = (int)MathHelper.abs((float)(var5 - var9.posX));
-			int var11 = (int)MathHelper.abs((float)(var7 - var9.posZ));
+			int var10 = (int)MathHelper.abs((float)(var5 - var9.x));
+			int var11 = (int)MathHelper.abs((float)(var7 - var9.z));
 			if(var10 > var11) {
 				var11 = var10;
 			}
@@ -310,7 +310,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 				this.playerEntity.itemInWorldManager.activeBlockOrUseItem(this.playerEntity, var2, var3, var5, var6, var7, var8);
 			}
 
-			this.playerEntity.playerNetServerHandler.sendPacket(new Packet53BlockChange(var5, var6, var7, var2));
+			this.playerEntity.playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var5, var6, var7, var2));
 			if(var8 == 0) {
 				--var6;
 			}
@@ -335,7 +335,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 				++var5;
 			}
 
-			this.playerEntity.playerNetServerHandler.sendPacket(new Packet53BlockChange(var5, var6, var7, var2));
+			this.playerEntity.playerNetServerHandler.sendPacket(PacketFactory.createPacket53BlockChange(var5, var6, var7, var2));
 		}
 
 		var3 = this.playerEntity.inventory.getCurrentItem();
@@ -344,12 +344,12 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 		}
 
 		this.playerEntity.isChangingQuantityOnly = true;
-		this.playerEntity.inventory.mainInventory[this.playerEntity.inventory.currentItem] = ItemStack.func_20117_a(this.playerEntity.inventory.mainInventory[this.playerEntity.inventory.currentItem]);
-		Slot var12 = this.playerEntity.currentCraftingInventory.func_20127_a(this.playerEntity.inventory, this.playerEntity.inventory.currentItem);
-		this.playerEntity.currentCraftingInventory.updateCraftingMatrix();
+		this.playerEntity.inventory.mainInventory[this.playerEntity.inventory.currentItem] = ItemStack.copyItemStack(this.playerEntity.inventory.mainInventory[this.playerEntity.inventory.currentItem]);
+		Slot var12 = this.playerEntity.craftingInventory.func_20127_a(this.playerEntity.inventory, this.playerEntity.inventory.currentItem);
+		this.playerEntity.craftingInventory.updateCraftingResults();
 		this.playerEntity.isChangingQuantityOnly = false;
 		if(!ItemStack.areItemStacksEqual(this.playerEntity.inventory.getCurrentItem(), var1.itemStack)) {
-			this.sendPacket(new Packet103SetSlot(this.playerEntity.currentCraftingInventory.windowId, var12.id, this.playerEntity.inventory.getCurrentItem()));
+			this.sendPacket(new Packet103SetSlot(this.playerEntity.craftingInventory.windowId, var12.slotNumber, this.playerEntity.inventory.getCurrentItem()));
 		}
 
 		var2.field_819_z = false;
@@ -444,7 +444,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 
 	}
 
-	public void func_21001_a(Packet19EntityAction var1) {
+	public void func_21147_a(Packet19EntityAction var1) {
 		if(var1.state == 1) {
 			this.playerEntity.setSneaking(true);
 		} else if(var1.state == 2) {
@@ -472,7 +472,7 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 		return this.playerEntity.username;
 	}
 
-	public void func_6006_a(Packet7UseEntity var1) {
+	public void handleUseEntity(Packet7UseEntity var1) {
 		WorldServer var2 = this.mcServer.getWorldManager(this.playerEntity.dimension);
 		Entity var3 = var2.func_6158_a(var1.targetEntity);
 		if(var3 != null && this.playerEntity.canEntityBeSeen(var3) && this.playerEntity.getDistanceSqToEntity(var3) < 36.0D) {
@@ -485,50 +485,50 @@ public class NetServerHandler extends NetHandler implements ICommandListener {
 
 	}
 
-	public void handleRespawnPacket(Packet9Respawn var1) {
+	public void func_9448_a(Packet9Respawn var1) {
 		if(this.playerEntity.health <= 0) {
 			this.playerEntity = this.mcServer.configManager.recreatePlayerEntity(this.playerEntity, 0);
 		}
 	}
 
-	public void handleCraftingGuiClosedPacked(Packet101CloseWindow var1) {
+	public void func_20092_a(Packet101CloseWindow var1) {
 		this.playerEntity.closeCraftingGui();
 	}
 
-	public void func_20007_a(Packet102WindowClick var1) {
-		if(this.playerEntity.currentCraftingInventory.windowId == var1.window_Id && this.playerEntity.currentCraftingInventory.getCanCraft(this.playerEntity)) {
-			ItemStack var2 = this.playerEntity.currentCraftingInventory.func_27085_a(var1.inventorySlot, var1.mouseClick, var1.field_27039_f, this.playerEntity);
+	public void func_20091_a(Packet102WindowClick var1) {
+		if(this.playerEntity.craftingInventory.windowId == var1.window_Id && this.playerEntity.craftingInventory.getCanCraft(this.playerEntity)) {
+			ItemStack var2 = this.playerEntity.craftingInventory.func_27280_a(var1.inventorySlot, var1.mouseClick, var1.field_27050_f, this.playerEntity);
 			if(ItemStack.areItemStacksEqual(var1.itemStack, var2)) {
 				this.playerEntity.playerNetServerHandler.sendPacket(new Packet106Transaction(var1.window_Id, var1.action, true));
 				this.playerEntity.isChangingQuantityOnly = true;
-				this.playerEntity.currentCraftingInventory.updateCraftingMatrix();
+				this.playerEntity.craftingInventory.updateCraftingResults();
 				this.playerEntity.updateHeldItem();
 				this.playerEntity.isChangingQuantityOnly = false;
 			} else {
-				this.field_10_k.put(Integer.valueOf(this.playerEntity.currentCraftingInventory.windowId), Short.valueOf(var1.action));
+				this.field_10_k.put(Integer.valueOf(this.playerEntity.craftingInventory.windowId), Short.valueOf(var1.action));
 				this.playerEntity.playerNetServerHandler.sendPacket(new Packet106Transaction(var1.window_Id, var1.action, false));
-				this.playerEntity.currentCraftingInventory.setCanCraft(this.playerEntity, false);
+				this.playerEntity.craftingInventory.setCanCraft(this.playerEntity, false);
 				ArrayList var3 = new ArrayList();
 
-				for(int var4 = 0; var4 < this.playerEntity.currentCraftingInventory.inventorySlots.size(); ++var4) {
-					var3.add(((Slot)this.playerEntity.currentCraftingInventory.inventorySlots.get(var4)).getStack());
+				for(int var4 = 0; var4 < this.playerEntity.craftingInventory.slots.size(); ++var4) {
+					var3.add(((Slot)this.playerEntity.craftingInventory.slots.get(var4)).getStack());
 				}
 
-				this.playerEntity.updateCraftingInventory(this.playerEntity.currentCraftingInventory, var3);
+				this.playerEntity.updateCraftingInventory(this.playerEntity.craftingInventory, var3);
 			}
 		}
 
 	}
 
-	public void func_20008_a(Packet106Transaction var1) {
-		Short var2 = (Short)this.field_10_k.get(Integer.valueOf(this.playerEntity.currentCraftingInventory.windowId));
-		if(var2 != null && var1.shortWindowId == var2.shortValue() && this.playerEntity.currentCraftingInventory.windowId == var1.windowId && !this.playerEntity.currentCraftingInventory.getCanCraft(this.playerEntity)) {
-			this.playerEntity.currentCraftingInventory.setCanCraft(this.playerEntity, true);
+	public void func_20089_a(Packet106Transaction var1) {
+		Short var2 = (Short)this.field_10_k.get(Integer.valueOf(this.playerEntity.craftingInventory.windowId));
+		if(var2 != null && var1.field_20028_b == var2.shortValue() && this.playerEntity.craftingInventory.windowId == var1.windowId && !this.playerEntity.craftingInventory.getCanCraft(this.playerEntity)) {
+			this.playerEntity.craftingInventory.setCanCraft(this.playerEntity, true);
 		}
 
 	}
 
-	public void handleUpdateSign(Packet130UpdateSign var1) {
+	public void handleSignUpdate(Packet130UpdateSign var1) {
 		WorldServer var2 = this.mcServer.getWorldManager(this.playerEntity.dimension);
 		if(var2.blockExists(var1.xPosition, var1.yPosition, var1.zPosition)) {
 			TileEntity var3 = var2.getBlockTileEntity(var1.xPosition, var1.yPosition, var1.zPosition);

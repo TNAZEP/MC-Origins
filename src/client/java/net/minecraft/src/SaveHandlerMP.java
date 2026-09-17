@@ -4,6 +4,14 @@ import java.io.File;
 import java.util.List;
 
 public class SaveHandlerMP implements ISaveHandler {
+	/** Remote worlds do not own player save files. */
+	public IPlayerFileData func_22090_d() {
+		return null;
+	}
+
+	public void func_22093_e() {
+	}
+
 	public WorldInfo loadWorldInfo() {
 		return null;
 	}

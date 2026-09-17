@@ -1,0 +1,19 @@
+Evidence: /home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/game-checks-wqpj76z9
+compile-graphical PASS
+graphical FAIL
+Traceback (most recent call last):
+  File "/home/tnazep/My Stuff/Dev/MC-Origins/tools/run_game_smoke.py", line 66, in <module>
+    main()
+    ~~~~^^
+  File "/home/tnazep/My Stuff/Dev/MC-Origins/tools/run_game_smoke.py", line 57, in main
+    run('graphical', [java, '-Xmx768m'] + resource_options + [ '-Djava.library.path=' + native, '-Dorg.lwjgl.librarypath=' + native,
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      '-cp', cp, 'net.minecraft.src.ClientPlaySmokeTest', java, str(server)])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tnazep/My Stuff/Dev/MC-Origins/tools/run_game_smoke.py", line 39, in run
+    result.check_returncode()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/subprocess.py", line 509, in check_returncode
+    raise CalledProcessError(self.returncode, self.args, self.stdout,
+                             self.stderr)
+subprocess.CalledProcessError: Command '['/usr/lib/jvm/java-8-openjdk/bin/java', '-Xmx768m', '-Dorigins.smokeResources=/home/tnazep/My Stuff/Dev/MC-Origins/run/client/.minecraft/resources', '-Djava.library.path=/home/tnazep/My Stuff/Dev/MC-Origins/build/natives/linux', '-Dorg.lwjgl.librarypath=/home/tnazep/My Stuff/Dev/MC-Origins/build/natives/linux', '-cp', '/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/game-checks-wqpj76z9/classes:/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft.jar:/home/tnazep/My Stuff/Dev/MC-Origins/build/client-libraries/*', 'net.minecraft.src.ClientPlaySmokeTest', '/usr/lib/jvm/java-8-openjdk/bin/java', '/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar']' returned non-zero exit status 1.

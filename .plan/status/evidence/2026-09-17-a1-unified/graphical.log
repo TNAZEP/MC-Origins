@@ -1,0 +1,16 @@
+Scenario directory: /home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/graphical-7686284252777160865
+16 achievements
+151 recipes
+java.lang.UnsatisfiedLinkError: Expecting an absolute path of the library: build/natives/linux/liblwjgl64.so
+	at java.lang.Runtime.load0(Runtime.java:779)
+	at java.lang.System.load(System.java:1100)
+	at org.lwjgl.Sys$1.run(Sys.java:70)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.lwjgl.Sys.doLoadLibrary(Sys.java:66)
+	at org.lwjgl.Sys.loadLibrary(Sys.java:87)
+	at org.lwjgl.Sys.<clinit>(Sys.java:117)
+	at org.lwjgl.opengl.Display.<clinit>(Display.java:135)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:218)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:490)
+	at net.minecraft.src.ClientPlaySmokeTest.launch(ClientPlaySmokeTest.java:130)
+	at net.minecraft.src.ClientPlaySmokeTest.main(ClientPlaySmokeTest.java:99)

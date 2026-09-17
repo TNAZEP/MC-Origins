@@ -318,7 +318,7 @@ public class NetClientHandler extends NetHandler {
 	public void func_28117_a(Packet var1) {
 		if(!this.disconnected) {
 			this.netManager.addToSendQueue(var1);
-			this.netManager.func_28142_c();
+			this.netManager.serverShutdown();
 		}
 	}
 
@@ -506,16 +506,16 @@ public class NetClientHandler extends NetHandler {
 
 	public void func_20088_a(Packet103SetSlot var1) {
 		if(var1.windowId == -1) {
-			this.mc.thePlayer.inventory.setItemStack(var1.myItemStack);
+			this.mc.thePlayer.inventory.setItemStack(ItemStack.fromPacket(var1.myItemStack));
 		} else if(var1.windowId == 0 && var1.itemSlot >= 36 && var1.itemSlot < 45) {
 			ItemStack var2 = this.mc.thePlayer.inventorySlots.getSlot(var1.itemSlot).getStack();
 			if(var1.myItemStack != null && (var2 == null || var2.stackSize < var1.myItemStack.stackSize)) {
 				var1.myItemStack.animationsToGo = 5;
 			}
 
-			this.mc.thePlayer.inventorySlots.putStackInSlot(var1.itemSlot, var1.myItemStack);
+			this.mc.thePlayer.inventorySlots.putStackInSlot(var1.itemSlot, ItemStack.fromPacket(var1.myItemStack));
 		} else if(var1.windowId == this.mc.thePlayer.craftingInventory.windowId) {
-			this.mc.thePlayer.craftingInventory.putStackInSlot(var1.itemSlot, var1.myItemStack);
+			this.mc.thePlayer.craftingInventory.putStackInSlot(var1.itemSlot, ItemStack.fromPacket(var1.myItemStack));
 		}
 
 	}
@@ -541,9 +541,9 @@ public class NetClientHandler extends NetHandler {
 
 	public void func_20094_a(Packet104WindowItems var1) {
 		if(var1.windowId == 0) {
-			this.mc.thePlayer.inventorySlots.putStacksInSlots(var1.itemStack);
+			this.mc.thePlayer.inventorySlots.putStacksInSlots(ItemStack.fromPacket(var1.itemStack));
 		} else if(var1.windowId == this.mc.thePlayer.craftingInventory.windowId) {
-			this.mc.thePlayer.craftingInventory.putStacksInSlots(var1.itemStack);
+			this.mc.thePlayer.craftingInventory.putStacksInSlots(ItemStack.fromPacket(var1.itemStack));
 		}
 
 	}

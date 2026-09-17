@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "jar_sha256": "dde3a5627a65c6310977e202efddaffd52c02f515e129e87918899348dc3e7b7",
+  "command": [
+    "/usr/lib/jvm/java-8-openjdk/jre/bin/java",
+    "-Xmx512M",
+    "-Djava.awt.headless=true",
+    "-verbose:class",
+    "-jar",
+    "/home/tnazep/My Stuff/Dev/MC-Origins/build/libs/Minecraft-server.jar",
+    "nogui"
+  ],
+  "runtime": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)\n",
+  "working_directory": "/home/tnazep/My Stuff/Dev/MC-Origins/run/smoke/built-server",
+  "bind_address": "127.0.0.1",
+  "port": 36997,
+  "seed": 8675309,
+  "ready": true,
+  "exit_code": 0,
+  "stop_logged": true,
+  "level_dat_exists": true,
+  "forbidden_loaded_classes": [],
+  "error": null,
+  "process_log_sha256": "7a1281e3fa2e7d7897075766c0a7deb75e581e73bc9627bc020974f40f2ad949",
+  "limits": "No player connected; no worldgen, save-content or gameplay parity assertion."
+}

@@ -1,0 +1,6 @@
+net.minecraft.src.PlayerNBTManager	worldDir	saveDirectory
+net.minecraft.src.PlayerNBTManager	worldFile	playersDirectory
+net.minecraft.src.PlayerNBTManager	field_28112_d	field_28114_d
+net.minecraft.src.PlayerNBTManager	field_22100_d	now
+net.minecraft.src.PlayerNBTManager	func_22098_f	func_22154_d
+net.minecraft.src.PlayerNBTManager	getWorldDir	getSaveDirectory

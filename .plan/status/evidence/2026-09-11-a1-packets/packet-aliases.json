@@ -1,0 +1,171 @@
+{
+  "global": {
+    "func_21001_a": "func_21147_a",
+    "func_6002_a": "func_6498_a",
+    "func_21002_a": "func_21148_a",
+    "func_6003_a": "func_6497_a",
+    "func_6006_a": "handleUseEntity",
+    "func_9001_a": "func_9447_a",
+    "handleRespawnPacket": "func_9448_a",
+    "func_12001_a": "func_12245_a",
+    "func_20004_a": "func_20087_a",
+    "handleCraftingGuiClosedPacked": "func_20092_a",
+    "func_20007_a": "func_20091_a",
+    "func_20003_a": "func_20088_a",
+    "func_20001_a": "func_20094_a",
+    "handleUpdateSign": "handleSignUpdate",
+    "func_20002_a": "func_20090_a",
+    "func_20008_a": "func_20089_a",
+    "func_21003_a": "func_21146_a",
+    "func_21004_a": "handleNotePlay",
+    "func_27001_a": "func_27245_a",
+    "func_22002_a": "func_22186_a",
+    "handleMovementTypePacket": "func_22185_a",
+    "func_25001_a": "func_25118_a",
+    "func_27002_a": "handleWeather",
+    "func_28001_a": "func_28116_a",
+    "func_28002_a": "func_28115_a",
+    "field_27039_f": "field_27050_f",
+    "shortWindowId": "field_20028_b",
+    "field_20035_c": "field_20030_c",
+    "field_28052_a": "field_28055_a",
+    "field_28051_b": "field_28054_b",
+    "field_28053_c": "field_28056_c",
+    "field_22041_a": "field_22045_a",
+    "field_22042_e": "field_22046_e",
+    "field_22040_b": "field_22044_b",
+    "field_22044_c": "field_22048_c",
+    "field_22043_d": "field_22047_d",
+    "field_27041_a": "field_27052_a",
+    "field_27040_b": "field_27051_b",
+    "field_28041_i": "field_28044_i",
+    "field_28044_e": "field_28047_e",
+    "field_28043_f": "field_28046_f",
+    "field_28042_g": "field_28045_g",
+    "field_27096_z": "maxArtTitleLength",
+    "field_22039_c": "field_22043_c",
+    "field_21018_b": "field_21048_b",
+    "field_28047_a": "field_28050_a",
+    "field_28050_c": "field_28053_c",
+    "field_28049_d": "field_28052_d",
+    "field_28048_e": "field_28051_e",
+    "field_28046_b": "field_28049_b",
+    "field_25015_b": "field_25019_b",
+    "field_27043_a": "field_27054_a",
+    "field_27044_e": "field_27055_e",
+    "field_27042_b": "field_27053_b",
+    "field_27046_c": "field_27057_c",
+    "field_27045_d": "field_27056_d",
+    "field_28045_a": "field_28048_a"
+  },
+  "packet_fields": {
+    "Packet.java": {},
+    "Packet0KeepAlive.java": {},
+    "Packet100OpenWindow.java": {},
+    "Packet101CloseWindow.java": {},
+    "Packet102WindowClick.java": {
+      "field_27039_f": "field_27050_f"
+    },
+    "Packet103SetSlot.java": {},
+    "Packet104WindowItems.java": {},
+    "Packet105UpdateProgressbar.java": {},
+    "Packet106Transaction.java": {
+      "shortWindowId": "field_20028_b",
+      "field_20035_c": "field_20030_c"
+    },
+    "Packet10Flying.java": {},
+    "Packet11PlayerPosition.java": {},
+    "Packet12PlayerLook.java": {},
+    "Packet130UpdateSign.java": {},
+    "Packet131MapData.java": {
+      "field_28052_a": "field_28055_a",
+      "field_28051_b": "field_28054_b",
+      "field_28053_c": "field_28056_c"
+    },
+    "Packet13PlayerLookMove.java": {},
+    "Packet14BlockDig.java": {},
+    "Packet15Place.java": {},
+    "Packet16BlockItemSwitch.java": {},
+    "Packet17Sleep.java": {
+      "field_22041_a": "field_22045_a",
+      "field_22042_e": "field_22046_e",
+      "field_22040_b": "field_22044_b",
+      "field_22044_c": "field_22048_c",
+      "field_22043_d": "field_22047_d"
+    },
+    "Packet18Animation.java": {},
+    "Packet19EntityAction.java": {},
+    "Packet1Login.java": {},
+    "Packet200Statistic.java": {
+      "field_27041_a": "field_27052_a",
+      "field_27040_b": "field_27051_b"
+    },
+    "Packet20NamedEntitySpawn.java": {},
+    "Packet21PickupSpawn.java": {},
+    "Packet22Collect.java": {},
+    "Packet23VehicleSpawn.java": {
+      "field_28041_i": "field_28044_i",
+      "field_28044_e": "field_28047_e",
+      "field_28043_f": "field_28046_f",
+      "field_28042_g": "field_28045_g"
+    },
+    "Packet24MobSpawn.java": {},
+    "Packet255KickDisconnect.java": {},
+    "Packet25EntityPainting.java": {
+      "field_27096_z": "maxArtTitleLength"
+    },
+    "Packet27Position.java": {
+      "strafeMovement": "field_22039_a",
+      "fowardMovement": "field_22038_b",
+      "pitchRotation": "field_22041_e",
+      "yawRotation": "field_22040_f",
+      "field_22039_c": "field_22043_c",
+      "isInJump": "field_22042_d"
+    },
+    "Packet28EntityVelocity.java": {},
+    "Packet29DestroyEntity.java": {},
+    "Packet2Handshake.java": {},
+    "Packet30Entity.java": {},
+    "Packet31RelEntityMove.java": {},
+    "Packet32EntityLook.java": {},
+    "Packet33RelEntityMoveLook.java": {},
+    "Packet34EntityTeleport.java": {},
+    "Packet38EntityStatus.java": {},
+    "Packet39AttachEntity.java": {},
+    "Packet3Chat.java": {},
+    "Packet40EntityMetadata.java": {
+      "field_21018_b": "field_21048_b"
+    },
+    "Packet4UpdateTime.java": {},
+    "Packet50PreChunk.java": {},
+    "Packet51MapChunk.java": {},
+    "Packet52MultiBlockChange.java": {},
+    "Packet53BlockChange.java": {},
+    "Packet54PlayNoteBlock.java": {},
+    "Packet5PlayerInventory.java": {},
+    "Packet60Explosion.java": {},
+    "Packet61DoorChange.java": {
+      "field_28047_a": "field_28050_a",
+      "field_28050_c": "field_28053_c",
+      "field_28049_d": "field_28052_d",
+      "field_28048_e": "field_28051_e",
+      "field_28046_b": "field_28049_b"
+    },
+    "Packet6SpawnPosition.java": {},
+    "Packet70Bed.java": {
+      "field_25015_b": "field_25019_b"
+    },
+    "Packet71Weather.java": {
+      "field_27043_a": "field_27054_a",
+      "field_27044_e": "field_27055_e",
+      "field_27042_b": "field_27053_b",
+      "field_27046_c": "field_27057_c",
+      "field_27045_d": "field_27056_d"
+    },
+    "Packet7UseEntity.java": {},
+    "Packet8UpdateHealth.java": {},
+    "Packet9Respawn.java": {
+      "field_28045_a": "field_28048_a"
+    }
+  }
+}

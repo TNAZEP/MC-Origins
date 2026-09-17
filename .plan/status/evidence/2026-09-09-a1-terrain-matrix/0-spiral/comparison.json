@@ -1,0 +1,22 @@
+{
+  "seed": 0,
+  "order": "spiral",
+  "result": "PASS",
+  "traces_match": true,
+  "comparisons": {
+    "repeat": {
+      "format": "origins-beta-saved-terrain-v1",
+      "result": "PASS",
+      "original_chunks": 142,
+      "candidate_chunks": 142,
+      "differences": []
+    },
+    "candidate": {
+      "format": "origins-beta-saved-terrain-v1",
+      "result": "PASS",
+      "original_chunks": 142,
+      "candidate_chunks": 142,
+      "differences": []
+    }
+  }
+}

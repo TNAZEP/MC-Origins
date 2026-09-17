@@ -1,0 +1,70 @@
+Compiled from "SourceFile"
+public class ma {
+  private final int a;
+    descriptor: I
+
+  private final int b;
+    descriptor: I
+
+  private java.lang.Object c;
+    descriptor: Ljava/lang/Object;
+
+  private boolean d;
+    descriptor: Z
+
+  public ma(int, int, java.lang.Object);
+    descriptor: (IILjava/lang/Object;)V
+    Code:
+       0: aload_0
+       1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iload_2
+       6: putfield      #5                  // Field b:I
+       9: aload_0
+      10: aload_3
+      11: putfield      #6                  // Field c:Ljava/lang/Object;
+      14: aload_0
+      15: iload_1
+      16: putfield      #4                  // Field a:I
+      19: aload_0
+      20: iconst_1
+      21: putfield      #7                  // Field d:Z
+      24: return
+
+  public int a();
+    descriptor: ()I
+    Code:
+       0: aload_0
+       1: getfield      #5                  // Field b:I
+       4: ireturn
+
+  public void a(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)V
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #6                  // Field c:Ljava/lang/Object;
+       5: return
+
+  public java.lang.Object b();
+    descriptor: ()Ljava/lang/Object;
+    Code:
+       0: aload_0
+       1: getfield      #6                  // Field c:Ljava/lang/Object;
+       4: areturn
+
+  public int c();
+    descriptor: ()I
+    Code:
+       0: aload_0
+       1: getfield      #4                  // Field a:I
+       4: ireturn
+
+  public void a(boolean);
+    descriptor: (Z)V
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #7                  // Field d:Z
+       5: return
+}

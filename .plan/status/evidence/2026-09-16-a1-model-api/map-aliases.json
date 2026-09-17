@@ -1,0 +1,21 @@
+{
+  "field_28180_a": "field_28191_a",
+  "field_28179_b": "loadedDataMap",
+  "field_28182_c": "loadedDataList",
+  "field_28181_d": "idCounts",
+  "func_28174_b": "loadIdCounts",
+  "func_28178_a": "loadData",
+  "func_28111_b": "func_28113_a",
+  "func_28148_a": "readFromNBT",
+  "func_28177_a": "setData",
+  "func_28176_a": "saveAllData",
+  "func_28150_b": "isDirty",
+  "func_28175_a": "saveData",
+  "func_28149_a": "setDirty",
+  "field_28152_a": "field_28168_a",
+  "func_28147_b": "writeToNBT",
+  "func_28173_a": "getUniqueDataId",
+  "field_28151_b": "dirty",
+  "func_28146_a": "markDirty",
+  "func_438_a": "func_594_b"
+}

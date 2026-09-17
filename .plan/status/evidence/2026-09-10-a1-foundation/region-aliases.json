@@ -1,0 +1,24 @@
+{
+  "client": {
+    "field_22217_e": "chunkTimestamps",
+    "field_22214_h": "lastModified",
+    "func_22209_a": "getSizeDelta",
+    "func_22211_a": "debug",
+    "func_22199_a": "debug",
+    "func_22197_a": "debug",
+    "func_22208_b": "setChunkTimestamp",
+    "func_22202_c": "isChunkSaved",
+    "func_22196_b": "close",
+    "field_22283_b": "field_22156_b",
+    "field_22285_c": "field_22158_c",
+    "field_22284_a": "field_22157_a"
+  },
+  "server": {
+    "field_22125_a": "cache",
+    "func_22123_a": "func_22193_a",
+    "func_22122_a": "func_22192_a",
+    "func_22121_b": "getSizeDelta",
+    "func_22124_c": "getChunkInputStream",
+    "func_22120_d": "getChunkOutputStream"
+  }
+}

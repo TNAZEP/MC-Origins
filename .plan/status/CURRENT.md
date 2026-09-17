@@ -1,50 +1,17 @@
 # Current project status
 
 **Target release:** 1.0
-**Current milestone:** 1.0a1 — Baseline, build and unified client/server source
-**Milestone state:** In progress — editable Beta source import complete; shared-code merge and runtime/build acceptance pending
-**Last updated:** 2026-09-08
-**Repository revision / branch:** `83155adbcddba2f77f7269f68ee949502e054efe` / `main` + prior and current uncommitted changes
-**Active session:** 2026-09-08-a1-working-sources — bounded task finished
+**Current milestone:** 1.0a1 — Complete
+**Next milestone:** 1.0a2 — Not started
+**Last updated:** 2026-09-17 (Asia/Tokyo)
+**Revision / branch:** e1eaaac7d06a41452762eb92fe4bf3fec5670968 / main plus preserved uncommitted implementation; exact source/artifact identities in evidence
 
-## Completed
+Full source merge implemented: 420 shared / 270 client / 39 server Java files, no duplicate side source paths. Main compiles independently once into both artifacts. Shared simulation, generation, inventory, saves, packets and transport preserve separate Beta singleplayer and dedicated multiplayer hosts. Display remains `Minecraft: Origins 1.0a1`.
 
-- Latest: editable working tree created under src/client and src/server (678/444 Java, 84/5 resources), preserving input bytes. Reserved shared/test roots; full import provenance and source guide. No behavioral merge yet.
+Clean client/server build PASS. Local world generation, edits, chest/player inventory and position save/reload PASS. Two protocol players login, move, place/dig, open chest, save and reconnect PASS. Dedicated headless startup/login/stop and dependency isolation PASS. Provenance PASS: 818 files, 1269 evolution entries. Real graphical client local play/save-reload/server join/reconnect also executed successfully; no further graphical test requirement is implied.
 
-- Prior session: deterministic reference inventory and initial Beta packet correspondence; inventory integrity tests pass.
-- User-supplied original Beta client/server jars verified against published SHA-1/size metadata (Mojang client, MCPHackers BetterJSONs server), SHA-256 recorded, ZIP CRC checks pass.
-- Owner's latest-release/no-changes RetroMCP statement recorded without claiming the historical tool binary is verified. GitHub latest currently v1.2; current resource archive pinned as a candidate.
-- Obtained original 1.3.2 client/server jars from Mojang and prepared separate named study sources with pinned Legacy Yarn/Tiny Remapper/CFR inputs. Installed 1,335 client and 902 server Java files under reference/source/release-1.3.2/{client,server}/decompiled/src/.
-- Offline reproduction recipe produces identical Java bytes to the initial run; complete class-to-source path coverage. Existing Beta sources unchanged. No game implementation changes.
+Owner clarified that a1 playability confirmation is sufficient and graphical testing matters more in later work. Follow ADR-0012; do not expand automated graphical tests as a gate for routine implementation. The clarification is not itself a fresh playtest report.
 
-## Verification
+[Final evidence and promotion](evidence/2026-09-17-a1-unified/README.md), [milestone](../versions/1.0a1.md), [source guide](../../src/README.md), [patch strategy](../architecture/PATCH-STRATEGY.md). a1 accepted as a bounded Linux Java 8/LWJGL 2 development checkpoint, not a published release. No commit/tag/publication. a2 has not started; update OriginsVersion immediately when it does.
 
-[Latest working-source evidence](evidence/2026-09-08-a1-working-sources/README.md) and [acquisition evidence](evidence/2026-09-08-a1-references/README.md) contains commands, metadata, hashes, summaries and limitations. [Prior inventory](evidence/2026-09-08-a1/README.md) remains historical evidence.
-
-| Check | Result | Evidence / reason |
-|---|---|---|
-| Beta original hashes / ZIP integrity | PASS | verification.json; runtime correspondence still untested |
-| 1.3.2 original hashes and source generation | PASS with caveats | Mojang SHA-1/size; CFR warns about two client JOrbis methods |
-| Java source reproducibility / coverage | PASS | Both runs byte-identical; every mapped class has a source path |
-| Existing Beta source preservation | PASS | Four source-tree maps match prior inventory |
-| Inventory tests / recipe output guards | PASS | 3 tests and 2 expected refusals |
-| Working-source import / snapshot / overwrite guard | PASS | 1,211 independent files, exact copied hashes, references unchanged |
-| Origins CLI build | NOT RUN | Editable source exists; no wrapper/dependency configuration; prior installed Gradle probe failed |
-| Game launches / SP/MP / two-player / behavior / worldgen / persistence | NOT RUN | Original Beta jars now available; runtime and asset/native qualification next |
-| a1 exit gates | NOT RUN | Milestone incomplete |
-
-## Environment and remaining gaps
-
-Linux x86_64; Java 21.0.12+8 used only for decompilation, Python 3.14.7. No game bootstrap runtime chosen; Java 25 final target unchanged. Historical Beta mapping/tool binary/runtime/automatic-patch provenance is still unverified; no manual changes reported. Client 1.3.2 bundled JOrbis Drft has two unstructured CFR methods; references are for study, not a proven recompilable build. Some mapping names remain incomplete. No original-jar launch has been attempted.
-
-## Next bounded action
-
-Establish a pinned Gradle build for the working source roots and isolated run directories; qualify original Beta launches and capture baseline evidence before behavioral merging. See src/README.md and NEXT. Keep client/server duplicate classes separate until reviewed; main/java remains empty.
-
-## Working tree and recovery
-
-Preserved prior uncommitted inventory work. Added reference preparation script, pinned input manifest, local ignored reference artifacts, authored notes and evidence/status updates. Existing source/binary/save bytes unchanged. No migration or gameplay rollback needed. Keep installed references immutable and reproduce into a fresh scratch directory. No commit or publication performed.
-
-Concurrent user change: START-HERE.md became modified during this session and was left untouched by Codex. Final whitespace/inventory review passed; prior jar hashes unchanged.
-
-Working-source session changes: src/, tools/import_beta_sources.py, root README, architecture clarification and persistent evidence/status. START-HERE.md remains untouched. No compile or game launch attempted. Reference inventory unchanged after import; copies are independent, not symlinks. Prior work remains uncommitted.
+Known limitations: obsolete asset-listing endpoint logs an error; 220 verified sound resources explicitly prepared in run/client/.minecraft/resources enable the existing fallback. Audio listening, other OS/GPU environments and online account/skin/stat services are NOT RUN. Exact historical decompiler build remains unknown. Java 25/LWJGL 3 migration is next; patch reconstruction remains a8. User worlds/references/unrelated changes preserved.

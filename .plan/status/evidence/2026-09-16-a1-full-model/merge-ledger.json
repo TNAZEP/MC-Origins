@@ -1,0 +1,2267 @@
+{
+  "classes": [
+    {
+      "class": "PacketFactory",
+      "source": "client/server union",
+      "matched_members": 21,
+      "added_server_members": 11,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "World",
+      "source": "client/server union",
+      "matched_members": 172,
+      "added_server_members": 6,
+      "equivalent_forms": [
+        {
+          "member": "scheduledUpdatesAreImmediate",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "lightingToUpdate",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "loadedEntityList",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "unloadedEntityList",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "scheduledTickTreeSet",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "scheduledTickSet",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "loadedTileEntityList",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_30900_E",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "playerEntities",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "weatherEffects",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_1019_F",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "skylightSubtracted",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_9437_g",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_9436_h",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_27168_F",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_27172_i",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "editingBlocks",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "lockTimestamp",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "autosavePeriod",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "rand",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "isNewWorld",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "worldAccesses",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "collidingBoundingBoxes",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "lightingUpdatesCounter",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "spawnHostileMobs",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "spawnPeacefulMobs",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "positionsToUpdate",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "soundCounter",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "field_1012_M",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "multiplayerWorld",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "<init>(ISaveHandler,String,long,WorldProvider)",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "updatingLighting()",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "scheduleLightingUpdate_do(EnumSkyBlock,int,int,int,int,int,int,boolean)",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        }
+      ],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldProvider",
+      "source": "client/server union",
+      "matched_members": 16,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldProviderSurface",
+      "source": "client/server union",
+      "matched_members": 0,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldProviderSky",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldChunkManagerHell",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldChunkManager",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenBase",
+      "source": "client/server union",
+      "matched_members": 38,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenerator",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenTrees",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Block",
+      "source": "client/server union",
+      "matched_members": 194,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntitySign",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 3,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntity",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityRecordPlayer",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityPiston",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Entity",
+      "source": "client/server union",
+      "matched_members": 133,
+      "added_server_members": 2,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemStackMetadataCodec",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemStack",
+      "source": "client/server union",
+      "matched_members": 34,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "StatList",
+      "source": "client/server union",
+      "matched_members": 44,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Item",
+      "source": "client/server union",
+      "matched_members": 145,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSword",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityLiving",
+      "source": "client/server union",
+      "matched_members": 102,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MovingObjectPosition",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityPlayer",
+      "source": "client/server union",
+      "matched_members": 88,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityFurnace",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IInventory",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "FurnaceRecipes",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFurnace",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IBlockAccess",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityItem",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "AchievementList",
+      "source": "client/server union",
+      "matched_members": 23,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Achievement",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IStatStringFormat",
+      "source": "client-only dependency"
+    },
+    {
+      "class": "BlockContainer",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityDispenser",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "InventoryPlayer",
+      "source": "client/server union",
+      "matched_members": 34,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemArmor",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IChunkProvider",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Chunk",
+      "source": "client/server union",
+      "matched_members": 53,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EnumSkyBlock",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkBlockMap",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "AxisAlignedBB",
+      "source": "client/server union",
+      "matched_members": 30,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityWolf",
+      "source": "client/server union",
+      "matched_members": 39,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemFood",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntitySheep",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityAnimal",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": [
+        "IAnimals"
+      ]
+    },
+    {
+      "class": "IAnimals",
+      "source": "server-only dependency"
+    },
+    {
+      "class": "EntityCreature",
+      "source": "client/server union",
+      "matched_members": 16,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityArrow",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityPig",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityPigZombie",
+      "source": "client/server union",
+      "matched_members": 16,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityZombie",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityMob",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IMob",
+      "source": "client/server union",
+      "matched_members": 0,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": [
+        "IAnimals"
+      ]
+    },
+    {
+      "class": "EntityLightningBolt",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityWeatherEffect",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityMinecart",
+      "source": "client/server union",
+      "matched_members": 41,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockRail",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RailLogic",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityGhast",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityFlying",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityFireball",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityFish",
+      "source": "client/server union",
+      "matched_members": 25,
+      "added_server_members": 0,
+      "equivalent_forms": [
+        {
+          "member": "xTile",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "yTile",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "zTile",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "inTile",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "inGround",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "shake",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "ticksInAir",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "ticksCatchable",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "<init>(World)",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        },
+        {
+          "member": "<init>(World,EntityPlayer)",
+          "decision": "client spelling of equivalent constructor initialization/control flow"
+        }
+      ],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityCreeper",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntitySkeleton",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityBoat",
+      "source": "client/server union",
+      "matched_members": 24,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ContainerPlayer",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "SlotCrafting",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Slot",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "SlotArmor",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "InventoryCrafting",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Container",
+      "source": "client/server union",
+      "matched_members": 15,
+      "added_server_members": 5,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ICrafting",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "InventoryCraftResult",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "CraftingManager",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ShapelessRecipes",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IRecipe",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ShapedRecipes",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesWeapons",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesTools",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesIngots",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesFood",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesDyes",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockCloth",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesCrafting",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipesArmor",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "RecipeSorter",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockBed",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSpade",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemTool",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSoup",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSnowball",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntitySnowball",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSign",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemShears",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSeeds",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSaddle",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemReed",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemRedstone",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemRecord",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockJukeBox",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemPickaxe",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemPainting",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityPainting",
+      "source": "client/server union",
+      "matched_members": 19,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemMinecart",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemMap",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapData",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapInfo",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 2,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapCoord",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemMapBase",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 2,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemHoe",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemFlintAndSteel",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemFishingRod",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemEgg",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityEgg",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityChicken",
+      "source": "client/server union",
+      "matched_members": 16,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemDye",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSapling",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenTaiga2",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenForest",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenBigTree",
+      "source": "client/server union",
+      "matched_members": 29,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFlower",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockCrops",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemDoor",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemCookie",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemCoal",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemBucket",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityCow",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemBow",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemBoat",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemBed",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemAxe",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityList",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityTNTPrimed",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntitySquid",
+      "source": "client/server union",
+      "matched_members": 28,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityWaterMob",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": [
+        "IAnimals"
+      ]
+    },
+    {
+      "class": "EntitySpider",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntitySlime",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityGiantZombie",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EntityFallingSand",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSand",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFluid",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityNote",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityMobSpawner",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "TileEntityChest",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSlab",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemBlock",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockStep",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemSapling",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemPiston",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemLog",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ItemLeaves",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ColorizerFoliage",
+      "source": "client-only dependency"
+    },
+    {
+      "class": "ItemCloth",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockWorkbench",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockWeb",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockTrapDoor",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockTorch",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockTallGrass",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ColorizerGrass",
+      "source": "client-only dependency"
+    },
+    {
+      "class": "BlockTNT",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockStone",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockStationary",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockStairs",
+      "source": "client/server union",
+      "matched_members": 27,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSponge",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSoulSand",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSnowBlock",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSnow",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSign",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockSandStone",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockReed",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockRedstoneWire",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockRedstoneTorch",
+      "source": "client/server union",
+      "matched_members": 15,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockRedstoneRepeater",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockRedstoneOre",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPumpkin",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPressurePlate",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPortal",
+      "source": "client/server union",
+      "matched_members": 9,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockBreakable",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPistonMoving",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPistonExtension",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockPistonBase",
+      "source": "client/server union",
+      "matched_members": 21,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockOreStorage",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockOre",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockObsidian",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockNote",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockNetherrack",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockMushroom",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockMobSpawner",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLog",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLockedChest",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLever",
+      "source": "client/server union",
+      "matched_members": 16,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLeaves",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLeavesBase",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockLadder",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockIce",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockGravel",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockGrass",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockGlowStone",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockGlass",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFlowing",
+      "source": "client/server union",
+      "matched_members": 13,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFire",
+      "source": "client/server union",
+      "matched_members": 20,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFence",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockFarmland",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockDoor",
+      "source": "client/server union",
+      "matched_members": 17,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockDispenser",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockDirt",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockDetectorRail",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockDeadBush",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockClay",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockChest",
+      "source": "client/server union",
+      "matched_members": 8,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "InventoryLargeChest",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockCake",
+      "source": "client/server union",
+      "matched_members": 15,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockCactus",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockButton",
+      "source": "client/server union",
+      "matched_members": 19,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BlockBookshelf",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EnumCreatureType",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenTaiga",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenTaiga1",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenSwamp",
+      "source": "client/server union",
+      "matched_members": 0,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenSky",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenRainforest",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenHell",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenForest",
+      "source": "client/server union",
+      "matched_members": 2,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BiomeGenDesert",
+      "source": "client/server union",
+      "matched_members": 0,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkProviderSky",
+      "source": "client/server union",
+      "matched_members": 34,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenReed",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenPumpkin",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenMinable",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenLiquids",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenLakes",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenFlowers",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenDungeons",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenClay",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenCactus",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapGenCaves",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapGenBase",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldProviderHell",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkProviderHell",
+      "source": "client/server union",
+      "matched_members": 30,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenHellLava",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenGlowStone2",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenGlowStone1",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenFire",
+      "source": "client/server union",
+      "matched_members": 1,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MapGenCavesHell",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkProviderGenerate",
+      "source": "client/server union",
+      "matched_members": 34,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenTallGrass",
+      "source": "client/server union",
+      "matched_members": 4,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "WorldGenDeadBush",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "SpawnerAnimals",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "BetaPathfinder",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "MetadataChunkBlock",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IWorldAccess",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ISaveHandler",
+      "source": "client/server union",
+      "matched_members": 6,
+      "added_server_members": 2,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "IPlayerFileData",
+      "source": "server-only dependency"
+    },
+    {
+      "class": "IChunkLoader",
+      "source": "client/server union",
+      "matched_members": 5,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "Explosion",
+      "source": "client/server union",
+      "matched_members": 12,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkProviderLoadOrGenerate",
+      "source": "client-only dependency"
+    },
+    {
+      "class": "ChunkProvider",
+      "source": "client/server union",
+      "matched_members": 18,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "EmptyChunk",
+      "source": "client/server union",
+      "matched_members": 31,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "ChunkCache",
+      "source": "client/server union",
+      "matched_members": 10,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "SaveOldDir",
+      "source": "client/server union",
+      "matched_members": 3,
+      "added_server_members": 1,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "SaveHandler",
+      "source": "client/server union",
+      "matched_members": 14,
+      "added_server_members": 5,
+      "equivalent_forms": [],
+      "extra_interfaces": [
+        "IPlayerFileData"
+      ]
+    },
+    {
+      "class": "ChunkLoader",
+      "source": "client/server union",
+      "matched_members": 11,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    },
+    {
+      "class": "McRegionChunkLoader",
+      "source": "client/server union",
+      "matched_members": 7,
+      "added_server_members": 0,
+      "equivalent_forms": [],
+      "extra_interfaces": []
+    }
+  ],
+  "conflicts": []
+}

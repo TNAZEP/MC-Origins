@@ -4,7 +4,7 @@
 
 - **G-BUILD:** Clean documented build produces the applicable client and dedicated-server artifacts from one canonical shared source tree.
 - **G-RUN:** Client loads a local world; dedicated server starts headlessly; client joins it, moves, breaks/places blocks, interacts, saves and reconnects. The active milestone's supported environment is recorded.
-- **G-BETA:** Applicable Beta differential scenarios pass. All differences are classified with evidence; no unexplained change to gameplay, worldgen or visuals.
+- **G-BETA:** Practical checks show the affected Beta gameplay, worldgen and visuals work correctly; meaningful regressions are investigated. Targeted differential checks may resolve uncertainty, but byte-for-byte replication is not a gate (ADR-0012).
 - **G-DATA:** Existing supported worlds still save/reload; migration changes protect source copies and include failure/recovery checks.
 - **G-SCOPE:** No new gameplay, higher build limit, worldgen changes, integrated server or Vulkan has entered 1.0.
 - **G-HANDOFF:** CURRENT/NEXT/HISTORY, milestone checkboxes, decisions, risks and issue records reflect reality and link to evidence.

@@ -1,0 +1,34 @@
+{
+  "block_id_transitions": [
+    {
+      "original": 10,
+      "candidate": 11,
+      "count": 33
+    },
+    {
+      "original": 11,
+      "candidate": 10,
+      "count": 21
+    },
+    {
+      "original": 11,
+      "candidate": 0,
+      "count": 13
+    },
+    {
+      "original": 0,
+      "candidate": 11,
+      "count": 9
+    },
+    {
+      "original": 10,
+      "candidate": 0,
+      "count": 2
+    },
+    {
+      "original": 0,
+      "candidate": 10,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,1626 @@
+--- client/NetHandler
++++ server/NetHandler
+@@ -84,7 +84,7 @@
+ 		this.registerPacket(var1);
+ 	}
+ 
+-	public void func_21147_a(Packet19EntityAction var1) {
++	public void func_21001_a(Packet19EntityAction var1) {
+ 		this.registerPacket(var1);
+ 	}
+ 
+@@ -104,23 +104,23 @@
+ 		this.registerPacket(var1);
+ 	}
+ 
+-	public void func_6498_a(Packet28EntityVelocity var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_21148_a(Packet40EntityMetadata var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_6497_a(Packet39AttachEntity var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void handleUseEntity(Packet7UseEntity var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_9447_a(Packet38EntityStatus var1) {
++	public void func_6002_a(Packet28EntityVelocity var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_21002_a(Packet40EntityMetadata var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_6003_a(Packet39AttachEntity var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_6006_a(Packet7UseEntity var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_9001_a(Packet38EntityStatus var1) {
+ 		this.registerPacket(var1);
+ 	}
+ 
+@@ -128,39 +128,39 @@
+ 		this.registerPacket(var1);
+ 	}
+ 
+-	public void func_9448_a(Packet9Respawn var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_12245_a(Packet60Explosion var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20087_a(Packet100OpenWindow var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20092_a(Packet101CloseWindow var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20091_a(Packet102WindowClick var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20088_a(Packet103SetSlot var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20094_a(Packet104WindowItems var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void handleSignUpdate(Packet130UpdateSign var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_20090_a(Packet105UpdateProgressbar var1) {
++	public void handleRespawnPacket(Packet9Respawn var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_12001_a(Packet60Explosion var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_20004_a(Packet100OpenWindow var1) {
++		this.registerPacket(var1);
++	}
++
++	public void handleCraftingGuiClosedPacked(Packet101CloseWindow var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_20007_a(Packet102WindowClick var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_20003_a(Packet103SetSlot var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_20001_a(Packet104WindowItems var1) {
++		this.registerPacket(var1);
++	}
++
++	public void handleUpdateSign(Packet130UpdateSign var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_20002_a(Packet105UpdateProgressbar var1) {
+ 		this.registerPacket(var1);
+ 	}
+ 
+@@ -168,43 +168,43 @@
+ 		this.registerPacket(var1);
+ 	}
+ 
+-	public void func_20089_a(Packet106Transaction var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_21146_a(Packet25EntityPainting var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void handleNotePlay(Packet54PlayNoteBlock var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_27245_a(Packet200Statistic var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_22186_a(Packet17Sleep var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_22185_a(Packet27Position var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_25118_a(Packet70Bed var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void handleWeather(Packet71Weather var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_28116_a(Packet131MapData var1) {
+-		this.registerPacket(var1);
+-	}
+-
+-	public void func_28115_a(Packet61DoorChange var1) {
++	public void func_20008_a(Packet106Transaction var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_21003_a(Packet25EntityPainting var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_21004_a(Packet54PlayNoteBlock var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_27001_a(Packet200Statistic var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_22002_a(Packet17Sleep var1) {
++		this.registerPacket(var1);
++	}
++
++	public void handleMovementTypePacket(Packet27Position var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_25001_a(Packet70Bed var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_27002_a(Packet71Weather var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_28001_a(Packet131MapData var1) {
++		this.registerPacket(var1);
++	}
++
++	public void func_28002_a(Packet61DoorChange var1) {
+ 		this.registerPacket(var1);
+ 	}
+ }
+--- client/Packet1Login
++++ server/Packet1Login
+@@ -13,9 +13,11 @@
+ 	public Packet1Login() {
+ 	}
+ 
+-	public Packet1Login(String var1, int var2) {
++	public Packet1Login(String var1, int var2, long var3, byte var5) {
+ 		this.username = var1;
+ 		this.protocolVersion = var2;
++		this.mapSeed = var3;
++		this.dimension = var5;
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet4UpdateTime
++++ server/Packet4UpdateTime
+@@ -6,6 +6,13 @@
+ 
+ public class Packet4UpdateTime extends Packet {
+ 	public long time;
++
++	public Packet4UpdateTime() {
++	}
++
++	public Packet4UpdateTime(long var1) {
++		this.time = var1;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.time = var1.readLong();
+--- client/Packet5PlayerInventory
++++ server/Packet5PlayerInventory
+@@ -9,6 +9,22 @@
+ 	public int slot;
+ 	public int itemID;
+ 	public int itemDamage;
++
++	public Packet5PlayerInventory() {
++	}
++
++	public Packet5PlayerInventory(int var1, int var2, ItemStack var3) {
++		this.entityID = var1;
++		this.slot = var2;
++		if(var3 == null) {
++			this.itemID = -1;
++			this.itemDamage = 0;
++		} else {
++			this.itemID = var3.itemID;
++			this.itemDamage = var3.getItemDamage();
++		}
++
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityID = var1.readInt();
+--- client/Packet6SpawnPosition
++++ server/Packet6SpawnPosition
+@@ -8,6 +8,15 @@
+ 	public int xPosition;
+ 	public int yPosition;
+ 	public int zPosition;
++
++	public Packet6SpawnPosition() {
++	}
++
++	public Packet6SpawnPosition(int var1, int var2, int var3) {
++		this.xPosition = var1;
++		this.yPosition = var2;
++		this.zPosition = var3;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.xPosition = var1.readInt();
+--- client/Packet7UseEntity
++++ server/Packet7UseEntity
+@@ -8,15 +8,6 @@
+ 	public int playerEntityId;
+ 	public int targetEntity;
+ 	public int isLeftClick;
+-
+-	public Packet7UseEntity() {
+-	}
+-
+-	public Packet7UseEntity(int var1, int var2, int var3) {
+-		this.playerEntityId = var1;
+-		this.targetEntity = var2;
+-		this.isLeftClick = var3;
+-	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.playerEntityId = var1.readInt();
+@@ -31,7 +22,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.handleUseEntity(this);
++		var1.func_6006_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet8UpdateHealth
++++ server/Packet8UpdateHealth
+@@ -6,6 +6,13 @@
+ 
+ public class Packet8UpdateHealth extends Packet {
+ 	public int healthMP;
++
++	public Packet8UpdateHealth() {
++	}
++
++	public Packet8UpdateHealth(int var1) {
++		this.healthMP = var1;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.healthMP = var1.readShort();
+--- client/Packet9Respawn
++++ server/Packet9Respawn
+@@ -5,25 +5,25 @@
+ import java.io.IOException;
+ 
+ public class Packet9Respawn extends Packet {
+-	public byte field_28048_a;
++	public byte field_28045_a;
+ 
+ 	public Packet9Respawn() {
+ 	}
+ 
+ 	public Packet9Respawn(byte var1) {
+-		this.field_28048_a = var1;
++		this.field_28045_a = var1;
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_9448_a(this);
++		var1.handleRespawnPacket(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_28048_a = var1.readByte();
++		this.field_28045_a = var1.readByte();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeByte(this.field_28048_a);
++		var1.writeByte(this.field_28045_a);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet10Flying
++++ server/Packet10Flying
+@@ -15,13 +15,6 @@
+ 	public boolean moving;
+ 	public boolean rotating;
+ 
+-	public Packet10Flying() {
+-	}
+-
+-	public Packet10Flying(boolean var1) {
+-		this.onGround = var1;
+-	}
+-
+ 	public void processPacket(NetHandler var1) {
+ 		var1.handleFlying(this);
+ 	}
+--- client/Packet11PlayerPosition
++++ server/Packet11PlayerPosition
+@@ -6,15 +6,6 @@
+ 
+ public class Packet11PlayerPosition extends Packet10Flying {
+ 	public Packet11PlayerPosition() {
+-		this.moving = true;
+-	}
+-
+-	public Packet11PlayerPosition(double var1, double var3, double var5, double var7, boolean var9) {
+-		this.xPosition = var1;
+-		this.yPosition = var3;
+-		this.stance = var5;
+-		this.zPosition = var7;
+-		this.onGround = var9;
+ 		this.moving = true;
+ 	}
+ 
+--- client/Packet12PlayerLook
++++ server/Packet12PlayerLook
+@@ -6,13 +6,6 @@
+ 
+ public class Packet12PlayerLook extends Packet10Flying {
+ 	public Packet12PlayerLook() {
+-		this.rotating = true;
+-	}
+-
+-	public Packet12PlayerLook(float var1, float var2, boolean var3) {
+-		this.yaw = var1;
+-		this.pitch = var2;
+-		this.onGround = var3;
+ 		this.rotating = true;
+ 	}
+ 
+--- client/Packet14BlockDig
++++ server/Packet14BlockDig
+@@ -10,17 +10,6 @@
+ 	public int zPosition;
+ 	public int face;
+ 	public int status;
+-
+-	public Packet14BlockDig() {
+-	}
+-
+-	public Packet14BlockDig(int var1, int var2, int var3, int var4, int var5) {
+-		this.status = var1;
+-		this.xPosition = var2;
+-		this.yPosition = var3;
+-		this.zPosition = var4;
+-		this.face = var5;
+-	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.status = var1.read();
+--- client/Packet15Place
++++ server/Packet15Place
+@@ -10,17 +10,6 @@
+ 	public int zPosition;
+ 	public int direction;
+ 	public ItemStack itemStack;
+-
+-	public Packet15Place() {
+-	}
+-
+-	public Packet15Place(int var1, int var2, int var3, int var4, ItemStack var5) {
+-		this.xPosition = var1;
+-		this.yPosition = var2;
+-		this.zPosition = var3;
+-		this.direction = var4;
+-		this.itemStack = var5;
+-	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.xPosition = var1.readInt();
+--- client/Packet16BlockItemSwitch
++++ server/Packet16BlockItemSwitch
+@@ -6,13 +6,6 @@
+ 
+ public class Packet16BlockItemSwitch extends Packet {
+ 	public int id;
+-
+-	public Packet16BlockItemSwitch() {
+-	}
+-
+-	public Packet16BlockItemSwitch(int var1) {
+-		this.id = var1;
+-	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.id = var1.readShort();
+--- client/Packet17Sleep
++++ server/Packet17Sleep
+@@ -5,30 +5,41 @@
+ import java.io.IOException;
+ 
+ public class Packet17Sleep extends Packet {
+-	public int field_22045_a;
+-	public int field_22044_b;
+-	public int field_22048_c;
+-	public int field_22047_d;
+-	public int field_22046_e;
++	public int field_22041_a;
++	public int field_22040_b;
++	public int field_22044_c;
++	public int field_22043_d;
++	public int field_22042_e;
++
++	public Packet17Sleep() {
++	}
++
++	public Packet17Sleep(Entity var1, int var2, int var3, int var4, int var5) {
++		this.field_22042_e = var2;
++		this.field_22040_b = var3;
++		this.field_22044_c = var4;
++		this.field_22043_d = var5;
++		this.field_22041_a = var1.entityId;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_22045_a = var1.readInt();
+-		this.field_22046_e = var1.readByte();
+-		this.field_22044_b = var1.readInt();
+-		this.field_22048_c = var1.readByte();
+-		this.field_22047_d = var1.readInt();
++		this.field_22041_a = var1.readInt();
++		this.field_22042_e = var1.readByte();
++		this.field_22040_b = var1.readInt();
++		this.field_22044_c = var1.readByte();
++		this.field_22043_d = var1.readInt();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeInt(this.field_22045_a);
+-		var1.writeByte(this.field_22046_e);
+-		var1.writeInt(this.field_22044_b);
+-		var1.writeByte(this.field_22048_c);
+-		var1.writeInt(this.field_22047_d);
++		var1.writeInt(this.field_22041_a);
++		var1.writeByte(this.field_22042_e);
++		var1.writeInt(this.field_22040_b);
++		var1.writeByte(this.field_22044_c);
++		var1.writeInt(this.field_22043_d);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_22186_a(this);
++		var1.func_22002_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet19EntityAction
++++ server/Packet19EntityAction
+@@ -7,14 +7,6 @@
+ public class Packet19EntityAction extends Packet {
+ 	public int entityId;
+ 	public int state;
+-
+-	public Packet19EntityAction() {
+-	}
+-
+-	public Packet19EntityAction(Entity var1, int var2) {
+-		this.entityId = var1.entityId;
+-		this.state = var2;
+-	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+@@ -27,7 +19,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_21147_a(this);
++		var1.func_21001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet22Collect
++++ server/Packet22Collect
+@@ -7,6 +7,14 @@
+ public class Packet22Collect extends Packet {
+ 	public int collectedEntityId;
+ 	public int collectorEntityId;
++
++	public Packet22Collect() {
++	}
++
++	public Packet22Collect(int var1, int var2) {
++		this.collectedEntityId = var1;
++		this.collectorEntityId = var2;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.collectedEntityId = var1.readInt();
+--- client/Packet23VehicleSpawn
++++ server/Packet23VehicleSpawn
+@@ -9,11 +9,61 @@
+ 	public int xPosition;
+ 	public int yPosition;
+ 	public int zPosition;
+-	public int field_28047_e;
+-	public int field_28046_f;
+-	public int field_28045_g;
++	public int field_28044_e;
++	public int field_28043_f;
++	public int field_28042_g;
+ 	public int type;
+-	public int field_28044_i;
++	public int field_28041_i;
++
++	public Packet23VehicleSpawn() {
++	}
++
++	public Packet23VehicleSpawn(Entity var1, int var2) {
++		this(var1, var2, 0);
++	}
++
++	public Packet23VehicleSpawn(Entity var1, int var2, int var3) {
++		this.entityId = var1.entityId;
++		this.xPosition = MathHelper.floor_double(var1.posX * 32.0D);
++		this.yPosition = MathHelper.floor_double(var1.posY * 32.0D);
++		this.zPosition = MathHelper.floor_double(var1.posZ * 32.0D);
++		this.type = var2;
++		this.field_28041_i = var3;
++		if(var3 > 0) {
++			double var4 = var1.motionX;
++			double var6 = var1.motionY;
++			double var8 = var1.motionZ;
++			double var10 = 3.9D;
++			if(var4 < -var10) {
++				var4 = -var10;
++			}
++
++			if(var6 < -var10) {
++				var6 = -var10;
++			}
++
++			if(var8 < -var10) {
++				var8 = -var10;
++			}
++
++			if(var4 > var10) {
++				var4 = var10;
++			}
++
++			if(var6 > var10) {
++				var6 = var10;
++			}
++
++			if(var8 > var10) {
++				var8 = var10;
++			}
++
++			this.field_28044_e = (int)(var4 * 8000.0D);
++			this.field_28043_f = (int)(var6 * 8000.0D);
++			this.field_28042_g = (int)(var8 * 8000.0D);
++		}
++
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+@@ -21,11 +71,11 @@
+ 		this.xPosition = var1.readInt();
+ 		this.yPosition = var1.readInt();
+ 		this.zPosition = var1.readInt();
+-		this.field_28044_i = var1.readInt();
+-		if(this.field_28044_i > 0) {
+-			this.field_28047_e = var1.readShort();
+-			this.field_28046_f = var1.readShort();
+-			this.field_28045_g = var1.readShort();
++		this.field_28041_i = var1.readInt();
++		if(this.field_28041_i > 0) {
++			this.field_28044_e = var1.readShort();
++			this.field_28043_f = var1.readShort();
++			this.field_28042_g = var1.readShort();
+ 		}
+ 
+ 	}
+@@ -36,11 +86,11 @@
+ 		var1.writeInt(this.xPosition);
+ 		var1.writeInt(this.yPosition);
+ 		var1.writeInt(this.zPosition);
+-		var1.writeInt(this.field_28044_i);
+-		if(this.field_28044_i > 0) {
+-			var1.writeShort(this.field_28047_e);
+-			var1.writeShort(this.field_28046_f);
+-			var1.writeShort(this.field_28045_g);
++		var1.writeInt(this.field_28041_i);
++		if(this.field_28041_i > 0) {
++			var1.writeShort(this.field_28044_e);
++			var1.writeShort(this.field_28043_f);
++			var1.writeShort(this.field_28042_g);
+ 		}
+ 
+ 	}
+@@ -50,6 +100,6 @@
+ 	}
+ 
+ 	public int getPacketSize() {
+-		return 21 + this.field_28044_i > 0 ? 6 : 0;
++		return 21 + this.field_28041_i > 0 ? 6 : 0;
+ 	}
+ }
+--- client/Packet24MobSpawn
++++ server/Packet24MobSpawn
+@@ -59,8 +59,4 @@
+ 	public int getPacketSize() {
+ 		return 20;
+ 	}
+-
+-	public List getMetadata() {
+-		return this.receivedMetadata;
+-	}
+ }
+--- client/Packet25EntityPainting
++++ server/Packet25EntityPainting
+@@ -26,7 +26,7 @@
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+-		this.title = readString(var1, EnumArt.maxArtTitleLength);
++		this.title = readString(var1, EnumArt.field_27096_z);
+ 		this.xPosition = var1.readInt();
+ 		this.yPosition = var1.readInt();
+ 		this.zPosition = var1.readInt();
+@@ -43,7 +43,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_21146_a(this);
++		var1.func_21003_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet27Position
++++ server/Packet27Position
+@@ -5,36 +5,60 @@
+ import java.io.IOException;
+ 
+ public class Packet27Position extends Packet {
+-	private float field_22039_a;
+-	private float field_22038_b;
+-	private boolean field_22043_c;
+-	private boolean field_22042_d;
+-	private float field_22041_e;
+-	private float field_22040_f;
++	private float strafeMovement;
++	private float fowardMovement;
++	private boolean field_22039_c;
++	private boolean isInJump;
++	private float pitchRotation;
++	private float yawRotation;
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_22039_a = var1.readFloat();
+-		this.field_22038_b = var1.readFloat();
+-		this.field_22041_e = var1.readFloat();
+-		this.field_22040_f = var1.readFloat();
+-		this.field_22043_c = var1.readBoolean();
+-		this.field_22042_d = var1.readBoolean();
++		this.strafeMovement = var1.readFloat();
++		this.fowardMovement = var1.readFloat();
++		this.pitchRotation = var1.readFloat();
++		this.yawRotation = var1.readFloat();
++		this.field_22039_c = var1.readBoolean();
++		this.isInJump = var1.readBoolean();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeFloat(this.field_22039_a);
+-		var1.writeFloat(this.field_22038_b);
+-		var1.writeFloat(this.field_22041_e);
+-		var1.writeFloat(this.field_22040_f);
+-		var1.writeBoolean(this.field_22043_c);
+-		var1.writeBoolean(this.field_22042_d);
++		var1.writeFloat(this.strafeMovement);
++		var1.writeFloat(this.fowardMovement);
++		var1.writeFloat(this.pitchRotation);
++		var1.writeFloat(this.yawRotation);
++		var1.writeBoolean(this.field_22039_c);
++		var1.writeBoolean(this.isInJump);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_22185_a(this);
++		var1.handleMovementTypePacket(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+ 		return 18;
+ 	}
++
++	public float func_22031_c() {
++		return this.strafeMovement;
++	}
++
++	public float func_22029_d() {
++		return this.pitchRotation;
++	}
++
++	public float func_22028_e() {
++		return this.fowardMovement;
++	}
++
++	public float func_22033_f() {
++		return this.yawRotation;
++	}
++
++	public boolean func_22032_g() {
++		return this.field_22039_c;
++	}
++
++	public boolean func_22030_h() {
++		return this.isInJump;
++	}
+ }
+--- client/Packet28EntityVelocity
++++ server/Packet28EntityVelocity
+@@ -64,7 +64,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_6498_a(this);
++		var1.func_6002_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet29DestroyEntity
++++ server/Packet29DestroyEntity
+@@ -6,6 +6,13 @@
+ 
+ public class Packet29DestroyEntity extends Packet {
+ 	public int entityId;
++
++	public Packet29DestroyEntity() {
++	}
++
++	public Packet29DestroyEntity(int var1) {
++		this.entityId = var1;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+--- client/Packet30Entity
++++ server/Packet30Entity
+@@ -12,6 +12,13 @@
+ 	public byte yaw;
+ 	public byte pitch;
+ 	public boolean rotating = false;
++
++	public Packet30Entity() {
++	}
++
++	public Packet30Entity(int var1) {
++		this.entityId = var1;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+--- client/Packet31RelEntityMove
++++ server/Packet31RelEntityMove
+@@ -5,6 +5,16 @@
+ import java.io.IOException;
+ 
+ public class Packet31RelEntityMove extends Packet30Entity {
++	public Packet31RelEntityMove() {
++	}
++
++	public Packet31RelEntityMove(int var1, byte var2, byte var3, byte var4) {
++		super(var1);
++		this.xPosition = var2;
++		this.yPosition = var3;
++		this.zPosition = var4;
++	}
++
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		super.readPacketData(var1);
+ 		this.xPosition = var1.readByte();
+--- client/Packet32EntityLook
++++ server/Packet32EntityLook
+@@ -6,6 +6,13 @@
+ 
+ public class Packet32EntityLook extends Packet30Entity {
+ 	public Packet32EntityLook() {
++		this.rotating = true;
++	}
++
++	public Packet32EntityLook(int var1, byte var2, byte var3) {
++		super(var1);
++		this.yaw = var2;
++		this.pitch = var3;
+ 		this.rotating = true;
+ 	}
+ 
+--- client/Packet33RelEntityMoveLook
++++ server/Packet33RelEntityMoveLook
+@@ -6,6 +6,16 @@
+ 
+ public class Packet33RelEntityMoveLook extends Packet30Entity {
+ 	public Packet33RelEntityMoveLook() {
++		this.rotating = true;
++	}
++
++	public Packet33RelEntityMoveLook(int var1, byte var2, byte var3, byte var4, byte var5, byte var6) {
++		super(var1);
++		this.xPosition = var2;
++		this.yPosition = var3;
++		this.zPosition = var4;
++		this.yaw = var5;
++		this.pitch = var6;
+ 		this.rotating = true;
+ 	}
+ 
+--- client/Packet34EntityTeleport
++++ server/Packet34EntityTeleport
+@@ -22,6 +22,15 @@
+ 		this.zPosition = MathHelper.floor_double(var1.posZ * 32.0D);
+ 		this.yaw = (byte)((int)(var1.rotationYaw * 256.0F / 360.0F));
+ 		this.pitch = (byte)((int)(var1.rotationPitch * 256.0F / 360.0F));
++	}
++
++	public Packet34EntityTeleport(int var1, int var2, int var3, int var4, byte var5, byte var6) {
++		this.entityId = var1;
++		this.xPosition = var2;
++		this.yPosition = var3;
++		this.zPosition = var4;
++		this.yaw = var5;
++		this.pitch = var6;
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet38EntityStatus
++++ server/Packet38EntityStatus
+@@ -7,6 +7,14 @@
+ public class Packet38EntityStatus extends Packet {
+ 	public int entityId;
+ 	public byte entityStatus;
++
++	public Packet38EntityStatus() {
++	}
++
++	public Packet38EntityStatus(int var1, byte var2) {
++		this.entityId = var1;
++		this.entityStatus = var2;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+@@ -19,7 +27,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_9447_a(this);
++		var1.func_9001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet39AttachEntity
++++ server/Packet39AttachEntity
+@@ -7,6 +7,14 @@
+ public class Packet39AttachEntity extends Packet {
+ 	public int entityId;
+ 	public int vehicleEntityId;
++
++	public Packet39AttachEntity() {
++	}
++
++	public Packet39AttachEntity(Entity var1, Entity var2) {
++		this.entityId = var1.entityId;
++		this.vehicleEntityId = var2 != null ? var2.entityId : -1;
++	}
+ 
+ 	public int getPacketSize() {
+ 		return 8;
+@@ -23,6 +31,6 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_6497_a(this);
++		var1.func_6003_a(this);
+ 	}
+ }
+--- client/Packet40EntityMetadata
++++ server/Packet40EntityMetadata
+@@ -7,27 +7,31 @@
+ 
+ public class Packet40EntityMetadata extends Packet {
+ 	public int entityId;
+-	private List field_21048_b;
++	private List field_21018_b;
++
++	public Packet40EntityMetadata() {
++	}
++
++	public Packet40EntityMetadata(int var1, DataWatcher var2) {
++		this.entityId = var1;
++		this.field_21018_b = var2.getChangedObjects();
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.entityId = var1.readInt();
+-		this.field_21048_b = DataWatcher.readWatchableObjects(var1);
++		this.field_21018_b = DataWatcher.readWatchableObjects(var1);
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+ 		var1.writeInt(this.entityId);
+-		DataWatcher.writeObjectsInListToStream(this.field_21048_b, var1);
++		DataWatcher.writeObjectsInListToStream(this.field_21018_b, var1);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_21148_a(this);
++		var1.func_21002_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+ 		return 5;
+ 	}
+-
+-	public List func_21047_b() {
+-		return this.field_21048_b;
+-	}
+ }
+--- client/Packet50PreChunk
++++ server/Packet50PreChunk
+@@ -11,6 +11,13 @@
+ 
+ 	public Packet50PreChunk() {
+ 		this.isChunkDataPacket = false;
++	}
++
++	public Packet50PreChunk(int var1, int var2, boolean var3) {
++		this.isChunkDataPacket = false;
++		this.xPosition = var1;
++		this.yPosition = var2;
++		this.mode = var3;
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet51MapChunk
++++ server/Packet51MapChunk
+@@ -4,6 +4,7 @@
+ import java.io.DataOutputStream;
+ import java.io.IOException;
+ import java.util.zip.DataFormatException;
++import java.util.zip.Deflater;
+ import java.util.zip.Inflater;
+ 
+ public class Packet51MapChunk extends Packet {
+@@ -18,6 +19,28 @@
+ 
+ 	public Packet51MapChunk() {
+ 		this.isChunkDataPacket = true;
++	}
++
++	public Packet51MapChunk(int var1, int var2, int var3, int var4, int var5, int var6, World var7) {
++		this.isChunkDataPacket = true;
++		this.xPosition = var1;
++		this.yPosition = var2;
++		this.zPosition = var3;
++		this.xSize = var4;
++		this.ySize = var5;
++		this.zSize = var6;
++		byte[] var8 = var7.getChunkData(var1, var2, var3, var4, var5, var6);
++		Deflater var9 = new Deflater(-1);
++
++		try {
++			var9.setInput(var8);
++			var9.finish();
++			this.chunk = new byte[var4 * var5 * var6 * 5 / 2];
++			this.chunkSize = var9.deflate(this.chunk);
++		} finally {
++			var9.end();
++		}
++
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet52MultiBlockChange
++++ server/Packet52MultiBlockChange
+@@ -14,6 +14,27 @@
+ 
+ 	public Packet52MultiBlockChange() {
+ 		this.isChunkDataPacket = true;
++	}
++
++	public Packet52MultiBlockChange(int var1, int var2, short[] var3, int var4, World var5) {
++		this.isChunkDataPacket = true;
++		this.xPosition = var1;
++		this.zPosition = var2;
++		this.size = var4;
++		this.coordinateArray = new short[var4];
++		this.typeArray = new byte[var4];
++		this.metadataArray = new byte[var4];
++		Chunk var6 = var5.getChunkFromChunkCoords(var1, var2);
++
++		for(int var7 = 0; var7 < var4; ++var7) {
++			int var8 = var3[var7] >> 12 & 15;
++			int var9 = var3[var7] >> 8 & 15;
++			int var10 = var3[var7] & 255;
++			this.coordinateArray[var7] = var3[var7];
++			this.typeArray[var7] = (byte)var6.getBlockID(var8, var10, var9);
++			this.metadataArray[var7] = (byte)var6.getBlockMetadata(var8, var10, var9);
++		}
++
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet53BlockChange
++++ server/Packet53BlockChange
+@@ -13,6 +13,15 @@
+ 
+ 	public Packet53BlockChange() {
+ 		this.isChunkDataPacket = true;
++	}
++
++	public Packet53BlockChange(int var1, int var2, int var3, World var4) {
++		this.isChunkDataPacket = true;
++		this.xPosition = var1;
++		this.yPosition = var2;
++		this.zPosition = var3;
++		this.type = var4.getBlockId(var1, var2, var3);
++		this.metadata = var4.getBlockMetadata(var1, var2, var3);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet54PlayNoteBlock
++++ server/Packet54PlayNoteBlock
+@@ -10,6 +10,17 @@
+ 	public int zLocation;
+ 	public int instrumentType;
+ 	public int pitch;
++
++	public Packet54PlayNoteBlock() {
++	}
++
++	public Packet54PlayNoteBlock(int var1, int var2, int var3, int var4, int var5) {
++		this.xLocation = var1;
++		this.yLocation = var2;
++		this.zLocation = var3;
++		this.instrumentType = var4;
++		this.pitch = var5;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.xLocation = var1.readInt();
+@@ -28,7 +39,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.handleNotePlay(this);
++		var1.func_21004_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet60Explosion
++++ server/Packet60Explosion
+@@ -13,6 +13,17 @@
+ 	public double explosionZ;
+ 	public float explosionSize;
+ 	public Set destroyedBlockPositions;
++
++	public Packet60Explosion() {
++	}
++
++	public Packet60Explosion(double var1, double var3, double var5, float var7, Set var8) {
++		this.explosionX = var1;
++		this.explosionY = var3;
++		this.explosionZ = var5;
++		this.explosionSize = var7;
++		this.destroyedBlockPositions = new HashSet(var8);
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.explosionX = var1.readDouble();
+@@ -58,7 +69,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_12245_a(this);
++		var1.func_12001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet61DoorChange
++++ server/Packet61DoorChange
+@@ -5,30 +5,41 @@
+ import java.io.IOException;
+ 
+ public class Packet61DoorChange extends Packet {
+-	public int field_28050_a;
+-	public int field_28049_b;
+-	public int field_28053_c;
+-	public int field_28052_d;
+-	public int field_28051_e;
++	public int field_28047_a;
++	public int field_28046_b;
++	public int field_28050_c;
++	public int field_28049_d;
++	public int field_28048_e;
++
++	public Packet61DoorChange() {
++	}
++
++	public Packet61DoorChange(int var1, int var2, int var3, int var4, int var5) {
++		this.field_28047_a = var1;
++		this.field_28050_c = var2;
++		this.field_28049_d = var3;
++		this.field_28048_e = var4;
++		this.field_28046_b = var5;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_28050_a = var1.readInt();
+-		this.field_28053_c = var1.readInt();
+-		this.field_28052_d = var1.readByte();
+-		this.field_28051_e = var1.readInt();
+-		this.field_28049_b = var1.readInt();
++		this.field_28047_a = var1.readInt();
++		this.field_28050_c = var1.readInt();
++		this.field_28049_d = var1.readByte();
++		this.field_28048_e = var1.readInt();
++		this.field_28046_b = var1.readInt();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeInt(this.field_28050_a);
+-		var1.writeInt(this.field_28053_c);
+-		var1.writeByte(this.field_28052_d);
+-		var1.writeInt(this.field_28051_e);
+-		var1.writeInt(this.field_28049_b);
++		var1.writeInt(this.field_28047_a);
++		var1.writeInt(this.field_28050_c);
++		var1.writeByte(this.field_28049_d);
++		var1.writeInt(this.field_28048_e);
++		var1.writeInt(this.field_28046_b);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_28115_a(this);
++		var1.func_28002_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet70Bed
++++ server/Packet70Bed
+@@ -5,19 +5,26 @@
+ import java.io.IOException;
+ 
+ public class Packet70Bed extends Packet {
+-	public static final String[] field_25020_a = new String[]{"tile.bed.notValid", null, null};
+-	public int field_25019_b;
++	public static final String[] field_25016_a = new String[]{"tile.bed.notValid", null, null};
++	public int field_25015_b;
++
++	public Packet70Bed() {
++	}
++
++	public Packet70Bed(int var1) {
++		this.field_25015_b = var1;
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_25019_b = var1.readByte();
++		this.field_25015_b = var1.readByte();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeByte(this.field_25019_b);
++		var1.writeByte(this.field_25015_b);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_25118_a(this);
++		var1.func_25001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet71Weather
++++ server/Packet71Weather
+@@ -5,44 +5,44 @@
+ import java.io.IOException;
+ 
+ public class Packet71Weather extends Packet {
+-	public int field_27054_a;
+-	public int field_27053_b;
+-	public int field_27057_c;
+-	public int field_27056_d;
+-	public int field_27055_e;
++	public int field_27043_a;
++	public int field_27042_b;
++	public int field_27046_c;
++	public int field_27045_d;
++	public int field_27044_e;
+ 
+ 	public Packet71Weather() {
+ 	}
+ 
+ 	public Packet71Weather(Entity var1) {
+-		this.field_27054_a = var1.entityId;
+-		this.field_27053_b = MathHelper.floor_double(var1.posX * 32.0D);
+-		this.field_27057_c = MathHelper.floor_double(var1.posY * 32.0D);
+-		this.field_27056_d = MathHelper.floor_double(var1.posZ * 32.0D);
++		this.field_27043_a = var1.entityId;
++		this.field_27042_b = MathHelper.floor_double(var1.posX * 32.0D);
++		this.field_27046_c = MathHelper.floor_double(var1.posY * 32.0D);
++		this.field_27045_d = MathHelper.floor_double(var1.posZ * 32.0D);
+ 		if(var1 instanceof EntityLightningBolt) {
+-			this.field_27055_e = 1;
++			this.field_27044_e = 1;
+ 		}
+ 
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_27054_a = var1.readInt();
+-		this.field_27055_e = var1.readByte();
+-		this.field_27053_b = var1.readInt();
+-		this.field_27057_c = var1.readInt();
+-		this.field_27056_d = var1.readInt();
++		this.field_27043_a = var1.readInt();
++		this.field_27044_e = var1.readByte();
++		this.field_27042_b = var1.readInt();
++		this.field_27046_c = var1.readInt();
++		this.field_27045_d = var1.readInt();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeInt(this.field_27054_a);
+-		var1.writeByte(this.field_27055_e);
+-		var1.writeInt(this.field_27053_b);
+-		var1.writeInt(this.field_27057_c);
+-		var1.writeInt(this.field_27056_d);
++		var1.writeInt(this.field_27043_a);
++		var1.writeByte(this.field_27044_e);
++		var1.writeInt(this.field_27042_b);
++		var1.writeInt(this.field_27046_c);
++		var1.writeInt(this.field_27045_d);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.handleWeather(this);
++		var1.func_27002_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet100OpenWindow
++++ server/Packet100OpenWindow
+@@ -10,8 +10,18 @@
+ 	public String windowTitle;
+ 	public int slotsCount;
+ 
++	public Packet100OpenWindow() {
++	}
++
++	public Packet100OpenWindow(int var1, int var2, String var3, int var4) {
++		this.windowId = var1;
++		this.inventoryType = var2;
++		this.windowTitle = var3;
++		this.slotsCount = var4;
++	}
++
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20087_a(this);
++		var1.func_20004_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet101CloseWindow
++++ server/Packet101CloseWindow
+@@ -15,7 +15,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20092_a(this);
++		var1.handleCraftingGuiClosedPacked(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet102WindowClick
++++ server/Packet102WindowClick
+@@ -10,22 +10,10 @@
+ 	public int mouseClick;
+ 	public short action;
+ 	public ItemStack itemStack;
+-	public boolean field_27050_f;
+-
+-	public Packet102WindowClick() {
+-	}
+-
+-	public Packet102WindowClick(int var1, int var2, int var3, boolean var4, ItemStack var5, short var6) {
+-		this.window_Id = var1;
+-		this.inventorySlot = var2;
+-		this.mouseClick = var3;
+-		this.itemStack = var5;
+-		this.action = var6;
+-		this.field_27050_f = var4;
+-	}
++	public boolean field_27039_f;
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20091_a(this);
++		var1.func_20007_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+@@ -33,7 +21,7 @@
+ 		this.inventorySlot = var1.readShort();
+ 		this.mouseClick = var1.readByte();
+ 		this.action = var1.readShort();
+-		this.field_27050_f = var1.readBoolean();
++		this.field_27039_f = var1.readBoolean();
+ 		short var2 = var1.readShort();
+ 		if(var2 >= 0) {
+ 			byte var3 = var1.readByte();
+@@ -50,7 +38,7 @@
+ 		var1.writeShort(this.inventorySlot);
+ 		var1.writeByte(this.mouseClick);
+ 		var1.writeShort(this.action);
+-		var1.writeBoolean(this.field_27050_f);
++		var1.writeBoolean(this.field_27039_f);
+ 		if(this.itemStack == null) {
+ 			var1.writeShort(-1);
+ 		} else {
+--- client/Packet103SetSlot
++++ server/Packet103SetSlot
+@@ -9,8 +9,17 @@
+ 	public int itemSlot;
+ 	public ItemStack myItemStack;
+ 
++	public Packet103SetSlot() {
++	}
++
++	public Packet103SetSlot(int var1, int var2, ItemStack var3) {
++		this.windowId = var1;
++		this.itemSlot = var2;
++		this.myItemStack = var3 == null ? var3 : var3.copy();
++	}
++
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20088_a(this);
++		var1.func_20003_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet104WindowItems
++++ server/Packet104WindowItems
+@@ -3,10 +3,25 @@
+ import java.io.DataInputStream;
+ import java.io.DataOutputStream;
+ import java.io.IOException;
++import java.util.List;
+ 
+ public class Packet104WindowItems extends Packet {
+ 	public int windowId;
+ 	public ItemStack[] itemStack;
++
++	public Packet104WindowItems() {
++	}
++
++	public Packet104WindowItems(int var1, List var2) {
++		this.windowId = var1;
++		this.itemStack = new ItemStack[var2.size()];
++
++		for(int var3 = 0; var3 < this.itemStack.length; ++var3) {
++			ItemStack var4 = (ItemStack)var2.get(var3);
++			this.itemStack[var3] = var4 == null ? null : var4.copy();
++		}
++
++	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.windowId = var1.readByte();
+@@ -41,7 +56,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20094_a(this);
++		var1.func_20001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet105UpdateProgressbar
++++ server/Packet105UpdateProgressbar
+@@ -9,8 +9,17 @@
+ 	public int progressBar;
+ 	public int progressBarValue;
+ 
++	public Packet105UpdateProgressbar() {
++	}
++
++	public Packet105UpdateProgressbar(int var1, int var2, int var3) {
++		this.windowId = var1;
++		this.progressBar = var2;
++		this.progressBarValue = var3;
++	}
++
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20090_a(this);
++		var1.func_20002_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+--- client/Packet106Transaction
++++ server/Packet106Transaction
+@@ -6,32 +6,32 @@
+ 
+ public class Packet106Transaction extends Packet {
+ 	public int windowId;
+-	public short field_20028_b;
+-	public boolean field_20030_c;
++	public short shortWindowId;
++	public boolean field_20035_c;
+ 
+ 	public Packet106Transaction() {
+ 	}
+ 
+ 	public Packet106Transaction(int var1, short var2, boolean var3) {
+ 		this.windowId = var1;
+-		this.field_20028_b = var2;
+-		this.field_20030_c = var3;
++		this.shortWindowId = var2;
++		this.field_20035_c = var3;
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_20089_a(this);
++		var1.func_20008_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+ 		this.windowId = var1.readByte();
+-		this.field_20028_b = var1.readShort();
+-		this.field_20030_c = var1.readByte() != 0;
++		this.shortWindowId = var1.readShort();
++		this.field_20035_c = var1.readByte() != 0;
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+ 		var1.writeByte(this.windowId);
+-		var1.writeShort(this.field_20028_b);
+-		var1.writeByte(this.field_20030_c ? 1 : 0);
++		var1.writeShort(this.shortWindowId);
++		var1.writeByte(this.field_20035_c ? 1 : 0);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet130UpdateSign
++++ server/Packet130UpdateSign
+@@ -46,7 +46,7 @@
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.handleSignUpdate(this);
++		var1.handleUpdateSign(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+--- client/Packet131MapData
++++ server/Packet131MapData
+@@ -5,33 +5,40 @@
+ import java.io.IOException;
+ 
+ public class Packet131MapData extends Packet {
+-	public short field_28055_a;
+-	public short field_28054_b;
+-	public byte[] field_28056_c;
++	public short field_28052_a;
++	public short field_28051_b;
++	public byte[] field_28053_c;
+ 
+ 	public Packet131MapData() {
+ 		this.isChunkDataPacket = true;
+ 	}
+ 
++	public Packet131MapData(short var1, short var2, byte[] var3) {
++		this.isChunkDataPacket = true;
++		this.field_28052_a = var1;
++		this.field_28051_b = var2;
++		this.field_28053_c = var3;
++	}
++
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_28055_a = var1.readShort();
+-		this.field_28054_b = var1.readShort();
+-		this.field_28056_c = new byte[var1.readByte() & 255];
+-		var1.readFully(this.field_28056_c);
++		this.field_28052_a = var1.readShort();
++		this.field_28051_b = var1.readShort();
++		this.field_28053_c = new byte[var1.readByte() & 255];
++		var1.readFully(this.field_28053_c);
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeShort(this.field_28055_a);
+-		var1.writeShort(this.field_28054_b);
+-		var1.writeByte(this.field_28056_c.length);
+-		var1.write(this.field_28056_c);
++		var1.writeShort(this.field_28052_a);
++		var1.writeShort(this.field_28051_b);
++		var1.writeByte(this.field_28053_c.length);
++		var1.write(this.field_28053_c);
+ 	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_28116_a(this);
++		var1.func_28001_a(this);
+ 	}
+ 
+ 	public int getPacketSize() {
+-		return 4 + this.field_28056_c.length;
++		return 4 + this.field_28053_c.length;
+ 	}
+ }
+--- client/Packet200Statistic
++++ server/Packet200Statistic
+@@ -5,21 +5,29 @@
+ import java.io.IOException;
+ 
+ public class Packet200Statistic extends Packet {
+-	public int field_27052_a;
+-	public int field_27051_b;
++	public int field_27041_a;
++	public int field_27040_b;
++
++	public Packet200Statistic() {
++	}
++
++	public Packet200Statistic(int var1, int var2) {
++		this.field_27041_a = var1;
++		this.field_27040_b = var2;
++	}
+ 
+ 	public void processPacket(NetHandler var1) {
+-		var1.func_27245_a(this);
++		var1.func_27001_a(this);
+ 	}
+ 
+ 	public void readPacketData(DataInputStream var1) throws IOException {
+-		this.field_27052_a = var1.readInt();
+-		this.field_27051_b = var1.readByte();
++		this.field_27041_a = var1.readInt();
++		this.field_27040_b = var1.readByte();
+ 	}
+ 
+ 	public void writePacketData(DataOutputStream var1) throws IOException {
+-		var1.writeInt(this.field_27052_a);
+-		var1.writeByte(this.field_27051_b);
++		var1.writeInt(this.field_27041_a);
++		var1.writeByte(this.field_27040_b);
+ 	}
+ 
+ 	public int getPacketSize() {

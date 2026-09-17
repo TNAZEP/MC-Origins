@@ -18,7 +18,7 @@ Reject adopting modern behavior with modern APIs and reject treating all Beta qu
 
 ## Consequences
 
-Differential fixtures and source correspondence are required throughout. Historical implementation details can change only while observable behavior remains faithful.
+Preserve Beta gameplay through source review and practical functional checks. Verification depth follows [ADR-0012](0012-practical-verification.md): differential fixtures are targeted tools, not mandatory prerequisites for every merge. Historical implementation details may change while the game functions correctly.
 
 ## Verification and delivery
 

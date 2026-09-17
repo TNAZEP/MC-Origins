@@ -1,0 +1,4 @@
+Command: ./gradlew --gradle-user-home /tmp/origins-gradle-cache --no-daemon --offline build reportBuildEnvironment
+Execution: approved outside socket-restricted sandbox; exit 0.
+Observed: BUILD SUCCESSFUL in 6s; 8 actionable tasks, 6 executed, 2 up-to-date. compileJava, compileClientJava, compileServerJava and both jars succeeded. test NO-SOURCE.
+Gradle JVM 21.0.12+8; compiler Temurin 1.8.0_492-b09; server libraries []; shared Java files 1. Legacy deprecation/unchecked notes remain.
